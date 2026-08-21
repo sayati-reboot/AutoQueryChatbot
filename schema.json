@@ -1,0 +1,58 @@
+{
+	"tables": [
+		{
+			"table_name": "customer",
+			"columns": [
+				{
+					"name": "custid",
+					"type": "INTEGER"
+				},
+				{
+					"name": "country",
+					"type": "VARCHAR"
+				},
+				{
+					"name": "transaction_id",
+					"type": "BIGINT"
+				},
+				{
+					"name": "name",
+					"type": "VARCHAR"
+				},
+				{
+					"name": "dateof_birth",
+					"type": "DATE"
+				}
+			]
+		},
+		{
+			"table_name": "transaction_details",
+			"columns": [
+				{
+					"name": "transaction_id",
+					"type": "BIGINT"
+				},
+				{
+					"name": "customer_id",
+					"type": "INTEGER"
+				},
+				{
+					"name": "amount",
+					"type": "DECIMAL(18, 2)"
+				},
+				{
+					"name": "type",
+					"type": "VARCHAR"
+				},
+				{
+					"name": "originating_country",
+					"type": "VARCHAR"
+				},
+				{
+					"name": "target_country",
+					"type": "VARCHAR"
+				}
+			]
+		}
+	]
+}
