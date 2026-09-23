@@ -1,0 +1,202 @@
+[2026-09-21T20:01:09.485+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-09-21T20:01:09.487+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mini_riskagent_file_ingestion.wait_for_csv scheduled__2026-09-21T17:43:00+00:00 [queued]>
+[2026-09-21T20:01:09.489+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mini_riskagent_file_ingestion.wait_for_csv scheduled__2026-09-21T17:43:00+00:00 [queued]>
+[2026-09-21T20:01:09.489+0200] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-09-21T20:01:09.492+0200] {taskinstance.py:2890} INFO - Executing <Task(PythonSensor): wait_for_csv> on 2026-09-21 17:43:00+00:00
+[2026-09-21T20:01:09.497+0200] {logging_mixin.py:190} WARNING - /Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=10140) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-09-21T20:01:09.497+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'mini_riskagent_file_ingestion', 'wait_for_csv', 'scheduled__2026-09-21T17:43:00+00:00', '--job-id', '4919', '--raw', '--subdir', 'DAGS_FOLDER/data_ingest_pipeline.py', '--cfg-path', '/var/folders/5p/201rr1sj03g8gksxm9x48mbh0000gn/T/tmp8ytg47mh']
+[2026-09-21T20:01:09.498+0200] {standard_task_runner.py:72} INFO - Started process 10142 to run task
+[2026-09-21T20:01:09.498+0200] {standard_task_runner.py:105} INFO - Job 4919: Subtask wait_for_csv
+[2026-09-21T20:01:09.513+0200] {task_command.py:467} INFO - Running <TaskInstance: mini_riskagent_file_ingestion.wait_for_csv scheduled__2026-09-21T17:43:00+00:00 [running]> on host mac.home
+[2026-09-21T20:01:09.528+0200] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='autoquery' AIRFLOW_CTX_DAG_ID='mini_riskagent_file_ingestion' AIRFLOW_CTX_TASK_ID='wait_for_csv' AIRFLOW_CTX_EXECUTION_DATE='2026-09-21T17:43:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-09-21T17:43:00+00:00'
+[2026-09-21T20:01:09.529+0200] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-09-21T20:01:09.529+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-09-21T20:01:09.529+0200] {logging_mixin.py:190} INFO - Current task name:wait_for_csv state:running start_date:2026-09-21 18:01:09.487863+00:00
+[2026-09-21T20:01:09.529+0200] {logging_mixin.py:190} INFO - Dag name:mini_riskagent_file_ingestion and current dag run status:running
+[2026-09-21T20:01:09.530+0200] {taskinstance.py:732} INFO - ::endgroup::
+[2026-09-21T20:01:09.531+0200] {python.py:75} INFO - Poking callable: <function check_for_csv_files at 0x10a81ab60>
+[2026-09-21T20:01:09.535+0200] {taskinstance.py:310} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-09-21T20:01:09.535+0200] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-09-21T20:01:09.557+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-09-21T20:01:09.564+0200] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-09-21T20:01:09.564+0200] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2026-09-21T20:18:30.821+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-09-21T20:18:30.824+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mini_riskagent_file_ingestion.wait_for_csv scheduled__2026-09-21T17:43:00+00:00 [queued]>
+[2026-09-21T20:18:30.825+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mini_riskagent_file_ingestion.wait_for_csv scheduled__2026-09-21T17:43:00+00:00 [queued]>
+[2026-09-21T20:18:30.825+0200] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-09-21T20:18:30.828+0200] {taskinstance.py:2890} INFO - Executing <Task(PythonSensor): wait_for_csv> on 2026-09-21 17:43:00+00:00
+[2026-09-21T20:18:30.832+0200] {logging_mixin.py:190} WARNING - /Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=10176) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-09-21T20:18:30.833+0200] {standard_task_runner.py:72} INFO - Started process 10179 to run task
+[2026-09-21T20:18:30.832+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'mini_riskagent_file_ingestion', 'wait_for_csv', 'scheduled__2026-09-21T17:43:00+00:00', '--job-id', '4920', '--raw', '--subdir', 'DAGS_FOLDER/data_ingest_pipeline.py', '--cfg-path', '/var/folders/5p/201rr1sj03g8gksxm9x48mbh0000gn/T/tmp5u3gmq_i']
+[2026-09-21T20:18:30.833+0200] {standard_task_runner.py:105} INFO - Job 4920: Subtask wait_for_csv
+[2026-09-21T20:18:30.846+0200] {task_command.py:467} INFO - Running <TaskInstance: mini_riskagent_file_ingestion.wait_for_csv scheduled__2026-09-21T17:43:00+00:00 [running]> on host mac.home
+[2026-09-21T20:18:30.861+0200] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='autoquery' AIRFLOW_CTX_DAG_ID='mini_riskagent_file_ingestion' AIRFLOW_CTX_TASK_ID='wait_for_csv' AIRFLOW_CTX_EXECUTION_DATE='2026-09-21T17:43:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-09-21T17:43:00+00:00'
+[2026-09-21T20:18:30.861+0200] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-09-21T20:18:30.862+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-09-21T20:18:30.862+0200] {logging_mixin.py:190} INFO - Current task name:wait_for_csv state:running start_date:2026-09-21 18:18:30.824512+00:00
+[2026-09-21T20:18:30.862+0200] {logging_mixin.py:190} INFO - Dag name:mini_riskagent_file_ingestion and current dag run status:running
+[2026-09-21T20:18:30.862+0200] {taskinstance.py:732} INFO - ::endgroup::
+[2026-09-21T20:18:30.863+0200] {python.py:75} INFO - Poking callable: <function check_for_csv_files at 0x10b1aeb60>
+[2026-09-21T20:18:30.867+0200] {taskinstance.py:310} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-09-21T20:18:30.867+0200] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-09-21T20:18:30.892+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-09-21T20:18:30.899+0200] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-09-21T20:18:30.899+0200] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2026-09-21T20:19:02.154+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-09-21T20:19:02.157+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mini_riskagent_file_ingestion.wait_for_csv scheduled__2026-09-21T17:43:00+00:00 [queued]>
+[2026-09-21T20:19:02.159+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mini_riskagent_file_ingestion.wait_for_csv scheduled__2026-09-21T17:43:00+00:00 [queued]>
+[2026-09-21T20:19:02.159+0200] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-09-21T20:19:02.162+0200] {taskinstance.py:2890} INFO - Executing <Task(PythonSensor): wait_for_csv> on 2026-09-21 17:43:00+00:00
+[2026-09-21T20:19:02.167+0200] {logging_mixin.py:190} WARNING - /Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=10196) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-09-21T20:19:02.167+0200] {standard_task_runner.py:72} INFO - Started process 10199 to run task
+[2026-09-21T20:19:02.167+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'mini_riskagent_file_ingestion', 'wait_for_csv', 'scheduled__2026-09-21T17:43:00+00:00', '--job-id', '4921', '--raw', '--subdir', 'DAGS_FOLDER/data_ingest_pipeline.py', '--cfg-path', '/var/folders/5p/201rr1sj03g8gksxm9x48mbh0000gn/T/tmp4q3wnbc4']
+[2026-09-21T20:19:02.167+0200] {standard_task_runner.py:105} INFO - Job 4921: Subtask wait_for_csv
+[2026-09-21T20:19:02.180+0200] {task_command.py:467} INFO - Running <TaskInstance: mini_riskagent_file_ingestion.wait_for_csv scheduled__2026-09-21T17:43:00+00:00 [running]> on host mac.home
+[2026-09-21T20:19:02.196+0200] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='autoquery' AIRFLOW_CTX_DAG_ID='mini_riskagent_file_ingestion' AIRFLOW_CTX_TASK_ID='wait_for_csv' AIRFLOW_CTX_EXECUTION_DATE='2026-09-21T17:43:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-09-21T17:43:00+00:00'
+[2026-09-21T20:19:02.196+0200] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-09-21T20:19:02.196+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-09-21T20:19:02.196+0200] {logging_mixin.py:190} INFO - Current task name:wait_for_csv state:running start_date:2026-09-21 18:19:02.157505+00:00
+[2026-09-21T20:19:02.197+0200] {logging_mixin.py:190} INFO - Dag name:mini_riskagent_file_ingestion and current dag run status:running
+[2026-09-21T20:19:02.197+0200] {taskinstance.py:732} INFO - ::endgroup::
+[2026-09-21T20:19:02.198+0200] {python.py:75} INFO - Poking callable: <function check_for_csv_files at 0x108a0eb60>
+[2026-09-21T20:19:02.201+0200] {taskinstance.py:310} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-09-21T20:19:02.201+0200] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-09-21T20:19:02.226+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-09-21T20:19:02.233+0200] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-09-21T20:19:02.233+0200] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2026-09-21T20:34:48.363+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-09-21T20:34:48.366+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mini_riskagent_file_ingestion.wait_for_csv scheduled__2026-09-21T17:43:00+00:00 [queued]>
+[2026-09-21T20:34:48.367+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mini_riskagent_file_ingestion.wait_for_csv scheduled__2026-09-21T17:43:00+00:00 [queued]>
+[2026-09-21T20:34:48.367+0200] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-09-21T20:34:48.370+0200] {taskinstance.py:2890} INFO - Executing <Task(PythonSensor): wait_for_csv> on 2026-09-21 17:43:00+00:00
+[2026-09-21T20:34:48.374+0200] {logging_mixin.py:190} WARNING - /Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=10225) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-09-21T20:34:48.375+0200] {standard_task_runner.py:72} INFO - Started process 10227 to run task
+[2026-09-21T20:34:48.374+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'mini_riskagent_file_ingestion', 'wait_for_csv', 'scheduled__2026-09-21T17:43:00+00:00', '--job-id', '4922', '--raw', '--subdir', 'DAGS_FOLDER/data_ingest_pipeline.py', '--cfg-path', '/var/folders/5p/201rr1sj03g8gksxm9x48mbh0000gn/T/tmpyhezj0t_']
+[2026-09-21T20:34:48.375+0200] {standard_task_runner.py:105} INFO - Job 4922: Subtask wait_for_csv
+[2026-09-21T20:34:48.388+0200] {task_command.py:467} INFO - Running <TaskInstance: mini_riskagent_file_ingestion.wait_for_csv scheduled__2026-09-21T17:43:00+00:00 [running]> on host mac.home
+[2026-09-21T20:34:48.404+0200] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='autoquery' AIRFLOW_CTX_DAG_ID='mini_riskagent_file_ingestion' AIRFLOW_CTX_TASK_ID='wait_for_csv' AIRFLOW_CTX_EXECUTION_DATE='2026-09-21T17:43:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-09-21T17:43:00+00:00'
+[2026-09-21T20:34:48.405+0200] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-09-21T20:34:48.405+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-09-21T20:34:48.405+0200] {logging_mixin.py:190} INFO - Current task name:wait_for_csv state:running start_date:2026-09-21 18:34:48.366363+00:00
+[2026-09-21T20:34:48.405+0200] {logging_mixin.py:190} INFO - Dag name:mini_riskagent_file_ingestion and current dag run status:running
+[2026-09-21T20:34:48.406+0200] {taskinstance.py:732} INFO - ::endgroup::
+[2026-09-21T20:34:48.407+0200] {python.py:75} INFO - Poking callable: <function check_for_csv_files at 0x10a996b60>
+[2026-09-21T20:34:48.410+0200] {taskinstance.py:310} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-09-21T20:34:48.410+0200] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-09-21T20:34:48.434+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-09-21T20:34:48.440+0200] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-09-21T20:34:48.441+0200] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2026-09-21T20:52:41.346+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-09-21T20:52:41.349+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mini_riskagent_file_ingestion.wait_for_csv scheduled__2026-09-21T17:43:00+00:00 [queued]>
+[2026-09-21T20:52:41.350+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mini_riskagent_file_ingestion.wait_for_csv scheduled__2026-09-21T17:43:00+00:00 [queued]>
+[2026-09-21T20:52:41.350+0200] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-09-21T20:52:41.353+0200] {taskinstance.py:2890} INFO - Executing <Task(PythonSensor): wait_for_csv> on 2026-09-21 17:43:00+00:00
+[2026-09-21T20:52:41.358+0200] {logging_mixin.py:190} WARNING - /Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=10240) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-09-21T20:52:41.357+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'mini_riskagent_file_ingestion', 'wait_for_csv', 'scheduled__2026-09-21T17:43:00+00:00', '--job-id', '4923', '--raw', '--subdir', 'DAGS_FOLDER/data_ingest_pipeline.py', '--cfg-path', '/var/folders/5p/201rr1sj03g8gksxm9x48mbh0000gn/T/tmp9rmauxek']
+[2026-09-21T20:52:41.358+0200] {standard_task_runner.py:72} INFO - Started process 10242 to run task
+[2026-09-21T20:52:41.358+0200] {standard_task_runner.py:105} INFO - Job 4923: Subtask wait_for_csv
+[2026-09-21T20:52:41.372+0200] {task_command.py:467} INFO - Running <TaskInstance: mini_riskagent_file_ingestion.wait_for_csv scheduled__2026-09-21T17:43:00+00:00 [running]> on host mac.home
+[2026-09-21T20:52:41.387+0200] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='autoquery' AIRFLOW_CTX_DAG_ID='mini_riskagent_file_ingestion' AIRFLOW_CTX_TASK_ID='wait_for_csv' AIRFLOW_CTX_EXECUTION_DATE='2026-09-21T17:43:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-09-21T17:43:00+00:00'
+[2026-09-21T20:52:41.388+0200] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-09-21T20:52:41.388+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-09-21T20:52:41.388+0200] {logging_mixin.py:190} INFO - Current task name:wait_for_csv state:running start_date:2026-09-21 18:52:41.349235+00:00
+[2026-09-21T20:52:41.388+0200] {logging_mixin.py:190} INFO - Dag name:mini_riskagent_file_ingestion and current dag run status:running
+[2026-09-21T20:52:41.389+0200] {taskinstance.py:732} INFO - ::endgroup::
+[2026-09-21T20:52:41.390+0200] {python.py:75} INFO - Poking callable: <function check_for_csv_files at 0x108bf6b60>
+[2026-09-21T20:52:41.393+0200] {taskinstance.py:310} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2026-09-21T20:52:41.393+0200] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-09-21T20:52:41.417+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-09-21T20:52:41.424+0200] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-09-21T20:52:41.424+0200] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2026-09-21T21:07:48.425+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-09-21T21:07:48.427+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mini_riskagent_file_ingestion.wait_for_csv scheduled__2026-09-21T17:43:00+00:00 [queued]>
+[2026-09-21T21:07:48.429+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mini_riskagent_file_ingestion.wait_for_csv scheduled__2026-09-21T17:43:00+00:00 [queued]>
+[2026-09-21T21:07:48.429+0200] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-09-21T21:07:48.431+0200] {taskinstance.py:2890} INFO - Executing <Task(PythonSensor): wait_for_csv> on 2026-09-21 17:43:00+00:00
+[2026-09-21T21:07:48.436+0200] {logging_mixin.py:190} WARNING - /Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=10254) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-09-21T21:07:48.436+0200] {standard_task_runner.py:72} INFO - Started process 10256 to run task
+[2026-09-21T21:07:48.436+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'mini_riskagent_file_ingestion', 'wait_for_csv', 'scheduled__2026-09-21T17:43:00+00:00', '--job-id', '4924', '--raw', '--subdir', 'DAGS_FOLDER/data_ingest_pipeline.py', '--cfg-path', '/var/folders/5p/201rr1sj03g8gksxm9x48mbh0000gn/T/tmpir5v6e6h']
+[2026-09-21T21:07:48.436+0200] {standard_task_runner.py:105} INFO - Job 4924: Subtask wait_for_csv
+[2026-09-21T21:07:48.449+0200] {task_command.py:467} INFO - Running <TaskInstance: mini_riskagent_file_ingestion.wait_for_csv scheduled__2026-09-21T17:43:00+00:00 [running]> on host mac.home
+[2026-09-21T21:07:48.464+0200] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='autoquery' AIRFLOW_CTX_DAG_ID='mini_riskagent_file_ingestion' AIRFLOW_CTX_TASK_ID='wait_for_csv' AIRFLOW_CTX_EXECUTION_DATE='2026-09-21T17:43:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-09-21T17:43:00+00:00'
+[2026-09-21T21:07:48.465+0200] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-09-21T21:07:48.465+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-09-21T21:07:48.465+0200] {logging_mixin.py:190} INFO - Current task name:wait_for_csv state:running start_date:2026-09-21 19:07:48.427785+00:00
+[2026-09-21T21:07:48.465+0200] {logging_mixin.py:190} INFO - Dag name:mini_riskagent_file_ingestion and current dag run status:running
+[2026-09-21T21:07:48.466+0200] {taskinstance.py:732} INFO - ::endgroup::
+[2026-09-21T21:07:48.467+0200] {python.py:75} INFO - Poking callable: <function check_for_csv_files at 0x108dbeb60>
+[2026-09-21T21:07:48.467+0200] {taskinstance.py:3313} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/sensors/base.py", line 326, in execute
+    raise AirflowSensorTimeout(message)
+airflow.exceptions.AirflowSensorTimeout: Sensor has timed out; run duration of 3998.949038 seconds exceeds the specified timeout of 3600.0.
+[2026-09-21T21:07:48.471+0200] {logging_mixin.py:190} INFO - Task instance in failure state
+[2026-09-21T21:07:48.471+0200] {logging_mixin.py:190} INFO - Task start:2026-09-21 19:07:48.427785+00:00 end:2026-09-21 19:07:48.471131+00:00 duration:0.043346
+[2026-09-21T21:07:48.471+0200] {logging_mixin.py:190} INFO - Task:<Task(PythonSensor): wait_for_csv> dag:<DAG: mini_riskagent_file_ingestion> dagrun:<DagRun mini_riskagent_file_ingestion @ 2026-09-21 17:43:00+00:00: scheduled__2026-09-21T17:43:00+00:00, state:running, queued_at: 2026-09-21 17:44:22.764136+00:00. externally triggered: False>
+[2026-09-21T21:07:48.471+0200] {logging_mixin.py:190} INFO - Failure caused by Sensor has timed out; run duration of 3998.949038 seconds exceeds the specified timeout of 3600.0.
+[2026-09-21T21:07:48.472+0200] {taskinstance.py:1226} INFO - Immediate failure requested. Marking task as FAILED. dag_id=mini_riskagent_file_ingestion, task_id=wait_for_csv, run_id=scheduled__2026-09-21T17:43:00+00:00, execution_date=20260921T174300, start_date=20260921T190748, end_date=20260921T190748
+[2026-09-21T21:07:48.475+0200] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-09-21T21:07:48.475+0200] {standard_task_runner.py:124} ERROR - Failed to execute job 4924 for task wait_for_csv (Sensor has timed out; run duration of 3998.949038 seconds exceeds the specified timeout of 3600.0.; 10256)
+Traceback (most recent call last):
+  File "/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3006, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 274, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3161, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3185, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/sensors/base.py", line 326, in execute
+    raise AirflowSensorTimeout(message)
+airflow.exceptions.AirflowSensorTimeout: Sensor has timed out; run duration of 3998.949038 seconds exceeds the specified timeout of 3600.0.
+[2026-09-21T21:07:48.495+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2026-09-21T21:07:48.502+0200] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-09-21T21:07:48.503+0200] {local_task_job_runner.py:245} INFO - ::endgroup::

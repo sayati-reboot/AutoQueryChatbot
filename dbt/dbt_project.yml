@@ -1,0 +1,15 @@
+name: miniriskagent_bankdb_dbt_proj
+version: 1.0.0
+config-version: 2
+
+profile: miniriskagent_bankdb_dbt_profile
+
+model-paths: ["models"]
+snapshot-paths: ["snapshots"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+
+models:
+  miniriskagent_bankdb_dbt_proj:
+    target:
+      +materialized: view

@@ -1,0 +1,960 @@
+[2026-09-17T19:21:50.417+0200] {processor.py:186} INFO - Started process (PID=73816) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:21:50.417+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:21:50.418+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:21:50.418+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:21:50.676+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:21:50.711+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:21:50.711+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:21:50.722+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.306 seconds
+[2026-09-17T19:23:43.326+0200] {processor.py:186} INFO - Started process (PID=74440) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:23:43.327+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:23:43.327+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:23:43.327+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:23:43.517+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:23:43.548+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:23:43.548+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:23:43.554+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:23:43.554+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 17:23:00+00:00, run_after=2026-09-17 17:24:00+00:00
+[2026-09-17T19:23:43.559+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.234 seconds
+[2026-09-17T19:24:51.025+0200] {processor.py:186} INFO - Started process (PID=74635) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:24:51.025+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:24:51.025+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:24:51.025+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:24:51.213+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:24:51.245+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:24:51.244+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:24:51.251+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:24:51.251+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 17:24:00+00:00, run_after=2026-09-17 17:25:00+00:00
+[2026-09-17T19:24:51.257+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.233 seconds
+[2026-09-17T19:26:00.348+0200] {processor.py:186} INFO - Started process (PID=74812) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:26:00.348+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:26:00.348+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:26:00.348+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:26:00.532+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:26:00.563+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:26:00.563+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:26:00.569+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:26:00.569+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 17:25:00+00:00, run_after=2026-09-17 17:26:00+00:00
+[2026-09-17T19:26:00.574+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.227 seconds
+[2026-09-17T19:27:07.764+0200] {processor.py:186} INFO - Started process (PID=75001) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:27:07.765+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:27:07.765+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:27:07.765+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:27:07.955+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:27:07.986+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:27:07.986+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:27:07.992+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:27:07.992+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 17:27:00+00:00, run_after=2026-09-17 17:28:00+00:00
+[2026-09-17T19:27:07.998+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.234 seconds
+[2026-09-17T19:28:12.622+0200] {processor.py:186} INFO - Started process (PID=75188) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:28:12.623+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:28:12.623+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:28:12.623+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:28:12.814+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:28:12.846+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:28:12.846+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:28:12.852+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:28:12.852+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 17:28:00+00:00, run_after=2026-09-17 17:29:00+00:00
+[2026-09-17T19:28:12.857+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.236 seconds
+[2026-09-17T19:29:22.059+0200] {processor.py:186} INFO - Started process (PID=75403) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:29:22.059+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:29:22.060+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:29:22.060+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:29:22.256+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:29:22.287+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:29:22.287+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:29:22.293+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:29:22.293+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 17:29:00+00:00, run_after=2026-09-17 17:30:00+00:00
+[2026-09-17T19:29:22.298+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.241 seconds
+[2026-09-17T19:30:35.118+0200] {processor.py:186} INFO - Started process (PID=75610) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:30:35.119+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:30:35.119+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:30:35.119+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:30:35.310+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:30:35.341+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:30:35.341+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:30:35.347+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:30:35.347+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 17:30:00+00:00, run_after=2026-09-17 17:31:00+00:00
+[2026-09-17T19:30:35.353+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.235 seconds
+[2026-09-17T19:31:47.618+0200] {processor.py:186} INFO - Started process (PID=75829) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:31:47.618+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:31:47.618+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:31:47.618+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:31:47.813+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:31:47.845+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:31:47.845+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:31:47.851+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:31:47.851+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 17:31:00+00:00, run_after=2026-09-17 17:32:00+00:00
+[2026-09-17T19:31:47.857+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.240 seconds
+[2026-09-17T19:32:59.446+0200] {processor.py:186} INFO - Started process (PID=76061) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:32:59.446+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:32:59.446+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:32:59.446+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:32:59.637+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:32:59.668+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:32:59.668+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:32:59.674+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:32:59.674+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 17:32:00+00:00, run_after=2026-09-17 17:33:00+00:00
+[2026-09-17T19:32:59.680+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.235 seconds
+[2026-09-17T19:34:16.132+0200] {processor.py:186} INFO - Started process (PID=76323) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:34:16.132+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:34:16.133+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:34:16.132+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:34:16.340+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:34:16.373+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:34:16.373+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:34:16.380+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:34:16.379+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 17:34:00+00:00, run_after=2026-09-17 17:35:00+00:00
+[2026-09-17T19:34:16.385+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.255 seconds
+[2026-09-17T19:35:34.102+0200] {processor.py:186} INFO - Started process (PID=76569) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:35:34.103+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:35:34.103+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:35:34.103+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:35:34.299+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:35:34.331+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:35:34.331+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:35:34.337+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:35:34.337+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 17:35:00+00:00, run_after=2026-09-17 17:36:00+00:00
+[2026-09-17T19:35:34.343+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.241 seconds
+[2026-09-17T19:36:59.248+0200] {processor.py:186} INFO - Started process (PID=76865) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:36:59.248+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:36:59.248+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:36:59.248+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:36:59.443+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:36:59.475+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:36:59.475+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:36:59.481+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:36:59.481+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 17:36:00+00:00, run_after=2026-09-17 17:37:00+00:00
+[2026-09-17T19:36:59.486+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.239 seconds
+[2026-09-17T19:38:20.025+0200] {processor.py:186} INFO - Started process (PID=77155) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:38:20.025+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:38:20.026+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:38:20.026+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:38:20.217+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:38:20.248+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:38:20.248+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:38:20.258+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.234 seconds
+[2026-09-17T19:39:38.200+0200] {processor.py:186} INFO - Started process (PID=77432) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:39:38.200+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:39:38.201+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:39:38.201+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:39:38.393+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:39:38.424+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:39:38.424+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:39:38.434+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.235 seconds
+[2026-09-17T19:40:55.691+0200] {processor.py:186} INFO - Started process (PID=77707) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:40:55.691+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:40:55.692+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:40:55.692+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:40:55.887+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:40:55.919+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:40:55.918+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:40:55.929+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.239 seconds
+[2026-09-17T19:42:39.135+0200] {processor.py:186} INFO - Started process (PID=78071) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:42:39.136+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:42:39.136+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:42:39.136+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:42:39.332+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:42:39.364+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:42:39.364+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:42:39.374+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.240 seconds
+[2026-09-17T19:44:31.500+0200] {processor.py:186} INFO - Started process (PID=78408) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:44:31.501+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:44:31.501+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:44:31.501+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:44:31.697+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:44:31.729+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:44:31.729+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:44:31.735+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:44:31.735+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 17:44:00+00:00, run_after=2026-09-17 17:45:00+00:00
+[2026-09-17T19:44:31.741+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.242 seconds
+[2026-09-17T19:45:49.003+0200] {processor.py:186} INFO - Started process (PID=78601) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:45:49.004+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:45:49.004+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:45:49.004+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:45:49.202+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:45:49.233+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:45:49.233+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:45:49.239+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:45:49.239+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 17:45:00+00:00, run_after=2026-09-17 17:46:00+00:00
+[2026-09-17T19:45:49.245+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.243 seconds
+[2026-09-17T19:46:55.740+0200] {processor.py:186} INFO - Started process (PID=78778) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:46:55.740+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:46:55.741+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:46:55.741+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:46:55.938+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:46:55.970+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:46:55.970+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:46:55.976+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:46:55.976+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 17:46:00+00:00, run_after=2026-09-17 17:47:00+00:00
+[2026-09-17T19:46:55.982+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.243 seconds
+[2026-09-17T19:48:07.250+0200] {processor.py:186} INFO - Started process (PID=78959) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:48:07.251+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:48:07.251+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:48:07.251+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:48:07.449+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:48:07.481+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:48:07.481+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:48:07.487+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:48:07.487+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 17:48:00+00:00, run_after=2026-09-17 17:49:00+00:00
+[2026-09-17T19:48:07.493+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.244 seconds
+[2026-09-17T19:49:18.023+0200] {processor.py:186} INFO - Started process (PID=79146) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:49:18.023+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:49:18.024+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:49:18.023+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:49:18.216+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:49:18.248+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:49:18.248+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:49:18.254+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:49:18.254+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 17:49:00+00:00, run_after=2026-09-17 17:50:00+00:00
+[2026-09-17T19:49:18.259+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.237 seconds
+[2026-09-17T19:50:25.550+0200] {processor.py:186} INFO - Started process (PID=79339) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:50:25.551+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:50:25.551+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:50:25.551+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:50:25.743+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:50:25.774+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:50:25.774+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:50:25.780+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:50:25.780+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 17:50:00+00:00, run_after=2026-09-17 17:51:00+00:00
+[2026-09-17T19:50:25.786+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.236 seconds
+[2026-09-17T19:51:31.967+0200] {processor.py:186} INFO - Started process (PID=79541) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:51:31.968+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:51:31.968+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:51:31.968+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:51:32.173+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:51:32.204+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:51:32.204+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:51:32.210+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:51:32.210+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 17:51:00+00:00, run_after=2026-09-17 17:52:00+00:00
+[2026-09-17T19:51:32.215+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.249 seconds
+[2026-09-17T19:52:42.757+0200] {processor.py:186} INFO - Started process (PID=79757) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:52:42.758+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:52:42.758+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:52:42.758+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:52:42.952+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:52:42.983+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:52:42.983+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:52:42.989+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:52:42.989+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 17:52:00+00:00, run_after=2026-09-17 17:53:00+00:00
+[2026-09-17T19:52:42.994+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.238 seconds
+[2026-09-17T19:53:53.252+0200] {processor.py:186} INFO - Started process (PID=79965) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:53:53.252+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T19:53:53.252+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:53:53.252+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:53:53.447+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T19:53:53.478+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:53:53.478+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T19:53:53.484+0200] {logging_mixin.py:190} INFO - [2026-09-17T19:53:53.484+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 17:53:00+00:00, run_after=2026-09-17 17:54:00+00:00
+[2026-09-17T19:53:53.489+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.239 seconds
+[2026-09-17T20:05:26.838+0200] {processor.py:186} INFO - Started process (PID=80276) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:05:26.838+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:05:26.839+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:05:26.839+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:05:27.023+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:05:27.054+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:05:27.054+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:05:27.060+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:05:27.060+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 18:05:00+00:00, run_after=2026-09-17 18:06:00+00:00
+[2026-09-17T20:05:27.066+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.229 seconds
+[2026-09-17T20:07:40.346+0200] {processor.py:186} INFO - Started process (PID=80875) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:07:40.347+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:07:40.347+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:07:40.347+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:07:40.538+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:07:40.569+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:07:40.569+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:07:40.579+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.234 seconds
+[2026-09-17T20:09:14.971+0200] {processor.py:186} INFO - Started process (PID=81402) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:09:14.971+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:09:14.972+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:09:14.972+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:09:15.163+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:09:15.195+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:09:15.195+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:09:15.205+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.235 seconds
+[2026-09-17T20:10:45.142+0200] {processor.py:186} INFO - Started process (PID=82086) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:10:45.142+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:10:45.142+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:10:45.142+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:10:45.334+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:10:45.391+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:10:45.391+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:10:45.401+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.260 seconds
+[2026-09-17T20:11:39.971+0200] {processor.py:186} INFO - Started process (PID=82286) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:11:39.972+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:11:39.972+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:11:39.972+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:11:40.172+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:11:40.204+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:11:40.204+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:11:40.215+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.244 seconds
+[2026-09-17T20:14:02.531+0200] {processor.py:186} INFO - Started process (PID=82766) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:14:02.532+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:14:02.532+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:14:02.532+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:14:02.726+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:14:02.757+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:14:02.757+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:14:02.767+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.237 seconds
+[2026-09-17T20:14:41.421+0200] {processor.py:186} INFO - Started process (PID=82899) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:14:41.422+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:14:41.422+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:14:41.422+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:14:41.618+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:14:41.649+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:14:41.649+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:14:41.659+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.239 seconds
+[2026-09-17T20:15:37.261+0200] {processor.py:186} INFO - Started process (PID=83099) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:15:37.261+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:15:37.262+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:15:37.261+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:15:37.454+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:15:37.485+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:15:37.485+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:15:37.495+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.235 seconds
+[2026-09-17T20:17:22.295+0200] {processor.py:186} INFO - Started process (PID=83469) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:17:22.295+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:17:22.296+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:17:22.296+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:17:22.488+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:17:22.519+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:17:22.519+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:17:22.529+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.236 seconds
+[2026-09-17T20:18:55.807+0200] {processor.py:186} INFO - Started process (PID=83804) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:18:55.807+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:18:55.808+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:18:55.807+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:18:56.000+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:18:56.031+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:18:56.031+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:18:56.042+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.237 seconds
+[2026-09-17T20:20:59.527+0200] {processor.py:186} INFO - Started process (PID=84213) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:20:59.527+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:20:59.527+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:20:59.527+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:20:59.721+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:20:59.753+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:20:59.753+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:20:59.759+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:20:59.759+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 18:20:00+00:00, run_after=2026-09-17 18:21:00+00:00
+[2026-09-17T20:20:59.764+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.238 seconds
+[2026-09-17T20:22:23.654+0200] {processor.py:186} INFO - Started process (PID=84609) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:22:23.654+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:22:23.655+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:22:23.654+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:22:23.859+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:22:23.918+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:22:23.918+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:22:23.929+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.276 seconds
+[2026-09-17T20:22:50.796+0200] {processor.py:186} INFO - Started process (PID=84688) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:22:50.797+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:22:50.797+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:22:50.797+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:22:50.993+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:22:50.995+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:22:50.995+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:22:51.025+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.230 seconds
+[2026-09-17T20:23:49.102+0200] {processor.py:186} INFO - Started process (PID=84848) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:23:49.102+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:23:49.103+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:23:49.103+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:23:49.295+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:23:49.327+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:23:49.326+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:23:49.336+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.235 seconds
+[2026-09-17T20:25:07.176+0200] {processor.py:186} INFO - Started process (PID=85078) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:07.177+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:25:07.177+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:25:07.177+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:07.374+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:07.406+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:25:07.405+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:25:07.415+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.240 seconds
+[2026-09-17T20:25:09.204+0200] {processor.py:186} INFO - Started process (PID=85080) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:09.204+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:25:09.205+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:25:09.205+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:09.433+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:09.465+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:25:09.465+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:25:09.476+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.273 seconds
+[2026-09-17T20:25:11.289+0200] {processor.py:186} INFO - Started process (PID=85083) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:11.290+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:25:11.290+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:25:11.290+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:11.516+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:11.550+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:25:11.550+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:25:11.562+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.274 seconds
+[2026-09-17T20:25:13.516+0200] {processor.py:186} INFO - Started process (PID=85089) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:13.516+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:25:13.517+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:25:13.517+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:13.745+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:13.782+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:25:13.782+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:25:13.794+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.280 seconds
+[2026-09-17T20:25:15.364+0200] {processor.py:186} INFO - Started process (PID=85091) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:15.365+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:25:15.365+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:25:15.365+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:15.594+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:15.627+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:25:15.627+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:25:15.638+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.275 seconds
+[2026-09-17T20:25:17.781+0200] {processor.py:186} INFO - Started process (PID=85100) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:17.781+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:25:17.782+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:25:17.782+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:17.976+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:18.007+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:25:18.007+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:25:18.017+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.237 seconds
+[2026-09-17T20:25:22.065+0200] {processor.py:186} INFO - Started process (PID=85113) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:22.066+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:25:22.066+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:25:22.066+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:22.269+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:22.304+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:25:22.304+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:25:22.316+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.251 seconds
+[2026-09-17T20:25:27.820+0200] {processor.py:186} INFO - Started process (PID=85133) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:27.820+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:25:27.821+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:25:27.821+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:28.023+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:28.055+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:25:28.055+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:25:28.066+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.247 seconds
+[2026-09-17T20:25:34.976+0200] {processor.py:186} INFO - Started process (PID=85160) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:34.976+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:25:34.977+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:25:34.977+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:35.173+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:25:35.205+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:25:35.205+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:25:35.215+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.240 seconds
+[2026-09-17T20:26:59.827+0200] {processor.py:186} INFO - Started process (PID=85384) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:26:59.827+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:26:59.828+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:26:59.828+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:27:00.020+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:27:00.051+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:27:00.051+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:27:00.061+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.235 seconds
+[2026-09-17T20:28:11.463+0200] {processor.py:186} INFO - Started process (PID=85549) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:28:11.464+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:28:11.464+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:28:11.464+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:28:11.658+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:28:11.689+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:28:11.689+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:28:11.699+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.237 seconds
+[2026-09-17T20:29:12.722+0200] {processor.py:186} INFO - Started process (PID=85684) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:29:12.722+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:29:12.723+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:29:12.723+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:29:12.921+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:29:12.953+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:29:12.953+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:29:12.964+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.243 seconds
+[2026-09-17T20:29:19.964+0200] {processor.py:186} INFO - Started process (PID=85697) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:29:19.964+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:29:19.965+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:29:19.965+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:29:20.161+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:29:20.193+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:29:20.193+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:29:20.203+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.240 seconds
+[2026-09-17T20:29:21.932+0200] {processor.py:186} INFO - Started process (PID=85703) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:29:21.932+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:29:21.932+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:29:21.932+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:29:22.127+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:29:22.158+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:29:22.158+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:29:22.168+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.238 seconds
+[2026-09-17T20:29:30.657+0200] {processor.py:186} INFO - Started process (PID=85718) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:29:30.657+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:29:30.658+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:29:30.658+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:29:30.857+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:29:30.889+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:29:30.889+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:29:30.899+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.244 seconds
+[2026-09-17T20:30:44.471+0200] {processor.py:186} INFO - Started process (PID=85902) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:30:44.472+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:30:44.473+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:30:44.473+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:30:44.665+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:30:44.697+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:30:44.696+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:30:44.702+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:30:44.702+0200] {dag.py:4180} INFO - Setting next_dagrun for mini_riskagent_file_ingestion to 2026-09-17 18:29:00+00:00, run_after=2026-09-17 18:30:00+00:00
+[2026-09-17T20:30:44.708+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.238 seconds
+[2026-09-17T20:31:03.960+0200] {processor.py:186} INFO - Started process (PID=85949) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:31:03.960+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:31:03.960+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:31:03.960+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:31:04.156+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:31:04.187+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:31:04.187+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:31:04.197+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.239 seconds
+[2026-09-17T20:31:08.974+0200] {processor.py:186} INFO - Started process (PID=85961) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:31:08.975+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:31:08.975+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:31:08.975+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:31:09.170+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:31:09.202+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:31:09.202+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:31:09.212+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.238 seconds
+[2026-09-17T20:31:18.435+0200] {processor.py:186} INFO - Started process (PID=85983) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:31:18.435+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:31:18.435+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:31:18.435+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:31:18.632+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:31:18.663+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:31:18.663+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:31:18.673+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.239 seconds
+[2026-09-17T20:32:03.578+0200] {processor.py:186} INFO - Started process (PID=86107) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:32:03.578+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:32:03.578+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:32:03.578+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:32:03.778+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:32:03.809+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:32:03.809+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:32:03.819+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.243 seconds
+[2026-09-17T20:33:09.515+0200] {processor.py:186} INFO - Started process (PID=86269) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:33:09.516+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:33:09.517+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:33:09.516+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:33:09.710+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:33:09.741+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:33:09.741+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:33:09.751+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.237 seconds
+[2026-09-17T20:34:13.218+0200] {processor.py:186} INFO - Started process (PID=86413) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:34:13.218+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:34:13.219+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:34:13.219+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:34:13.409+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:34:13.440+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:34:13.440+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:34:13.450+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.233 seconds
+[2026-09-17T20:35:18.518+0200] {processor.py:186} INFO - Started process (PID=86565) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:35:18.518+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:35:18.519+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:35:18.518+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:35:18.709+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:35:18.740+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:35:18.740+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:35:18.750+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.233 seconds
+[2026-09-17T20:36:19.825+0200] {processor.py:186} INFO - Started process (PID=86704) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:36:19.825+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:36:19.826+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:36:19.826+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:36:20.016+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:36:20.049+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:36:20.049+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:36:20.059+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.235 seconds
+[2026-09-17T20:47:40.489+0200] {processor.py:186} INFO - Started process (PID=86856) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:47:40.489+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:47:40.489+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:47:40.489+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:47:40.670+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:47:40.700+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:47:40.699+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:47:40.709+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.221 seconds
+[2026-09-17T20:49:10.601+0200] {processor.py:186} INFO - Started process (PID=87063) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:49:10.602+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:49:10.602+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:49:10.602+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:49:10.787+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:49:10.819+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:49:10.819+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:49:10.829+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.229 seconds
+[2026-09-17T20:50:16.309+0200] {processor.py:186} INFO - Started process (PID=87216) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:50:16.309+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:50:16.310+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:50:16.310+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:50:16.495+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:50:16.527+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:50:16.526+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:50:16.536+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.228 seconds
+[2026-09-17T20:51:21.896+0200] {processor.py:186} INFO - Started process (PID=87364) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:51:21.896+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:51:21.896+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:51:21.896+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:51:22.080+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:51:22.111+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:51:22.111+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:51:22.121+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.226 seconds
+[2026-09-17T20:52:25.910+0200] {processor.py:186} INFO - Started process (PID=87507) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:52:25.910+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:52:25.911+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:52:25.910+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:52:26.096+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:52:26.127+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:52:26.127+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:52:26.136+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.227 seconds
+[2026-09-17T20:53:29.583+0200] {processor.py:186} INFO - Started process (PID=87657) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:53:29.583+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:53:29.583+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:53:29.583+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:53:29.770+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:53:29.801+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:53:29.801+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:53:29.811+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.229 seconds
+[2026-09-17T20:54:38.898+0200] {processor.py:186} INFO - Started process (PID=87818) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:54:38.898+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:54:38.899+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:54:38.899+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:54:39.085+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:54:39.117+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:54:39.117+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:54:39.127+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.230 seconds
+[2026-09-17T20:55:47.867+0200] {processor.py:186} INFO - Started process (PID=87968) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:55:47.868+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:55:47.868+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:55:47.868+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:55:48.057+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:55:48.088+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:55:48.088+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:55:48.098+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.232 seconds
+[2026-09-17T20:56:53.523+0200] {processor.py:186} INFO - Started process (PID=88128) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:56:53.523+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:56:53.523+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:56:53.523+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:56:53.722+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:56:53.753+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:56:53.753+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:56:53.763+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.241 seconds
+[2026-09-17T20:57:58.466+0200] {processor.py:186} INFO - Started process (PID=88286) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:57:58.467+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:57:58.467+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:57:58.467+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:57:58.662+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:57:58.693+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:57:58.693+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:57:58.702+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.237 seconds
+[2026-09-17T20:59:06.362+0200] {processor.py:186} INFO - Started process (PID=88452) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:59:06.362+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T20:59:06.362+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:59:06.362+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:59:06.557+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T20:59:06.589+0200] {logging_mixin.py:190} INFO - [2026-09-17T20:59:06.588+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T20:59:06.599+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.239 seconds
+[2026-09-17T21:00:10.178+0200] {processor.py:186} INFO - Started process (PID=88620) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:00:10.178+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:00:10.179+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:00:10.179+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:00:10.375+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:00:10.406+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:00:10.406+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:00:10.416+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.240 seconds
+[2026-09-17T21:01:13.394+0200] {processor.py:186} INFO - Started process (PID=88774) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:01:13.395+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:01:13.395+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:01:13.395+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:01:13.590+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:01:13.647+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:01:13.647+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:01:13.658+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.264 seconds
+[2026-09-17T21:02:17.432+0200] {processor.py:186} INFO - Started process (PID=89080) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:02:17.432+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:02:17.432+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:02:17.432+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:02:17.625+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:02:17.656+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:02:17.656+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:02:17.666+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.235 seconds
+[2026-09-17T21:03:20.256+0200] {processor.py:186} INFO - Started process (PID=89230) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:03:20.257+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:03:20.257+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:03:20.257+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:03:20.447+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:03:20.479+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:03:20.479+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:03:20.489+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.233 seconds
+[2026-09-17T21:04:24.507+0200] {processor.py:186} INFO - Started process (PID=89394) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:04:24.507+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:04:24.507+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:04:24.507+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:04:24.705+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:04:24.738+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:04:24.738+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:04:24.749+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.243 seconds
+[2026-09-17T21:05:29.191+0200] {processor.py:186} INFO - Started process (PID=89560) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:05:29.192+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:05:29.192+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:05:29.192+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:05:29.382+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:05:29.413+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:05:29.413+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:05:29.423+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.232 seconds
+[2026-09-17T21:06:37.451+0200] {processor.py:186} INFO - Started process (PID=89715) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:06:37.452+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:06:37.452+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:06:37.452+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:06:37.648+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:06:37.680+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:06:37.679+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:06:37.690+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.239 seconds
+[2026-09-17T21:07:46.188+0200] {processor.py:186} INFO - Started process (PID=89873) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:07:46.188+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:07:46.189+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:07:46.189+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:07:46.379+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:07:46.411+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:07:46.411+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:07:46.421+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.233 seconds
+[2026-09-17T21:08:54.078+0200] {processor.py:186} INFO - Started process (PID=90021) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:08:54.079+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:08:54.079+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:08:54.079+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:08:54.273+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:08:54.305+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:08:54.304+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:08:54.315+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.237 seconds
+[2026-09-17T21:10:03.544+0200] {processor.py:186} INFO - Started process (PID=90187) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:10:03.544+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:10:03.545+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:10:03.545+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:10:03.738+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:10:03.769+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:10:03.769+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:10:03.779+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.236 seconds
+[2026-09-17T21:11:14.707+0200] {processor.py:186} INFO - Started process (PID=90379) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:11:14.707+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:11:14.708+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:11:14.708+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:11:14.915+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:11:14.948+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:11:14.948+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:11:14.958+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.252 seconds
+[2026-09-17T21:12:07.949+0200] {processor.py:186} INFO - Started process (PID=90696) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:12:07.949+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:12:07.949+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:12:07.949+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:12:08.147+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:12:08.179+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:12:08.179+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:12:08.189+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.242 seconds
+[2026-09-17T21:12:11.686+0200] {processor.py:186} INFO - Started process (PID=90705) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:12:11.687+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:12:11.687+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:12:11.687+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:12:11.883+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:12:11.915+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:12:11.915+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:12:11.925+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.240 seconds
+[2026-09-17T21:13:40.919+0200] {processor.py:186} INFO - Started process (PID=90937) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:13:40.920+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:13:40.921+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:13:40.921+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:13:41.115+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:13:41.146+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:13:41.146+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:13:41.156+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.238 seconds
+[2026-09-17T21:14:46.991+0200] {processor.py:186} INFO - Started process (PID=91084) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:14:46.991+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:14:46.992+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:14:46.992+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:14:47.193+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:14:47.225+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:14:47.225+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:14:47.235+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.245 seconds
+[2026-09-17T21:14:48.957+0200] {processor.py:186} INFO - Started process (PID=91087) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:14:48.957+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:14:48.958+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:14:48.957+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:14:49.161+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:14:49.193+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:14:49.193+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:14:49.203+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.247 seconds
+[2026-09-17T21:14:54.660+0200] {processor.py:186} INFO - Started process (PID=91098) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:14:54.660+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:14:54.661+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:14:54.661+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:14:54.899+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:14:54.936+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:14:54.936+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:14:54.948+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.289 seconds
+[2026-09-17T21:14:55.945+0200] {processor.py:186} INFO - Started process (PID=91100) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:14:55.945+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:14:55.945+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:14:55.945+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:14:56.139+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:14:56.170+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:14:56.170+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:14:56.180+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.236 seconds
+[2026-09-17T21:15:02.973+0200] {processor.py:186} INFO - Started process (PID=91117) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:15:02.973+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:15:02.974+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:15:02.973+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:15:03.204+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:15:03.237+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:15:03.237+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:15:03.248+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.277 seconds
+[2026-09-17T21:15:05.141+0200] {processor.py:186} INFO - Started process (PID=91122) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:15:05.141+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:15:05.142+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:15:05.141+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:15:05.337+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:15:05.368+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:15:05.368+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:15:05.378+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.239 seconds
+[2026-09-17T21:15:11.073+0200] {processor.py:186} INFO - Started process (PID=91141) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:15:11.074+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:15:11.074+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:15:11.074+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:15:11.275+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:15:11.307+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:15:11.307+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:15:11.317+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.245 seconds
+[2026-09-17T21:15:15.226+0200] {processor.py:186} INFO - Started process (PID=91160) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:15:15.227+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:15:15.227+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:15:15.227+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:15:15.452+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:15:15.483+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:15:15.483+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:15:15.493+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.268 seconds
+[2026-09-17T21:15:19.266+0200] {processor.py:186} INFO - Started process (PID=91174) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:15:19.267+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:15:19.267+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:15:19.267+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:15:19.464+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:15:19.496+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:15:19.495+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:15:19.505+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.240 seconds
+[2026-09-17T21:16:07.195+0200] {processor.py:186} INFO - Started process (PID=91313) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:16:07.195+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:16:07.196+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:16:07.195+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:16:07.393+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:16:07.424+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:16:07.424+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:16:07.434+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.241 seconds
+[2026-09-17T21:16:10.216+0200] {processor.py:186} INFO - Started process (PID=91321) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:16:10.217+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:16:10.217+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:16:10.217+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:16:10.411+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:16:10.442+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:16:10.442+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:16:10.452+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.237 seconds
+[2026-09-17T21:17:31.344+0200] {processor.py:186} INFO - Started process (PID=91513) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:17:31.344+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:17:31.345+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:17:31.345+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:17:31.540+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:17:31.572+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:17:31.572+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:17:31.582+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.239 seconds
+[2026-09-17T21:18:37.392+0200] {processor.py:186} INFO - Started process (PID=91658) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:18:37.392+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:18:37.392+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:18:37.392+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:18:37.580+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:18:37.611+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:18:37.611+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:18:37.621+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.230 seconds
+[2026-09-17T21:19:48.084+0200] {processor.py:186} INFO - Started process (PID=91824) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:19:48.084+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:19:48.084+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:19:48.084+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:19:48.278+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:19:48.309+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:19:48.309+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:19:48.319+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.237 seconds
+[2026-09-17T21:20:56.054+0200] {processor.py:186} INFO - Started process (PID=92413) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:20:56.055+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:20:56.055+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:20:56.055+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:20:56.248+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:20:56.279+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:20:56.279+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:20:56.289+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.236 seconds
+[2026-09-17T21:22:01.676+0200] {processor.py:186} INFO - Started process (PID=92566) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:22:01.676+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:22:01.676+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:22:01.676+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:22:01.882+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:22:01.940+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:22:01.940+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:22:01.950+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.276 seconds
+[2026-09-17T21:23:04.693+0200] {processor.py:186} INFO - Started process (PID=92720) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:23:04.694+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:23:04.694+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:23:04.694+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:23:04.887+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:23:04.918+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:23:04.918+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:23:04.928+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.236 seconds
+[2026-09-17T21:24:07.787+0200] {processor.py:186} INFO - Started process (PID=92861) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:24:07.788+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:24:07.788+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:24:07.788+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:24:07.980+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:24:08.012+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:24:08.012+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:24:08.021+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.235 seconds
+[2026-09-17T21:25:09.128+0200] {processor.py:186} INFO - Started process (PID=93008) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:25:09.128+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:25:09.129+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:25:09.129+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:25:09.319+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:25:09.350+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:25:09.350+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:25:09.360+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.233 seconds
+[2026-09-17T21:26:15.867+0200] {processor.py:186} INFO - Started process (PID=93157) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:26:15.868+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:26:15.868+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:26:15.868+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:26:16.059+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:26:16.091+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:26:16.091+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:26:16.101+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.234 seconds
+[2026-09-17T21:27:22.233+0200] {processor.py:186} INFO - Started process (PID=93310) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:27:22.233+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:27:22.234+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:27:22.234+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:27:22.428+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:27:22.459+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:27:22.459+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:27:22.469+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.237 seconds
+[2026-09-17T21:28:26.113+0200] {processor.py:186} INFO - Started process (PID=93469) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:28:26.114+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:28:26.114+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:28:26.114+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:28:26.310+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:28:26.343+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:28:26.342+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:28:26.353+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.241 seconds
+[2026-09-17T21:29:30.678+0200] {processor.py:186} INFO - Started process (PID=93623) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:29:30.679+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:29:30.679+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:29:30.679+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:29:30.872+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:29:30.903+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:29:30.903+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:29:30.913+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.236 seconds
+[2026-09-17T21:30:38.510+0200] {processor.py:186} INFO - Started process (PID=93769) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:30:38.510+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:30:38.510+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:30:38.510+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:30:38.701+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:30:38.732+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:30:38.732+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:30:38.742+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.233 seconds
+[2026-09-17T21:31:45.291+0200] {processor.py:186} INFO - Started process (PID=93929) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:31:45.291+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:31:45.291+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:31:45.291+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:31:45.483+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:31:45.515+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:31:45.515+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:31:45.525+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.235 seconds
+[2026-09-17T21:32:49.314+0200] {processor.py:186} INFO - Started process (PID=94086) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:32:49.314+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:32:49.314+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:32:49.314+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:32:49.510+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:32:49.541+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:32:49.541+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:32:49.551+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.239 seconds
+[2026-09-17T21:33:57.169+0200] {processor.py:186} INFO - Started process (PID=94247) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:33:57.169+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:33:57.169+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:33:57.169+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:33:57.362+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:33:57.394+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:33:57.394+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:33:57.404+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.236 seconds
+[2026-09-17T21:35:00.969+0200] {processor.py:186} INFO - Started process (PID=94394) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:35:00.970+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:35:00.970+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:35:00.970+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:35:01.160+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:35:01.192+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:35:01.192+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:35:01.202+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.234 seconds
+[2026-09-17T21:36:07.262+0200] {processor.py:186} INFO - Started process (PID=94554) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:36:07.263+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:36:07.263+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:36:07.263+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:36:07.456+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:36:07.487+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:36:07.487+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:36:07.497+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.236 seconds
+[2026-09-17T21:37:11.829+0200] {processor.py:186} INFO - Started process (PID=94700) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:37:11.829+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:37:11.829+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:37:11.829+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:37:12.018+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:37:12.049+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:37:12.049+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:37:12.059+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.232 seconds
+[2026-09-17T21:38:15.175+0200] {processor.py:186} INFO - Started process (PID=94850) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:38:15.175+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:38:15.175+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:38:15.175+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:38:15.366+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:38:15.397+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:38:15.397+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:38:15.407+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.234 seconds
+[2026-09-17T21:48:30.922+0200] {processor.py:186} INFO - Started process (PID=95006) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:48:30.922+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:48:30.922+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:48:30.922+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:48:31.105+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:48:31.136+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:48:31.136+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:48:31.145+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.224 seconds
+[2026-09-17T21:49:35.780+0200] {processor.py:186} INFO - Started process (PID=95153) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:49:35.780+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:49:35.781+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:49:35.781+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:49:35.969+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:49:36.001+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:49:36.001+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:49:36.011+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.232 seconds
+[2026-09-17T21:50:40.544+0200] {processor.py:186} INFO - Started process (PID=95300) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:50:40.544+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:50:40.545+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:50:40.545+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:50:40.728+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:50:40.760+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:50:40.760+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:50:40.770+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.227 seconds
+[2026-09-17T21:51:44.504+0200] {processor.py:186} INFO - Started process (PID=95444) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:51:44.504+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:51:44.505+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:51:44.505+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:51:44.690+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:51:44.722+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:51:44.722+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:51:44.731+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.229 seconds
+[2026-09-17T21:52:47.719+0200] {processor.py:186} INFO - Started process (PID=95584) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:52:47.719+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:52:47.720+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:52:47.719+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:52:47.906+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:52:47.937+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:52:47.937+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:52:47.946+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.228 seconds
+[2026-09-17T21:53:53.045+0200] {processor.py:186} INFO - Started process (PID=95734) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:53:53.045+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:53:53.045+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:53:53.045+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:53:53.230+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:53:53.262+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:53:53.262+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:53:53.271+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.228 seconds
+[2026-09-17T21:54:58.746+0200] {processor.py:186} INFO - Started process (PID=95881) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:54:58.747+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:54:58.747+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:54:58.747+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:54:58.933+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:54:58.964+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:54:58.964+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:54:58.973+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.228 seconds
+[2026-09-17T21:56:00.978+0200] {processor.py:186} INFO - Started process (PID=96028) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:56:00.978+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:56:00.978+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:56:00.978+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:56:01.167+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:56:01.199+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:56:01.199+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:56:01.209+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.232 seconds
+[2026-09-17T21:57:06.821+0200] {processor.py:186} INFO - Started process (PID=96176) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:57:06.822+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:57:06.822+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:57:06.822+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:57:07.008+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:57:07.040+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:57:07.040+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:57:07.049+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.229 seconds
+[2026-09-17T21:58:10.242+0200] {processor.py:186} INFO - Started process (PID=96320) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:58:10.243+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:58:10.243+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:58:10.243+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:58:10.433+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:58:10.464+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:58:10.464+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:58:10.474+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.233 seconds
+[2026-09-17T21:59:13.489+0200] {processor.py:186} INFO - Started process (PID=96460) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:59:13.490+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T21:59:13.490+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:59:13.490+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:59:13.678+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T21:59:13.709+0200] {logging_mixin.py:190} INFO - [2026-09-17T21:59:13.709+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T21:59:13.719+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.231 seconds
+[2026-09-17T22:00:19.603+0200] {processor.py:186} INFO - Started process (PID=96615) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:00:19.604+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T22:00:19.604+0200] {logging_mixin.py:190} INFO - [2026-09-17T22:00:19.604+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:00:19.797+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:00:19.829+0200] {logging_mixin.py:190} INFO - [2026-09-17T22:00:19.829+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T22:00:19.839+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.237 seconds
+[2026-09-17T22:20:26.438+0200] {processor.py:186} INFO - Started process (PID=96839) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:20:26.439+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T22:20:26.440+0200] {logging_mixin.py:190} INFO - [2026-09-17T22:20:26.440+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:20:26.622+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:20:26.652+0200] {logging_mixin.py:190} INFO - [2026-09-17T22:20:26.652+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T22:20:26.661+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.224 seconds
+[2026-09-17T22:37:06.767+0200] {processor.py:186} INFO - Started process (PID=97051) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:37:06.767+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T22:37:06.768+0200] {logging_mixin.py:190} INFO - [2026-09-17T22:37:06.768+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:37:06.951+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:37:06.983+0200] {logging_mixin.py:190} INFO - [2026-09-17T22:37:06.983+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T22:37:06.992+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.227 seconds
+[2026-09-17T22:38:12.697+0200] {processor.py:186} INFO - Started process (PID=97204) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:38:12.697+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T22:38:12.697+0200] {logging_mixin.py:190} INFO - [2026-09-17T22:38:12.697+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:38:12.884+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:38:12.915+0200] {logging_mixin.py:190} INFO - [2026-09-17T22:38:12.915+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T22:38:12.925+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.229 seconds
+[2026-09-17T22:39:21.051+0200] {processor.py:186} INFO - Started process (PID=97374) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:39:21.052+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T22:39:21.052+0200] {logging_mixin.py:190} INFO - [2026-09-17T22:39:21.052+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:39:21.235+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:39:21.266+0200] {logging_mixin.py:190} INFO - [2026-09-17T22:39:21.266+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T22:39:21.276+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.225 seconds
+[2026-09-17T22:40:29.481+0200] {processor.py:186} INFO - Started process (PID=97523) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:40:29.481+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T22:40:29.482+0200] {logging_mixin.py:190} INFO - [2026-09-17T22:40:29.482+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:40:29.665+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:40:29.696+0200] {logging_mixin.py:190} INFO - [2026-09-17T22:40:29.696+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T22:40:29.706+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.226 seconds
+[2026-09-17T22:41:33.943+0200] {processor.py:186} INFO - Started process (PID=97669) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:41:33.943+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T22:41:33.943+0200] {logging_mixin.py:190} INFO - [2026-09-17T22:41:33.943+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:41:34.124+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:41:34.154+0200] {logging_mixin.py:190} INFO - [2026-09-17T22:41:34.154+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T22:41:34.164+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.222 seconds
+[2026-09-17T22:42:41.142+0200] {processor.py:186} INFO - Started process (PID=97826) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:42:41.142+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T22:42:41.142+0200] {logging_mixin.py:190} INFO - [2026-09-17T22:42:41.142+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:42:41.324+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:42:41.355+0200] {logging_mixin.py:190} INFO - [2026-09-17T22:42:41.355+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T22:42:41.365+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.224 seconds
+[2026-09-17T22:59:59.351+0200] {processor.py:186} INFO - Started process (PID=97988) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:59:59.351+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T22:59:59.351+0200] {logging_mixin.py:190} INFO - [2026-09-17T22:59:59.351+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:59:59.538+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T22:59:59.568+0200] {logging_mixin.py:190} INFO - [2026-09-17T22:59:59.568+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T22:59:59.578+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.228 seconds
+[2026-09-17T23:16:46.395+0200] {processor.py:186} INFO - Started process (PID=98194) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T23:16:46.396+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T23:16:46.396+0200] {logging_mixin.py:190} INFO - [2026-09-17T23:16:46.396+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T23:16:46.579+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T23:16:46.608+0200] {logging_mixin.py:190} INFO - [2026-09-17T23:16:46.608+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T23:16:46.617+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.223 seconds
+[2026-09-17T23:48:43.305+0200] {processor.py:186} INFO - Started process (PID=98383) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T23:48:43.306+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-17T23:48:43.306+0200] {logging_mixin.py:190} INFO - [2026-09-17T23:48:43.306+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T23:48:43.488+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-17T23:48:43.517+0200] {logging_mixin.py:190} INFO - [2026-09-17T23:48:43.517+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-17T23:48:43.527+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.222 seconds
+[2026-09-18T00:00:45.656+0200] {processor.py:186} INFO - Started process (PID=98615) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:00:45.657+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-18T00:00:45.657+0200] {logging_mixin.py:190} INFO - [2026-09-18T00:00:45.657+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:00:45.840+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:00:45.870+0200] {logging_mixin.py:190} INFO - [2026-09-18T00:00:45.870+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T00:00:45.879+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.224 seconds
+[2026-09-18T00:20:42.273+0200] {processor.py:186} INFO - Started process (PID=98788) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:20:42.273+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-18T00:20:42.273+0200] {logging_mixin.py:190} INFO - [2026-09-18T00:20:42.273+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:20:42.462+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:20:42.494+0200] {logging_mixin.py:190} INFO - [2026-09-18T00:20:42.494+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T00:20:42.504+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.232 seconds
+[2026-09-18T00:26:14.631+0200] {processor.py:186} INFO - Started process (PID=99021) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:26:14.631+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-18T00:26:14.631+0200] {logging_mixin.py:190} INFO - [2026-09-18T00:26:14.631+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:26:14.813+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:26:14.843+0200] {logging_mixin.py:190} INFO - [2026-09-18T00:26:14.843+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T00:26:14.852+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.223 seconds
+[2026-09-18T00:31:12.906+0200] {processor.py:186} INFO - Started process (PID=99189) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:31:12.906+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-18T00:31:12.906+0200] {logging_mixin.py:190} INFO - [2026-09-18T00:31:12.906+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:31:13.089+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:31:13.119+0200] {logging_mixin.py:190} INFO - [2026-09-18T00:31:13.118+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T00:31:13.128+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.223 seconds
+[2026-09-18T00:36:28.165+0200] {processor.py:186} INFO - Started process (PID=99341) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:36:28.166+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-18T00:36:28.166+0200] {logging_mixin.py:190} INFO - [2026-09-18T00:36:28.166+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:36:28.347+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:36:28.377+0200] {logging_mixin.py:190} INFO - [2026-09-18T00:36:28.377+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T00:36:28.387+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.222 seconds
+[2026-09-18T00:41:47.034+0200] {processor.py:186} INFO - Started process (PID=99510) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:41:47.034+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-18T00:41:47.034+0200] {logging_mixin.py:190} INFO - [2026-09-18T00:41:47.034+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:41:47.219+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:41:47.275+0200] {logging_mixin.py:190} INFO - [2026-09-18T00:41:47.275+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T00:41:47.284+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.251 seconds
+[2026-09-18T00:46:18.042+0200] {processor.py:186} INFO - Started process (PID=99685) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:46:18.042+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-18T00:46:18.043+0200] {logging_mixin.py:190} INFO - [2026-09-18T00:46:18.043+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:46:18.223+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:46:18.254+0200] {logging_mixin.py:190} INFO - [2026-09-18T00:46:18.253+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T00:46:18.263+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.222 seconds
+[2026-09-18T00:51:05.510+0200] {processor.py:186} INFO - Started process (PID=99847) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:51:05.511+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-18T00:51:05.511+0200] {logging_mixin.py:190} INFO - [2026-09-18T00:51:05.511+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:51:05.693+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:51:05.723+0200] {logging_mixin.py:190} INFO - [2026-09-18T00:51:05.723+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T00:51:05.732+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.223 seconds
+[2026-09-18T00:52:27.102+0200] {processor.py:186} INFO - Started process (PID=113) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:52:27.103+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-18T00:52:27.103+0200] {logging_mixin.py:190} INFO - [2026-09-18T00:52:27.103+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:52:27.283+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:52:27.313+0200] {logging_mixin.py:190} INFO - [2026-09-18T00:52:27.313+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T00:52:27.323+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.222 seconds
+[2026-09-18T00:55:56.740+0200] {processor.py:186} INFO - Started process (PID=255) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:55:56.740+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-18T00:55:56.741+0200] {logging_mixin.py:190} INFO - [2026-09-18T00:55:56.741+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:55:56.923+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:55:56.953+0200] {logging_mixin.py:190} INFO - [2026-09-18T00:55:56.953+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T00:55:56.961+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.222 seconds
+[2026-09-18T00:57:16.352+0200] {processor.py:186} INFO - Started process (PID=453) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:57:16.353+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-18T00:57:16.353+0200] {logging_mixin.py:190} INFO - [2026-09-18T00:57:16.353+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:57:16.538+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T00:57:16.570+0200] {logging_mixin.py:190} INFO - [2026-09-18T00:57:16.570+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T00:57:16.579+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.228 seconds
+[2026-09-18T01:05:59.385+0200] {processor.py:186} INFO - Started process (PID=617) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T01:05:59.385+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-18T01:05:59.385+0200] {logging_mixin.py:190} INFO - [2026-09-18T01:05:59.385+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T01:05:59.579+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T01:05:59.611+0200] {logging_mixin.py:190} INFO - [2026-09-18T01:05:59.611+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T01:05:59.620+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.237 seconds
+[2026-09-18T01:07:16.241+0200] {processor.py:186} INFO - Started process (PID=823) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T01:07:16.242+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-18T01:07:16.242+0200] {logging_mixin.py:190} INFO - [2026-09-18T01:07:16.242+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T01:07:16.423+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T01:07:16.454+0200] {logging_mixin.py:190} INFO - [2026-09-18T01:07:16.454+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T01:07:16.463+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.223 seconds
+[2026-09-18T01:08:22.836+0200] {processor.py:186} INFO - Started process (PID=1350) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T01:08:22.837+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py for tasks to queue
+[2026-09-18T01:08:22.837+0200] {logging_mixin.py:190} INFO - [2026-09-18T01:08:22.837+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T01:08:23.024+0200] {processor.py:925} INFO - DAG(s) 'mini_riskagent_file_ingestion' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py
+[2026-09-18T01:08:23.056+0200] {logging_mixin.py:190} INFO - [2026-09-18T01:08:23.056+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-18T01:08:23.066+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/data_ingest_pipeline.py took 0.230 seconds

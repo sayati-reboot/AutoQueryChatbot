@@ -1,0 +1,101 @@
+cust_id,country_of_residence,country_of_birth,date_of_birth,record_arrival_date
+1,India,United Kingdom,1980-04-10,2026-08-02
+2,United Kingdom,Canada,1980-07-19,2026-08-03
+3,Canada,Australia,1980-10-27,2026-08-04
+4,Australia,India,1981-02-04,2026-08-05
+5,India,United States,1981-05-15,2026-08-06
+6,United States,United Kingdom,1981-08-23,2026-08-07
+7,United Kingdom,Canada,1981-12-01,2026-08-08
+8,Canada,Australia,1982-03-11,2026-08-09
+9,Australia,India,1982-06-19,2026-08-10
+10,India,United States,1982-09-27,2026-08-01
+11,United States,United Kingdom,1983-01-05,2026-08-02
+12,United Kingdom,Canada,1983-04-15,2026-08-03
+13,Canada,Australia,1983-07-24,2026-08-04
+14,Australia,India,1983-11-01,2026-08-05
+15,India,United States,1984-02-09,2026-08-06
+16,United States,United Kingdom,1984-05-19,2026-08-07
+17,United Kingdom,Canada,1984-08-27,2026-08-08
+18,Canada,Australia,1984-12-05,2026-08-09
+19,Australia,India,1985-03-15,2026-08-10
+20,India,United States,1985-06-23,2026-08-01
+21,United States,United Kingdom,1985-10-01,2026-08-02
+22,United Kingdom,Canada,1986-01-09,2026-08-03
+23,Canada,Australia,1986-04-19,2026-08-04
+24,Australia,India,1986-07-28,2026-08-05
+25,India,United States,1986-11-05,2026-08-06
+26,United States,United Kingdom,1987-02-13,2026-08-07
+27,United Kingdom,Canada,1987-05-24,2026-08-08
+28,Canada,Australia,1987-09-01,2026-08-09
+29,Australia,India,1987-12-10,2026-08-10
+30,India,United States,1988-03-19,2026-08-01
+31,United States,United Kingdom,1988-06-27,2026-08-02
+32,United Kingdom,Canada,1988-10-05,2026-08-03
+33,Canada,Australia,1989-01-13,2026-08-04
+34,Australia,India,1989-04-23,2026-08-05
+35,India,United States,1989-08-01,2026-08-06
+36,United States,United Kingdom,1989-11-09,2026-08-07
+37,United Kingdom,Canada,1990-02-17,2026-08-08
+38,Canada,Australia,1990-05-28,2026-08-09
+39,Australia,India,1990-09-05,2026-08-10
+40,India,United States,1990-12-14,2026-08-01
+41,United States,United Kingdom,1991-03-24,2026-08-02
+42,United Kingdom,Canada,1991-07-02,2026-08-03
+43,Canada,Australia,1991-10-10,2026-08-04
+44,Australia,India,1992-01-18,2026-08-05
+45,India,United States,1992-04-27,2026-08-06
+46,United States,United Kingdom,1992-08-05,2026-08-07
+47,United Kingdom,Canada,1992-11-13,2026-08-08
+48,Canada,Australia,1993-02-21,2026-08-09
+49,Australia,India,1993-06-01,2026-08-10
+50,India,United States,1993-09-09,2026-08-01
+51,United States,United Kingdom,1993-12-18,2026-08-02
+52,United Kingdom,Canada,1994-03-28,2026-08-03
+53,Canada,Australia,1994-07-06,2026-08-04
+54,Australia,India,1994-10-14,2026-08-05
+55,India,United States,1995-01-22,2026-08-06
+56,United States,United Kingdom,1995-05-02,2026-08-07
+57,United Kingdom,Canada,1995-08-10,2026-08-08
+58,Canada,Australia,1995-11-18,2026-08-09
+59,Australia,India,1996-02-26,2026-08-10
+60,India,United States,1996-06-05,2026-08-01
+61,United States,United Kingdom,1996-09-13,2026-08-02
+62,United Kingdom,Canada,1996-12-22,2026-08-03
+63,Canada,Australia,1997-04-01,2026-08-04
+64,Australia,India,1997-07-10,2026-08-05
+65,India,United States,1997-10-18,2026-08-06
+66,United States,United Kingdom,1998-01-26,2026-08-07
+67,United Kingdom,Canada,1998-05-06,2026-08-08
+68,Canada,Australia,1998-08-14,2026-08-09
+69,Australia,India,1998-11-22,2026-08-10
+70,India,United States,1999-03-02,2026-08-01
+71,United States,United Kingdom,1999-06-10,2026-08-02
+72,United Kingdom,Canada,1999-09-18,2026-08-03
+73,Canada,Australia,1999-12-27,2026-08-04
+74,Australia,India,2000-04-05,2026-08-05
+75,India,United States,2000-07-14,2026-08-06
+76,United States,United Kingdom,2000-10-22,2026-08-07
+77,United Kingdom,Canada,2001-01-30,2026-08-08
+78,Canada,Australia,2001-05-10,2026-08-09
+79,Australia,India,2001-08-18,2026-08-10
+80,India,United States,2001-11-26,2026-08-01
+81,United States,United Kingdom,2002-03-06,2026-08-02
+82,United Kingdom,Canada,2002-06-14,2026-08-03
+83,Canada,Australia,2002-09-22,2026-08-04
+84,Australia,India,2002-12-31,2026-08-05
+85,India,United States,2003-04-10,2026-08-06
+86,United States,United Kingdom,2003-07-19,2026-08-07
+87,United Kingdom,Canada,2003-10-27,2026-08-08
+88,Canada,Australia,2004-02-04,2026-08-09
+89,Australia,India,2004-05-14,2026-08-10
+90,India,United States,2004-08-22,2026-08-01
+91,United States,United Kingdom,2004-11-30,2026-08-02
+92,United Kingdom,Canada,2005-03-10,2026-08-03
+93,Canada,Australia,2005-06-18,2026-08-04
+94,Australia,India,2005-09-26,2026-08-05
+95,India,United States,2006-01-04,2026-08-06
+96,United States,United Kingdom,2006-04-14,2026-08-07
+97,United Kingdom,Canada,2006-07-23,2026-08-08
+98,Canada,Australia,2006-10-31,2026-08-09
+99,Australia,India,2007-02-08,2026-08-10
+100,India,United States,2007-05-19,2026-08-01

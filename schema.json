@@ -1,40 +1,36 @@
 {
 	"tables": [
 		{
-			"table_name": "customer",
+			"table_name": "customer_stage",
 			"columns": [
 				{
-					"name": "custid",
+					"name": "cust_id",
 					"type": "INTEGER"
 				},
 				{
-					"name": "country",
+					"name": "country_of_residence",
 					"type": "VARCHAR"
 				},
 				{
-					"name": "transaction_id",
-					"type": "BIGINT"
-				},
-				{
-					"name": "name",
+					"name": "country_of_birth",
 					"type": "VARCHAR"
 				},
 				{
-					"name": "dateof_birth",
+					"name": "date_of_birth",
+					"type": "DATE"
+				},
+				{
+					"name": "record_arrival_date",
 					"type": "DATE"
 				}
 			]
 		},
 		{
-			"table_name": "transaction_details",
+			"table_name": "transaction_stage",
 			"columns": [
 				{
 					"name": "transaction_id",
 					"type": "BIGINT"
-				},
-				{
-					"name": "customer_id",
-					"type": "INTEGER"
 				},
 				{
 					"name": "amount",
@@ -49,9 +45,84 @@
 					"type": "VARCHAR"
 				},
 				{
-					"name": "target_country",
+					"name": "destination_country",
 					"type": "VARCHAR"
+				},
+				{
+					"name": "account_id",
+					"type": "BIGINT"
+				},
+				{
+					"name": "transaction_date",
+					"type": "DATE"
+				},
+				{
+					"name": "record_arrival_date",
+					"type": "DATE"
 				}
+			]
+		},
+		{
+			"table_name": "account_stage",
+			"columns": [
+				{
+					"name": "account_id",
+					"type": "BIGINT"
+				},
+				{
+					"name": "account_number",
+					"type": "VARCHAR"
+				},
+				{
+					"name": "customer_id",
+					"type": "INTEGER"
+				},
+				{
+					"name": "customer_type",
+					"type": "VARCHAR"
+				},
+				{
+					"name": "account_status",
+					"type": "VARCHAR"
+				},
+				{
+					"name": "record_arrival_date",
+					"type": "DATE"
+				}
+			]
+		},
+		{
+			"table_name": "customer_dim",
+			"columns": [
+				{"name": "cust_id", "type": "INTEGER"},
+				{"name": "country_of_residence", "type": "VARCHAR"},
+				{"name": "country_of_birth", "type": "VARCHAR"},
+				{"name": "date_of_birth", "type": "DATE"},
+				{"name": "record_arrival_date", "type": "DATE"}
+			]
+		},
+		{
+			"table_name": "account_dim",
+			"columns": [
+				{"name": "account_id", "type": "BIGINT"},
+				{"name": "account_number", "type": "VARCHAR"},
+				{"name": "customer_id", "type": "INTEGER"},
+				{"name": "customer_type", "type": "VARCHAR"},
+				{"name": "account_status", "type": "VARCHAR"},
+				{"name": "record_arrival_date", "type": "DATE"}
+			]
+		},
+		{
+			"table_name": "transaction_fact",
+			"columns": [
+				{"name": "transaction_id", "type": "BIGINT"},
+				{"name": "amount", "type": "DECIMAL(18, 2)"},
+				{"name": "type", "type": "VARCHAR"},
+				{"name": "originating_country", "type": "VARCHAR"},
+				{"name": "destination_country", "type": "VARCHAR"},
+				{"name": "account_id", "type": "BIGINT"},
+				{"name": "transaction_date", "type": "DATE"},
+				{"name": "record_arrival_date", "type": "DATE"}
 			]
 		}
 	]

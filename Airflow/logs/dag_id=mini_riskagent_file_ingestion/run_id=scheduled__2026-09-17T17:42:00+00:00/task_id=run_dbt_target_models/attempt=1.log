@@ -1,0 +1,47 @@
+[2026-09-17T19:44:25.801+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-09-17T19:44:25.805+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mini_riskagent_file_ingestion.run_dbt_target_models scheduled__2026-09-17T17:42:00+00:00 [queued]>
+[2026-09-17T19:44:25.807+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mini_riskagent_file_ingestion.run_dbt_target_models scheduled__2026-09-17T17:42:00+00:00 [queued]>
+[2026-09-17T19:44:25.807+0200] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-09-17T19:44:25.810+0200] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): run_dbt_target_models> on 2026-09-17 17:42:00+00:00
+[2026-09-17T19:44:25.815+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'mini_riskagent_file_ingestion', 'run_dbt_target_models', 'scheduled__2026-09-17T17:42:00+00:00', '--job-id', '3666', '--raw', '--subdir', 'DAGS_FOLDER/data_ingest_pipeline.py', '--cfg-path', '/var/folders/5p/201rr1sj03g8gksxm9x48mbh0000gn/T/tmp__o5un46']
+[2026-09-17T19:44:25.815+0200] {standard_task_runner.py:105} INFO - Job 3666: Subtask run_dbt_target_models
+[2026-09-17T19:44:25.816+0200] {logging_mixin.py:190} WARNING - /Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=78392) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-09-17T19:44:25.816+0200] {standard_task_runner.py:72} INFO - Started process 78394 to run task
+[2026-09-17T19:44:25.830+0200] {task_command.py:467} INFO - Running <TaskInstance: mini_riskagent_file_ingestion.run_dbt_target_models scheduled__2026-09-17T17:42:00+00:00 [running]> on host mac.home
+[2026-09-17T19:44:25.847+0200] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='autoquery' AIRFLOW_CTX_DAG_ID='mini_riskagent_file_ingestion' AIRFLOW_CTX_TASK_ID='run_dbt_target_models' AIRFLOW_CTX_EXECUTION_DATE='2026-09-17T17:42:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-09-17T17:42:00+00:00'
+[2026-09-17T19:44:25.847+0200] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-09-17T19:44:25.847+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-09-17T19:44:25.847+0200] {logging_mixin.py:190} INFO - Current task name:run_dbt_target_models state:running start_date:2026-09-17 17:44:25.805353+00:00
+[2026-09-17T19:44:25.848+0200] {logging_mixin.py:190} INFO - Dag name:mini_riskagent_file_ingestion and current dag run status:running
+[2026-09-17T19:44:25.848+0200] {taskinstance.py:732} INFO - ::endgroup::
+[2026-09-17T19:44:25.848+0200] {subprocess.py:78} INFO - Tmp dir root location: /var/folders/5p/201rr1sj03g8gksxm9x48mbh0000gn/T
+[2026-09-17T19:44:25.849+0200] {subprocess.py:88} INFO - Running command: ['/bin/bash', '-c', '/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/bin/dbt run --project-dir /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt --profiles-dir /Users/swarnalidatta/.dbt --select path:models/target']
+[2026-09-17T19:44:25.851+0200] {subprocess.py:99} INFO - Output:
+[2026-09-17T19:44:26.529+0200] {subprocess.py:106} INFO - [0m17:44:26  Running with dbt=1.12.3
+[2026-09-17T19:44:26.645+0200] {subprocess.py:106} INFO - [0m17:44:26  Registered adapter: duckdb=1.11.0
+[2026-09-17T19:44:26.853+0200] {subprocess.py:106} INFO - [0m17:44:26  Found 6 models, 3 snapshots, 3 sources, 500 macros
+[2026-09-17T19:44:26.854+0200] {subprocess.py:106} INFO - [0m17:44:26
+[2026-09-17T19:44:26.854+0200] {subprocess.py:106} INFO - [0m17:44:26  Concurrency: 1 threads (target='dev')
+[2026-09-17T19:44:26.854+0200] {subprocess.py:106} INFO - [0m17:44:26
+[2026-09-17T19:44:26.897+0200] {subprocess.py:106} INFO - [0m17:44:26  1 of 3 START sql table model main.account_dim .................................. [RUN]
+[2026-09-17T19:44:26.940+0200] {subprocess.py:106} INFO - [0m17:44:26  1 of 3 OK created sql table model main.account_dim ............................. [[32mOK[0m in 0.04s]
+[2026-09-17T19:44:26.941+0200] {subprocess.py:106} INFO - [0m17:44:26  2 of 3 START sql table model main.customer_dim ................................. [RUN]
+[2026-09-17T19:44:26.951+0200] {subprocess.py:106} INFO - [0m17:44:26  2 of 3 OK created sql table model main.customer_dim ............................ [[32mOK[0m in 0.01s]
+[2026-09-17T19:44:26.951+0200] {subprocess.py:106} INFO - [0m17:44:26  3 of 3 START sql table model main.transaction_fact ............................. [RUN]
+[2026-09-17T19:44:26.961+0200] {subprocess.py:106} INFO - [0m17:44:26  3 of 3 OK created sql table model main.transaction_fact ........................ [[32mOK[0m in 0.01s]
+[2026-09-17T19:44:26.963+0200] {subprocess.py:106} INFO - [0m17:44:26
+[2026-09-17T19:44:26.963+0200] {subprocess.py:106} INFO - [0m17:44:26  Finished running 3 table models in 0 hours 0 minutes and 0.11 seconds (0.11s).
+[2026-09-17T19:44:26.985+0200] {subprocess.py:106} INFO - [0m17:44:26
+[2026-09-17T19:44:26.985+0200] {subprocess.py:106} INFO - [0m17:44:26  [32mCompleted successfully[0m
+[2026-09-17T19:44:26.985+0200] {subprocess.py:106} INFO - [0m17:44:26
+[2026-09-17T19:44:26.985+0200] {subprocess.py:106} INFO - [0m17:44:26  Done. PASS=3 WARN=0 ERROR=0 SKIP=0 NO-OP=0 REUSED=0 TOTAL=3
+[2026-09-17T19:44:27.623+0200] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-09-17T19:44:27.629+0200] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-09-17T19:44:27.630+0200] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=mini_riskagent_file_ingestion, task_id=run_dbt_target_models, run_id=scheduled__2026-09-17T17:42:00+00:00, execution_date=20260917T174200, start_date=20260917T174425, end_date=20260917T174427
+[2026-09-17T19:44:27.634+0200] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-09-17T19:44:27.634+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-09-17T19:44:27.634+0200] {logging_mixin.py:190} INFO - Dag name:mini_riskagent_file_ingestion queued_at:2026-09-17 17:43:07.822457+00:00
+[2026-09-17T19:44:27.635+0200] {logging_mixin.py:190} INFO - Task hostname:mac.home operator:BashOperator
+[2026-09-17T19:44:27.675+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-09-17T19:44:27.679+0200] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-09-17T19:44:27.679+0200] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,47 @@
+[2026-09-05T20:28:59.396+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-09-05T20:28:59.400+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mini_riskagent_file_ingestion.run_dbt_snapshots scheduled__2026-09-05T18:26:00+00:00 [queued]>
+[2026-09-05T20:28:59.401+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mini_riskagent_file_ingestion.run_dbt_snapshots scheduled__2026-09-05T18:26:00+00:00 [queued]>
+[2026-09-05T20:28:59.402+0200] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-09-05T20:28:59.405+0200] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): run_dbt_snapshots> on 2026-09-05 18:26:00+00:00
+[2026-09-05T20:28:59.409+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'mini_riskagent_file_ingestion', 'run_dbt_snapshots', 'scheduled__2026-09-05T18:26:00+00:00', '--job-id', '2768', '--raw', '--subdir', 'DAGS_FOLDER/data_ingest_pipeline.py', '--cfg-path', '/var/folders/5p/201rr1sj03g8gksxm9x48mbh0000gn/T/tmp_mlj95xa']
+[2026-09-05T20:28:59.410+0200] {standard_task_runner.py:105} INFO - Job 2768: Subtask run_dbt_snapshots
+[2026-09-05T20:28:59.411+0200] {logging_mixin.py:190} WARNING - /Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=47528) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-09-05T20:28:59.411+0200] {standard_task_runner.py:72} INFO - Started process 47530 to run task
+[2026-09-05T20:28:59.424+0200] {task_command.py:467} INFO - Running <TaskInstance: mini_riskagent_file_ingestion.run_dbt_snapshots scheduled__2026-09-05T18:26:00+00:00 [running]> on host mac.home
+[2026-09-05T20:28:59.440+0200] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='autoquery' AIRFLOW_CTX_DAG_ID='mini_riskagent_file_ingestion' AIRFLOW_CTX_TASK_ID='run_dbt_snapshots' AIRFLOW_CTX_EXECUTION_DATE='2026-09-05T18:26:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-09-05T18:26:00+00:00'
+[2026-09-05T20:28:59.441+0200] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-09-05T20:28:59.441+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-09-05T20:28:59.441+0200] {logging_mixin.py:190} INFO - Current task name:run_dbt_snapshots state:running start_date:2026-09-05 18:28:59.400250+00:00
+[2026-09-05T20:28:59.441+0200] {logging_mixin.py:190} INFO - Dag name:mini_riskagent_file_ingestion and current dag run status:running
+[2026-09-05T20:28:59.442+0200] {taskinstance.py:732} INFO - ::endgroup::
+[2026-09-05T20:28:59.442+0200] {subprocess.py:78} INFO - Tmp dir root location: /var/folders/5p/201rr1sj03g8gksxm9x48mbh0000gn/T
+[2026-09-05T20:28:59.442+0200] {subprocess.py:88} INFO - Running command: ['/bin/bash', '-c', '/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/bin/dbt snapshot --project-dir /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt --profiles-dir /Users/swarnalidatta/.dbt']
+[2026-09-05T20:28:59.445+0200] {subprocess.py:99} INFO - Output:
+[2026-09-05T20:29:00.124+0200] {subprocess.py:106} INFO - [0m18:29:00  Running with dbt=1.12.3
+[2026-09-05T20:29:00.241+0200] {subprocess.py:106} INFO - [0m18:29:00  Registered adapter: duckdb=1.11.0
+[2026-09-05T20:29:00.452+0200] {subprocess.py:106} INFO - [0m18:29:00  Found 6 models, 3 snapshots, 3 sources, 500 macros
+[2026-09-05T20:29:00.453+0200] {subprocess.py:106} INFO - [0m18:29:00
+[2026-09-05T20:29:00.453+0200] {subprocess.py:106} INFO - [0m18:29:00  Concurrency: 1 threads (target='dev')
+[2026-09-05T20:29:00.453+0200] {subprocess.py:106} INFO - [0m18:29:00
+[2026-09-05T20:29:00.495+0200] {subprocess.py:106} INFO - [0m18:29:00  1 of 3 START snapshot main.account_snapshot .................................... [RUN]
+[2026-09-05T20:29:00.578+0200] {subprocess.py:106} INFO - [0m18:29:00  1 of 3 OK snapshotted main.account_snapshot .................................... [[32mOK[0m in 0.08s]
+[2026-09-05T20:29:00.579+0200] {subprocess.py:106} INFO - [0m18:29:00  2 of 3 START snapshot main.customer_snapshot ................................... [RUN]
+[2026-09-05T20:29:00.599+0200] {subprocess.py:106} INFO - [0m18:29:00  2 of 3 OK snapshotted main.customer_snapshot ................................... [[32mOK[0m in 0.02s]
+[2026-09-05T20:29:00.600+0200] {subprocess.py:106} INFO - [0m18:29:00  3 of 3 START snapshot main.transaction_snapshot ................................ [RUN]
+[2026-09-05T20:29:00.620+0200] {subprocess.py:106} INFO - [0m18:29:00  3 of 3 OK snapshotted main.transaction_snapshot ................................ [[32mOK[0m in 0.02s]
+[2026-09-05T20:29:00.622+0200] {subprocess.py:106} INFO - [0m18:29:00
+[2026-09-05T20:29:00.622+0200] {subprocess.py:106} INFO - [0m18:29:00  Finished running 3 snapshots in 0 hours 0 minutes and 0.17 seconds (0.17s).
+[2026-09-05T20:29:00.643+0200] {subprocess.py:106} INFO - [0m18:29:00
+[2026-09-05T20:29:00.644+0200] {subprocess.py:106} INFO - [0m18:29:00  [32mCompleted successfully[0m
+[2026-09-05T20:29:00.644+0200] {subprocess.py:106} INFO - [0m18:29:00
+[2026-09-05T20:29:00.644+0200] {subprocess.py:106} INFO - [0m18:29:00  Done. PASS=3 WARN=0 ERROR=0 SKIP=0 NO-OP=0 REUSED=0 TOTAL=3
+[2026-09-05T20:29:01.240+0200] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-09-05T20:29:01.245+0200] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-09-05T20:29:01.246+0200] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=mini_riskagent_file_ingestion, task_id=run_dbt_snapshots, run_id=scheduled__2026-09-05T18:26:00+00:00, execution_date=20260905T182600, start_date=20260905T182859, end_date=20260905T182901
+[2026-09-05T20:29:01.250+0200] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-09-05T20:29:01.250+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-09-05T20:29:01.250+0200] {logging_mixin.py:190} INFO - Dag name:mini_riskagent_file_ingestion queued_at:2026-09-05 18:27:04.042782+00:00
+[2026-09-05T20:29:01.250+0200] {logging_mixin.py:190} INFO - Task hostname:mac.home operator:BashOperator
+[2026-09-05T20:29:01.272+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-09-05T20:29:01.278+0200] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-09-05T20:29:01.278+0200] {local_task_job_runner.py:245} INFO - ::endgroup::

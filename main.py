@@ -7,4 +7,8 @@ while True:
     if q.lower() == 'quit':
         break
     response = process_manager(q)
-    print(response)
+    if response["type"] == "text":
+        print(response["answer"])
+        print(f"\nSQL used:\n{response['query']}")
+    elif response["type"] == "file":
+        print(f"Report created: {response['report']}")

@@ -1,0 +1,135 @@
+version: 2
+
+models:
+  - name: metricflow_time_spine
+    description: Calendar table used for time-aware semantic queries.
+    time_spine:
+      standard_granularity_column: date_day
+    columns:
+      - name: date_day
+        granularity: day
+
+semantic_models:
+  - name: customer_profile
+    description: Current customer profile used as the factual input for customer risk assessment.
+    model: ref('customer_dim')
+    defaults:
+      agg_time_dimension: record_arrival_date
+    entities:
+      - name: customer
+        type: primary
+        expr: cust_id
+    dimensions:
+      - name: country_of_residence
+        description: Country in which the customer currently resides.
+        type: categorical
+      - name: country_of_birth
+        description: Country in which the customer was born.
+        type: categorical
+      - name: record_arrival_date
+        description: Date on which the current customer record arrived.
+        type: time
+        type_params:
+          time_granularity: day
+    measures:
+      - name: customer_count
+        description: Number of current customer records.
+        agg: count
+        expr: cust_id
+
+  - name: account_profile
+    description: Current account profile and its relationship to a customer.
+    model: ref('account_dim')
+    defaults:
+      agg_time_dimension: record_arrival_date
+    entities:
+      - name: account
+        type: primary
+        expr: account_id
+      - name: customer
+        type: foreign
+        expr: customer_id
+    dimensions:
+      - name: account_status
+        description: Current status of the account.
+        type: categorical
+      - name: customer_type
+        description: Customer type associated with the account.
+        type: categorical
+      - name: record_arrival_date
+        description: Date on which the current account record arrived.
+        type: time
+        type_params:
+          time_granularity: day
+    measures:
+      - name: account_count
+        description: Number of current account records.
+        agg: count
+        expr: account_id
+
+  - name: transaction_activity
+    description: Current transaction activity and its account relationship for factual analysis.
+    model: ref('transaction_fact')
+    defaults:
+      agg_time_dimension: record_arrival_date
+    entities:
+      - name: transaction
+        type: primary
+        expr: transaction_id
+      - name: account
+        type: foreign
+        expr: account_id
+    dimensions:
+      - name: transaction_type
+        description: Type of the transaction.
+        type: categorical
+        expr: type
+      - name: originating_country
+        description: Country from which the transaction originated.
+        type: categorical
+      - name: destination_country
+        description: Country to which the transaction was directed.
+        type: categorical
+      - name: transaction_date
+        description: Date on which the transaction occurred.
+        type: time
+        type_params:
+          time_granularity: day
+      - name: record_arrival_date
+        description: Date on which the current transaction record arrived.
+        type: time
+        type_params:
+          time_granularity: day
+      - name: cross_border
+        description: Indicates whether transaction origin and destination countries differ.
+        type: categorical
+        expr: case
+                when originating_country is not null
+                 and destination_country is not null
+                 and originating_country <> destination_country
+                then 'Y'
+                else 'N'
+              end
+    measures:
+      - name: transaction_count
+        description: Number of current transaction records.
+        agg: count
+        expr: transaction_id
+      - name: total_transaction_amount
+        description: Total amount across current transaction records.
+        agg: sum
+        expr: amount
+      - name: average_transaction_amount
+        description: Average amount across current transaction records.
+        agg: average
+        expr: amount
+      - name: cross_border_transaction_count
+        description: Number of cross-border transactions.
+        agg: sum
+        expr: case
+            when originating_country is not null
+             and destination_country is not null
+             and originating_country <> destination_country
+            then 1
+            else 0
+          end

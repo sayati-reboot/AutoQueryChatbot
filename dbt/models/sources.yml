@@ -1,0 +1,23 @@
+version: 1
+
+sources:
+  - name: customer_stage
+    description: "Customer stage table"
+    schema: main
+    tables:
+      - name: customer_stage
+        description: "Customer stage table"
+
+  - name: account_stage
+    description: "Account stage table"
+    schema: main
+    tables:
+      - name: account_stage
+        description: "Account stage table"
+
+  - name: transaction_stage
+    description: "Transaction stage table"
+    schema: main
+    tables:
+      - name: transaction_stage
+        description: "Transaction stage table"

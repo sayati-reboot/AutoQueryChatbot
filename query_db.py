@@ -1,12 +1,15 @@
+import pandas as pd
 import duckdb
 from config import DUCKDB_FILE
 
+
 def query_db(sql_query):
-    conn=duckdb.connect(DUCKDB_FILE)
+    connection = duckdb.connect(DUCKDB_FILE, read_only=True)
     try:
-        result=conn.execute(sql_query).fetchdf()
-        return result
-    except Exception:
-        raise
+        results = connection.execute(sql_query).fetchdf()
+        return {
+            "query": sql_query,
+            "results": results,
+        }
     finally:
-        conn.close()
+        connection.close()

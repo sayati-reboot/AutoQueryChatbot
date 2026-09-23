@@ -1,0 +1,365 @@
+[2026-09-22T16:00:23.053+0200] {processor.py:186} INFO - Started process (PID=38555) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:00:23.053+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:00:23.053+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:00:23.053+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:00:23.310+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:00:23.358+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:00:23.358+0200] {override.py:1912} INFO - Created Permission View: can edit on DAG:policy_document_indexing
+[2026-09-22T16:00:23.361+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:00:23.361+0200] {override.py:1912} INFO - Created Permission View: can delete on DAG:policy_document_indexing
+[2026-09-22T16:00:23.362+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:00:23.362+0200] {override.py:1912} INFO - Created Permission View: can read on DAG:policy_document_indexing
+[2026-09-22T16:00:23.364+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:00:23.364+0200] {override.py:1912} INFO - Created Permission View: can create on DAG Run:policy_document_indexing
+[2026-09-22T16:00:23.366+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:00:23.366+0200] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:policy_document_indexing
+[2026-09-22T16:00:23.367+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:00:23.367+0200] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:policy_document_indexing
+[2026-09-22T16:00:23.368+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:00:23.368+0200] {override.py:1912} INFO - Created Permission View: can read on DAG Run:policy_document_indexing
+[2026-09-22T16:00:23.369+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:00:23.369+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:00:23.372+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:00:23.372+0200] {dag.py:3262} INFO - Creating ORM DAG for policy_document_indexing
+[2026-09-22T16:00:23.375+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:00:23.375+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 13:55:00+00:00, run_after=2026-09-22 14:00:00+00:00
+[2026-09-22T16:00:23.379+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.328 seconds
+[2026-09-22T16:02:02.143+0200] {processor.py:186} INFO - Started process (PID=38780) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:02:02.144+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:02:02.145+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:02:02.144+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:02:02.401+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:02:02.427+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:02:02.427+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:02:02.432+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:02:02.432+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:00:00+00:00, run_after=2026-09-22 14:05:00+00:00
+[2026-09-22T16:02:02.437+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.295 seconds
+[2026-09-22T16:03:07.491+0200] {processor.py:186} INFO - Started process (PID=38926) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:03:07.491+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:03:07.492+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:03:07.492+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:03:07.723+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:03:07.750+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:03:07.750+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:03:07.755+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:03:07.755+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:00:00+00:00, run_after=2026-09-22 14:05:00+00:00
+[2026-09-22T16:03:07.760+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.270 seconds
+[2026-09-22T16:04:18.039+0200] {processor.py:186} INFO - Started process (PID=39083) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:04:18.039+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:04:18.039+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:04:18.039+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:04:18.274+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:04:18.301+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:04:18.301+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:04:18.307+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:04:18.307+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:00:00+00:00, run_after=2026-09-22 14:05:00+00:00
+[2026-09-22T16:04:18.312+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.274 seconds
+[2026-09-22T16:05:28.048+0200] {processor.py:186} INFO - Started process (PID=39250) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:05:28.049+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:05:28.049+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:05:28.049+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:05:28.276+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:05:28.302+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:05:28.302+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:05:28.308+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:05:28.308+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:05:00+00:00, run_after=2026-09-22 14:10:00+00:00
+[2026-09-22T16:05:28.313+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.265 seconds
+[2026-09-22T16:06:35.684+0200] {processor.py:186} INFO - Started process (PID=39403) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:06:35.684+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:06:35.685+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:06:35.685+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:06:35.913+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:06:35.939+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:06:35.939+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:06:35.944+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:06:35.944+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:05:00+00:00, run_after=2026-09-22 14:10:00+00:00
+[2026-09-22T16:06:35.949+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.266 seconds
+[2026-09-22T16:07:42.724+0200] {processor.py:186} INFO - Started process (PID=39548) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:07:42.724+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:07:42.724+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:07:42.724+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:07:42.951+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:07:42.977+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:07:42.977+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:07:42.982+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:07:42.982+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:05:00+00:00, run_after=2026-09-22 14:10:00+00:00
+[2026-09-22T16:07:42.987+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.264 seconds
+[2026-09-22T16:08:52.082+0200] {processor.py:186} INFO - Started process (PID=39701) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:08:52.083+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:08:52.083+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:08:52.083+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:08:52.311+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:08:52.338+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:08:52.338+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:08:52.343+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:08:52.343+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:05:00+00:00, run_after=2026-09-22 14:10:00+00:00
+[2026-09-22T16:08:52.348+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.267 seconds
+[2026-09-22T16:10:00.215+0200] {processor.py:186} INFO - Started process (PID=39850) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:10:00.215+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:10:00.216+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:10:00.216+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:10:00.445+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:10:00.472+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:10:00.472+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:10:00.477+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:10:00.477+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:05:00+00:00, run_after=2026-09-22 14:10:00+00:00
+[2026-09-22T16:10:00.482+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.268 seconds
+[2026-09-22T16:11:10.919+0200] {processor.py:186} INFO - Started process (PID=40063) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:11:10.919+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:11:10.920+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:11:10.920+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:11:11.149+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:11:11.175+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:11:11.175+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:11:11.181+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:11:11.181+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:10:00+00:00, run_after=2026-09-22 14:15:00+00:00
+[2026-09-22T16:11:11.185+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.267 seconds
+[2026-09-22T16:12:22.174+0200] {processor.py:186} INFO - Started process (PID=40234) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:12:22.174+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:12:22.175+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:12:22.174+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:12:22.404+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:12:22.430+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:12:22.430+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:12:22.435+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:12:22.435+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:10:00+00:00, run_after=2026-09-22 14:15:00+00:00
+[2026-09-22T16:12:22.440+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.267 seconds
+[2026-09-22T16:13:31.826+0200] {processor.py:186} INFO - Started process (PID=40434) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:13:31.826+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:13:31.826+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:13:31.826+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:13:32.053+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:13:32.079+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:13:32.079+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:13:32.084+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:13:32.084+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:10:00+00:00, run_after=2026-09-22 14:15:00+00:00
+[2026-09-22T16:13:32.089+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.264 seconds
+[2026-09-22T16:14:42.186+0200] {processor.py:186} INFO - Started process (PID=40605) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:14:42.186+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:14:42.186+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:14:42.186+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:14:42.428+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:14:42.454+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:14:42.454+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:14:42.460+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:14:42.459+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:10:00+00:00, run_after=2026-09-22 14:15:00+00:00
+[2026-09-22T16:14:42.464+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.280 seconds
+[2026-09-22T16:15:49.958+0200] {processor.py:186} INFO - Started process (PID=40766) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:15:49.958+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:15:49.959+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:15:49.959+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:15:50.184+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:15:50.210+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:15:50.210+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:15:50.216+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:15:50.216+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:15:00+00:00, run_after=2026-09-22 14:20:00+00:00
+[2026-09-22T16:15:50.221+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.264 seconds
+[2026-09-22T16:16:58.332+0200] {processor.py:186} INFO - Started process (PID=41091) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:16:58.333+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:16:58.333+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:16:58.333+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:16:58.568+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:16:58.595+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:16:58.595+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:16:58.601+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:16:58.600+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:15:00+00:00, run_after=2026-09-22 14:20:00+00:00
+[2026-09-22T16:16:58.606+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.275 seconds
+[2026-09-22T16:18:05.437+0200] {processor.py:186} INFO - Started process (PID=41283) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:18:05.437+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:18:05.438+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:18:05.437+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:18:05.668+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:18:05.695+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:18:05.695+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:18:05.700+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:18:05.700+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:15:00+00:00, run_after=2026-09-22 14:20:00+00:00
+[2026-09-22T16:18:05.705+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.270 seconds
+[2026-09-22T16:19:14.328+0200] {processor.py:186} INFO - Started process (PID=41456) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:19:14.328+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:19:14.328+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:19:14.328+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:19:14.554+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:19:14.580+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:19:14.580+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:19:14.586+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:19:14.586+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:15:00+00:00, run_after=2026-09-22 14:20:00+00:00
+[2026-09-22T16:19:14.591+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.264 seconds
+[2026-09-22T16:20:25.737+0200] {processor.py:186} INFO - Started process (PID=41628) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:20:25.737+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:20:25.738+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:20:25.738+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:20:25.964+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:20:25.991+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:20:25.991+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:20:25.996+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:20:25.996+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:20:00+00:00, run_after=2026-09-22 14:25:00+00:00
+[2026-09-22T16:20:26.001+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.265 seconds
+[2026-09-22T16:21:30.355+0200] {processor.py:186} INFO - Started process (PID=41783) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:21:30.355+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:21:30.356+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:21:30.356+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:21:30.584+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:21:30.611+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:21:30.611+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:21:30.616+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:21:30.616+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:20:00+00:00, run_after=2026-09-22 14:25:00+00:00
+[2026-09-22T16:21:30.621+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.267 seconds
+[2026-09-22T16:22:38.297+0200] {processor.py:186} INFO - Started process (PID=41940) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:22:38.297+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:22:38.297+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:22:38.297+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:22:38.527+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:22:38.553+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:22:38.553+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:22:38.559+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:22:38.559+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:20:00+00:00, run_after=2026-09-22 14:25:00+00:00
+[2026-09-22T16:22:38.564+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.268 seconds
+[2026-09-22T16:23:50.873+0200] {processor.py:186} INFO - Started process (PID=42098) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:23:50.874+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:23:50.874+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:23:50.874+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:23:51.104+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:23:51.131+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:23:51.131+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:23:51.136+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:23:51.136+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:20:00+00:00, run_after=2026-09-22 14:25:00+00:00
+[2026-09-22T16:23:51.141+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.269 seconds
+[2026-09-22T16:25:00.396+0200] {processor.py:186} INFO - Started process (PID=42709) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:25:00.397+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:25:00.397+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:25:00.397+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:25:00.622+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:25:00.648+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:25:00.648+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:25:00.653+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:25:00.653+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:20:00+00:00, run_after=2026-09-22 14:25:00+00:00
+[2026-09-22T16:25:00.658+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.263 seconds
+[2026-09-22T16:26:05.423+0200] {processor.py:186} INFO - Started process (PID=42864) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:26:05.424+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:26:05.424+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:26:05.424+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:26:05.653+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:26:05.680+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:26:05.680+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:26:05.685+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:26:05.685+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:25:00+00:00, run_after=2026-09-22 14:30:00+00:00
+[2026-09-22T16:26:05.690+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.268 seconds
+[2026-09-22T16:27:17.471+0200] {processor.py:186} INFO - Started process (PID=43019) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:27:17.471+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:27:17.471+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:27:17.471+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:27:17.697+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:27:17.723+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:27:17.723+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:27:17.729+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:27:17.729+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:25:00+00:00, run_after=2026-09-22 14:30:00+00:00
+[2026-09-22T16:27:17.734+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.265 seconds
+[2026-09-22T16:28:28.160+0200] {processor.py:186} INFO - Started process (PID=43665) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:28:28.160+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:28:28.161+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:28:28.161+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:28:28.383+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:28:28.409+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:28:28.409+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:28:28.415+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:28:28.415+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:25:00+00:00, run_after=2026-09-22 14:30:00+00:00
+[2026-09-22T16:28:28.420+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.261 seconds
+[2026-09-22T16:29:41.344+0200] {processor.py:186} INFO - Started process (PID=44149) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:29:41.346+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:29:41.346+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:29:41.346+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:29:41.605+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:29:41.631+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:29:41.631+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:29:41.637+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:29:41.637+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:25:00+00:00, run_after=2026-09-22 14:30:00+00:00
+[2026-09-22T16:29:41.642+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.298 seconds
+[2026-09-22T16:30:54.861+0200] {processor.py:186} INFO - Started process (PID=44317) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:30:54.862+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:30:54.862+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:30:54.862+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:30:55.088+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:30:55.114+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:30:55.114+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:30:55.120+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:30:55.120+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:30:00+00:00, run_after=2026-09-22 14:35:00+00:00
+[2026-09-22T16:30:55.125+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.265 seconds
+[2026-09-22T16:32:06.831+0200] {processor.py:186} INFO - Started process (PID=45264) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:32:06.832+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:32:06.833+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:32:06.833+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:32:07.058+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:32:07.084+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:32:07.084+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:32:07.090+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:32:07.090+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:30:00+00:00, run_after=2026-09-22 14:35:00+00:00
+[2026-09-22T16:32:07.095+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.265 seconds
+[2026-09-22T16:33:17.090+0200] {processor.py:186} INFO - Started process (PID=47198) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:33:17.091+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:33:17.091+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:33:17.091+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:33:17.320+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:33:17.347+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:33:17.347+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:33:17.353+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:33:17.353+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:30:00+00:00, run_after=2026-09-22 14:35:00+00:00
+[2026-09-22T16:33:17.358+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.269 seconds
+[2026-09-22T16:34:28.626+0200] {processor.py:186} INFO - Started process (PID=47682) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:34:28.627+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:34:28.627+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:34:28.627+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:34:28.853+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:34:28.879+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:34:28.879+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:34:28.885+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:34:28.885+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:30:00+00:00, run_after=2026-09-22 14:35:00+00:00
+[2026-09-22T16:34:28.890+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.265 seconds
+[2026-09-22T16:35:38.012+0200] {processor.py:186} INFO - Started process (PID=47844) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:35:38.013+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:35:38.013+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:35:38.013+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:35:38.239+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:35:38.266+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:35:38.266+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:35:38.272+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:35:38.271+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:35:00+00:00, run_after=2026-09-22 14:40:00+00:00
+[2026-09-22T16:35:38.277+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.265 seconds
+[2026-09-22T16:37:04.333+0200] {processor.py:186} INFO - Started process (PID=48009) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:37:04.334+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:37:04.334+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:37:04.334+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:37:04.576+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:37:04.605+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:37:04.605+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:37:04.612+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:37:04.612+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:35:00+00:00, run_after=2026-09-22 14:40:00+00:00
+[2026-09-22T16:37:04.618+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.286 seconds
+[2026-09-22T16:38:27.318+0200] {processor.py:186} INFO - Started process (PID=49067) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:38:27.319+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:38:27.319+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:38:27.319+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:38:27.635+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:38:27.668+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:38:27.668+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:38:27.675+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:38:27.675+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:35:00+00:00, run_after=2026-09-22 14:40:00+00:00
+[2026-09-22T16:38:27.681+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.365 seconds
+[2026-09-22T16:39:42.543+0200] {processor.py:186} INFO - Started process (PID=49619) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:39:42.545+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:39:42.545+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:39:42.545+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:39:42.817+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:39:42.843+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:39:42.843+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:39:42.850+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:39:42.850+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:35:00+00:00, run_after=2026-09-22 14:40:00+00:00
+[2026-09-22T16:39:42.855+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.313 seconds
+[2026-09-22T16:40:54.373+0200] {processor.py:186} INFO - Started process (PID=49793) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:40:54.374+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:40:54.374+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:40:54.374+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:40:54.618+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:40:54.646+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:40:54.646+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:40:54.652+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:40:54.652+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:40:00+00:00, run_after=2026-09-22 14:45:00+00:00
+[2026-09-22T16:40:54.657+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.285 seconds
+[2026-09-22T16:42:05.148+0200] {processor.py:186} INFO - Started process (PID=50902) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:42:05.149+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:42:05.149+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:42:05.149+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:42:05.374+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:42:05.401+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:42:05.400+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:42:05.406+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:42:05.406+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:40:00+00:00, run_after=2026-09-22 14:45:00+00:00
+[2026-09-22T16:42:05.411+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.264 seconds
+[2026-09-22T16:43:18.803+0200] {processor.py:186} INFO - Started process (PID=51868) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:43:18.804+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:43:18.804+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:43:18.804+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:43:19.028+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:43:19.054+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:43:19.054+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:43:19.060+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:43:19.060+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:40:00+00:00, run_after=2026-09-22 14:45:00+00:00
+[2026-09-22T16:43:19.065+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.263 seconds
+[2026-09-22T16:44:25.663+0200] {processor.py:186} INFO - Started process (PID=52020) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:44:25.664+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:44:25.664+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:44:25.664+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:44:25.890+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:44:25.916+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:44:25.916+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:44:25.922+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:44:25.922+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:40:00+00:00, run_after=2026-09-22 14:45:00+00:00
+[2026-09-22T16:44:25.927+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.265 seconds
+[2026-09-22T16:45:33.981+0200] {processor.py:186} INFO - Started process (PID=52935) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:45:33.981+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:45:33.982+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:45:33.982+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:45:34.224+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:45:34.252+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:45:34.252+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:45:34.258+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:45:34.258+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:45:00+00:00, run_after=2026-09-22 14:50:00+00:00
+[2026-09-22T16:45:34.263+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.284 seconds
+[2026-09-22T16:46:45.847+0200] {processor.py:186} INFO - Started process (PID=53149) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:46:45.848+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:46:45.848+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:46:45.848+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:46:46.105+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:46:46.131+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:46:46.131+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:46:46.137+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:46:46.137+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:45:00+00:00, run_after=2026-09-22 14:50:00+00:00
+[2026-09-22T16:46:46.141+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.296 seconds
+[2026-09-22T16:47:53.959+0200] {processor.py:186} INFO - Started process (PID=53304) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:47:53.960+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:47:53.960+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:47:53.960+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:47:54.219+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:47:54.246+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:47:54.245+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:47:54.251+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:47:54.251+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:45:00+00:00, run_after=2026-09-22 14:50:00+00:00
+[2026-09-22T16:47:54.256+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.298 seconds
+[2026-09-22T16:49:05.903+0200] {processor.py:186} INFO - Started process (PID=53470) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:49:05.904+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:49:05.904+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:49:05.904+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:49:06.168+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:49:06.195+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:49:06.195+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:49:06.201+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:49:06.201+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:45:00+00:00, run_after=2026-09-22 14:50:00+00:00
+[2026-09-22T16:49:06.205+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.304 seconds
+[2026-09-22T16:50:16.127+0200] {processor.py:186} INFO - Started process (PID=53632) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:50:16.128+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:50:16.129+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:50:16.129+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:50:16.351+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:50:16.377+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:50:16.377+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:50:16.383+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:50:16.383+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:50:00+00:00, run_after=2026-09-22 14:55:00+00:00
+[2026-09-22T16:50:16.388+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.262 seconds
+[2026-09-22T16:51:24.234+0200] {processor.py:186} INFO - Started process (PID=53786) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:51:24.234+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:51:24.235+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:51:24.235+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:51:24.475+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:51:24.501+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:51:24.501+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:51:24.507+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:51:24.507+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:50:00+00:00, run_after=2026-09-22 14:55:00+00:00
+[2026-09-22T16:51:24.512+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.279 seconds
+[2026-09-22T16:52:29.704+0200] {processor.py:186} INFO - Started process (PID=53935) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:52:29.704+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:52:29.705+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:52:29.705+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:52:29.934+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:52:29.960+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:52:29.960+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:52:29.966+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:52:29.966+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:50:00+00:00, run_after=2026-09-22 14:55:00+00:00
+[2026-09-22T16:52:29.971+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.268 seconds
+[2026-09-22T16:53:38.476+0200] {processor.py:186} INFO - Started process (PID=54101) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:53:38.477+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:53:38.477+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:53:38.477+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:53:38.750+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:53:38.776+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:53:38.776+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:53:38.782+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:53:38.782+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:50:00+00:00, run_after=2026-09-22 14:55:00+00:00
+[2026-09-22T16:53:38.787+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.313 seconds
+[2026-09-22T16:54:45.046+0200] {processor.py:186} INFO - Started process (PID=54257) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:54:45.046+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:54:45.046+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:54:45.046+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:54:45.275+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:54:45.302+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:54:45.302+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:54:45.308+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:54:45.308+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:50:00+00:00, run_after=2026-09-22 14:55:00+00:00
+[2026-09-22T16:54:45.313+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.268 seconds
+[2026-09-22T16:55:53.786+0200] {processor.py:186} INFO - Started process (PID=54417) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:55:53.787+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:55:53.787+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:55:53.787+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:55:54.012+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:55:54.038+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:55:54.038+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:55:54.044+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:55:54.044+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:55:00+00:00, run_after=2026-09-22 15:00:00+00:00
+[2026-09-22T16:55:54.049+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.264 seconds
+[2026-09-22T16:57:01.898+0200] {processor.py:186} INFO - Started process (PID=55768) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:57:01.898+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:57:01.898+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:57:01.898+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:57:02.124+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:57:02.150+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:57:02.150+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:57:02.156+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:57:02.156+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:55:00+00:00, run_after=2026-09-22 15:00:00+00:00
+[2026-09-22T16:57:02.161+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.264 seconds
+[2026-09-22T16:58:11.989+0200] {processor.py:186} INFO - Started process (PID=55921) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:58:11.989+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:58:11.989+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:58:11.989+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:58:12.213+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:58:12.240+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:58:12.240+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:58:12.245+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:58:12.245+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:55:00+00:00, run_after=2026-09-22 15:00:00+00:00
+[2026-09-22T16:58:12.250+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.263 seconds
+[2026-09-22T16:59:19.593+0200] {processor.py:186} INFO - Started process (PID=56080) to work on /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:59:19.593+0200] {processor.py:914} INFO - Processing file /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py for tasks to queue
+[2026-09-22T16:59:19.594+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:59:19.594+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:59:19.828+0200] {processor.py:925} INFO - DAG(s) 'policy_document_indexing' retrieved from /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py
+[2026-09-22T16:59:19.855+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:59:19.855+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-09-22T16:59:19.861+0200] {logging_mixin.py:190} INFO - [2026-09-22T16:59:19.861+0200] {dag.py:4180} INFO - Setting next_dagrun for policy_document_indexing to 2026-09-22 14:55:00+00:00, run_after=2026-09-22 15:00:00+00:00
+[2026-09-22T16:59:19.866+0200] {processor.py:208} INFO - Processing /Users/swarnalidatta/Desktop/AutoQueryChatbot/Airflow/DAG/policy_indexing_pipeline.py took 0.274 seconds

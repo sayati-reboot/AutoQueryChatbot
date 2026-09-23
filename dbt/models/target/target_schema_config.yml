@@ -1,0 +1,62 @@
+version: 1
+models:
+  - name: customer_dim
+    description: "Customer dimension model"
+    columns:
+      - name: cust_id
+        description: "Unique customer identifier"
+      - name: country_of_residence
+        description: "Customer's country of residence"
+      - name: country_of_birth
+        description: "Customer's country of birth"
+      - name: date_of_birth
+        description: "Customer's date of birth"
+      - name: record_arrival_date
+        description: "Date the record arrived"
+      - name: valid_from
+        description: "Start date of the record's validity"
+      - name: valid_to
+        description: "End date of the record's validity"
+      - name: active_flag
+        description: "Flag indicating if the record is currently active"
+  - name: account_dim
+    description: "Account dimension model"
+    columns:
+      - name: account_id
+        description: "Unique account identifier"
+      - name: cust_id
+        description: "Unique customer identifier"
+      - name: account_type
+        description: "Type of account"
+      - name: record_arrival_date
+        description: "Date the record arrived"
+      - name: valid_from
+        description: "Start date of the record's validity"
+      - name: valid_to
+        description: "End date of the record's validity"
+      - name: active_flag
+        description: "Flag indicating if the record is currently active"
+  - name: transaction_fact
+    description: "Transaction fact model"
+    columns:
+      - name: transaction_id
+        description: "Unique transaction identifier"
+      - name: amount
+        description: "Transaction amount"
+      - name: type
+        description: "Transaction type"
+      - name: originating_country
+        description: "Country where the transaction originated"
+      - name: destination_country
+        description: "Destination country"
+      - name: account_id
+        description: "Account associated with the transaction"    
+      - name: record_arrival_date 
+        description: "Date the record arrived"  
+      - name: valid_from
+        description: "Start date of the record's validity"
+      - name: valid_to
+        description: "End date of the record's validity"    
+      - name: active_flag
+        description: "Flag indicating if the record is currently active"
+      
