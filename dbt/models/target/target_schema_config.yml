@@ -8,10 +8,12 @@ models:
         description: "Unique customer identifier"
         meta:
           pii_classification: direct
+        tags: [pii_quasi]
       - name: customer_name
         description: "Customer's full name"
         meta:
           pii_classification: direct
+        tags: [pii_direct]
       - name: country_of_residence
         description: "Customer's country of residence"
         meta:
@@ -20,10 +22,12 @@ models:
         description: "Customer's country of birth"
         meta:
           pii_classification: quasi
+        tags: [pii_quasi]
       - name: date_of_birth
         description: "Customer's date of birth"
         meta:
           pii_classification: direct
+        tags: [pii_direct]
       - name: record_arrival_date
         description: "Date the record arrived"
         meta:
