@@ -20,6 +20,9 @@ semantic_models:
         type: primary
         expr: cust_id
     dimensions:
+      - name: customer_name
+        description: Customer's full name.
+        type: categorical
       - name: country_of_residence
         description: Country in which the customer currently resides.
         type: categorical

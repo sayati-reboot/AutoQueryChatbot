@@ -1,0 +1,23 @@
+source:
+  type: dbt
+  config:
+    manifest_path: /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/manifest.json
+    catalog_path: /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/catalog.json
+    run_results_paths:
+      - /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/run_results.json
+    target_platform: duckdb
+    target_platform_instance: miniriskagent_results_1
+    env: DEV
+    entities_enabled:
+      models: true
+      sources: true
+      snapshots: true
+      test_definitions: true
+      test_results: true
+      semantic_models: true
+      catalog_stats: true
+
+sink:
+  type: datahub-rest
+  config:
+    server: http://localhost:8080

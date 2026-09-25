@@ -65729,3 +65729,2510 @@ alter view "miniriskagent_results_1"."main"."transaction_fact__dbt_tmp" rename t
 [0m13:32:21.648894 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e22900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1070009e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106d57800>]}
 [0m13:32:21.649026 [debug] [MainThread]: Flushing usage events
 [0m13:32:22.045611 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:57:01.391633 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108e97590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109867770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1098674d0>]}
+
+
+============================== 19:57:01.394099 | a358e1f0-8ce1-4b8c-afdb-56b5a8d5187c ==============================
+[0m19:57:01.394099 [info ] [MainThread]: Running with dbt=1.12.3
+[0m19:57:01.394372 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'maximum_seed_size_mib': '1', 'cache_selected_only': 'False', 'profiles_dir': '/Users/swarnalidatta/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/logs', 'hints_enabled': 'True', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt parse --project-dir /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt --profiles-dir /Users/swarnalidatta/.dbt', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:57:01.568594 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a358e1f0-8ce1-4b8c-afdb-56b5a8d5187c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1070b41a0>]}
+[0m19:57:01.598584 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a358e1f0-8ce1-4b8c-afdb-56b5a8d5187c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1097e8800>]}
+[0m19:57:01.599886 [info ] [MainThread]: Registered adapter: duckdb=1.11.0
+[0m19:57:01.649588 [debug] [MainThread]: checksum: 7e052e4f5b4a9cf76d1b72e0f027c5b37042989bafc8e516b93cc1031831ee04, vars: {}, profile: miniriskagent_bankdb_dbt_profile, target: dev, version: 1.12.3
+[0m19:57:01.731729 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m19:57:01.732188 [debug] [MainThread]: Partial parsing: updated file: miniriskagent_bankdb_dbt_proj://models/target/target_schema_config.yml
+[0m19:57:02.001759 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a358e1f0-8ce1-4b8c-afdb-56b5a8d5187c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a277350>]}
+[0m19:57:02.003600 [info ] [MainThread]: Performance info: /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/perf_info.json
+[0m19:57:02.069385 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/manifest.json
+[0m19:57:02.071417 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/semantic_manifest.json
+[0m19:57:02.082171 [debug] [MainThread]: Wrote artifact OsiDocument to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/osi_document.json
+[0m19:57:02.084161 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a3efe00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a275640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109bbf6b0>]}
+[0m19:57:02.084398 [debug] [MainThread]: Flushing usage events
+[0m19:57:02.556842 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:16:07.164602 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b4b5c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b3ff740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b62a4b0>]}
+
+
+============================== 21:16:07.167042 | 69c85f29-4e1e-488f-84ac-b6d107505e5c ==============================
+[0m21:16:07.167042 [info ] [MainThread]: Running with dbt=1.12.3
+[0m21:16:07.167312 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'hints_enabled': 'True', 'maximum_seed_size_mib': '1', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/logs', 'version_check': 'True', 'partial_parse': 'True', 'profiles_dir': '/Users/swarnalidatta/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt docs generate --project-dir /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt --profiles-dir /Users/swarnalidatta/.dbt', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:16:07.330449 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '69c85f29-4e1e-488f-84ac-b6d107505e5c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f7d070>]}
+[0m21:16:07.360458 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '69c85f29-4e1e-488f-84ac-b6d107505e5c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b628170>]}
+[0m21:16:07.361808 [info ] [MainThread]: Registered adapter: duckdb=1.11.0
+[0m21:16:07.420039 [debug] [MainThread]: checksum: 7e052e4f5b4a9cf76d1b72e0f027c5b37042989bafc8e516b93cc1031831ee04, vars: {}, profile: miniriskagent_bankdb_dbt_profile, target: dev, version: 1.12.3
+[0m21:16:07.502130 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:16:07.502311 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m21:16:07.502411 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:16:07.506655 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '69c85f29-4e1e-488f-84ac-b6d107505e5c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10da83fb0>]}
+[0m21:16:07.537088 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '69c85f29-4e1e-488f-84ac-b6d107505e5c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b4ec2c0>]}
+[0m21:16:07.537267 [info ] [MainThread]: Found 7 models, 3 snapshots, 3 data tests, 3 sources, 500 macros, 3 semantic models
+[0m21:16:07.537398 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '69c85f29-4e1e-488f-84ac-b6d107505e5c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072046b0>]}
+[0m21:16:07.538301 [info ] [MainThread]: 
+[0m21:16:07.538425 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:16:07.538524 [info ] [MainThread]: 
+[0m21:16:07.538720 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m21:16:07.540630 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_miniriskagent_results_1_main'
+[0m21:16:07.592411 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1_main"
+[0m21:16:07.592564 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: BEGIN
+[0m21:16:07.592656 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:16:07.601443 [debug] [ThreadPool]: SQL status: OK in 0.009 seconds
+[0m21:16:07.601564 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1_main"
+[0m21:16:07.601673 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "list_miniriskagent_results_1_main"} */
+select
+      'miniriskagent_results_1' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'miniriskagent_results_1'
+  
+[0m21:16:07.607980 [debug] [ThreadPool]: SQL status: OK in 0.006 seconds
+[0m21:16:07.608599 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: ROLLBACK
+[0m21:16:07.608745 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: Close
+[0m21:16:07.609564 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '69c85f29-4e1e-488f-84ac-b6d107505e5c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d993b00>]}
+[0m21:16:07.610672 [debug] [Thread-1 (]: Began running node model.miniriskagent_bankdb_dbt_proj.account_latest
+[0m21:16:07.610815 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_miniriskagent_results_1_main, now model.miniriskagent_bankdb_dbt_proj.account_latest)
+[0m21:16:07.610930 [debug] [Thread-1 (]: Began compiling node model.miniriskagent_bankdb_dbt_proj.account_latest
+[0m21:16:07.613678 [debug] [Thread-1 (]: Writing injected SQL for node "model.miniriskagent_bankdb_dbt_proj.account_latest"
+[0m21:16:07.614115 [debug] [Thread-1 (]: Began executing node model.miniriskagent_bankdb_dbt_proj.account_latest
+[0m21:16:07.614350 [debug] [Thread-1 (]: Finished running node model.miniriskagent_bankdb_dbt_proj.account_latest
+[0m21:16:07.614477 [debug] [Thread-1 (]: Began running node model.miniriskagent_bankdb_dbt_proj.customer_latest
+[0m21:16:07.614627 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.miniriskagent_bankdb_dbt_proj.account_latest, now model.miniriskagent_bankdb_dbt_proj.customer_latest)
+[0m21:16:07.614761 [debug] [Thread-1 (]: Began compiling node model.miniriskagent_bankdb_dbt_proj.customer_latest
+[0m21:16:07.615509 [debug] [Thread-1 (]: Writing injected SQL for node "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m21:16:07.615694 [debug] [Thread-1 (]: Began executing node model.miniriskagent_bankdb_dbt_proj.customer_latest
+[0m21:16:07.615908 [debug] [Thread-1 (]: Finished running node model.miniriskagent_bankdb_dbt_proj.customer_latest
+[0m21:16:07.616027 [debug] [Thread-1 (]: Began running node model.miniriskagent_bankdb_dbt_proj.metricflow_time_spine
+[0m21:16:07.616163 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.miniriskagent_bankdb_dbt_proj.customer_latest, now model.miniriskagent_bankdb_dbt_proj.metricflow_time_spine)
+[0m21:16:07.616286 [debug] [Thread-1 (]: Began compiling node model.miniriskagent_bankdb_dbt_proj.metricflow_time_spine
+[0m21:16:07.616580 [debug] [Thread-1 (]: Writing injected SQL for node "model.miniriskagent_bankdb_dbt_proj.metricflow_time_spine"
+[0m21:16:07.616777 [debug] [Thread-1 (]: Began executing node model.miniriskagent_bankdb_dbt_proj.metricflow_time_spine
+[0m21:16:07.616978 [debug] [Thread-1 (]: Finished running node model.miniriskagent_bankdb_dbt_proj.metricflow_time_spine
+[0m21:16:07.617095 [debug] [Thread-1 (]: Began running node model.miniriskagent_bankdb_dbt_proj.transaction_latest
+[0m21:16:07.617220 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.miniriskagent_bankdb_dbt_proj.metricflow_time_spine, now model.miniriskagent_bankdb_dbt_proj.transaction_latest)
+[0m21:16:07.617328 [debug] [Thread-1 (]: Began compiling node model.miniriskagent_bankdb_dbt_proj.transaction_latest
+[0m21:16:07.617937 [debug] [Thread-1 (]: Writing injected SQL for node "model.miniriskagent_bankdb_dbt_proj.transaction_latest"
+[0m21:16:07.618107 [debug] [Thread-1 (]: Began executing node model.miniriskagent_bankdb_dbt_proj.transaction_latest
+[0m21:16:07.618307 [debug] [Thread-1 (]: Finished running node model.miniriskagent_bankdb_dbt_proj.transaction_latest
+[0m21:16:07.618425 [debug] [Thread-1 (]: Began running node snapshot.miniriskagent_bankdb_dbt_proj.account_snapshot
+[0m21:16:07.618551 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.miniriskagent_bankdb_dbt_proj.transaction_latest, now snapshot.miniriskagent_bankdb_dbt_proj.account_snapshot)
+[0m21:16:07.618670 [debug] [Thread-1 (]: Began compiling node snapshot.miniriskagent_bankdb_dbt_proj.account_snapshot
+[0m21:16:07.619515 [debug] [Thread-1 (]: Writing injected SQL for node "snapshot.miniriskagent_bankdb_dbt_proj.account_snapshot"
+[0m21:16:07.619691 [debug] [Thread-1 (]: Began executing node snapshot.miniriskagent_bankdb_dbt_proj.account_snapshot
+[0m21:16:07.619894 [debug] [Thread-1 (]: Finished running node snapshot.miniriskagent_bankdb_dbt_proj.account_snapshot
+[0m21:16:07.620017 [debug] [Thread-1 (]: Began running node test.miniriskagent_bankdb_dbt_proj.not_null_account_latest_account_id
+[0m21:16:07.620142 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly snapshot.miniriskagent_bankdb_dbt_proj.account_snapshot, now test.miniriskagent_bankdb_dbt_proj.not_null_account_latest_account_id)
+[0m21:16:07.620258 [debug] [Thread-1 (]: Began compiling node test.miniriskagent_bankdb_dbt_proj.not_null_account_latest_account_id
+[0m21:16:07.620774 [debug] [Thread-1 (]: Writing injected SQL for node "test.miniriskagent_bankdb_dbt_proj.not_null_account_latest_account_id"
+[0m21:16:07.621108 [debug] [Thread-1 (]: Began executing node test.miniriskagent_bankdb_dbt_proj.not_null_account_latest_account_id
+[0m21:16:07.621346 [debug] [Thread-1 (]: Finished running node test.miniriskagent_bankdb_dbt_proj.not_null_account_latest_account_id
+[0m21:16:07.621474 [debug] [Thread-1 (]: Began running node snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot
+[0m21:16:07.621607 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.miniriskagent_bankdb_dbt_proj.not_null_account_latest_account_id, now snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot)
+[0m21:16:07.621718 [debug] [Thread-1 (]: Began compiling node snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot
+[0m21:16:07.622508 [debug] [Thread-1 (]: Writing injected SQL for node "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"
+[0m21:16:07.622692 [debug] [Thread-1 (]: Began executing node snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot
+[0m21:16:07.622900 [debug] [Thread-1 (]: Finished running node snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot
+[0m21:16:07.623019 [debug] [Thread-1 (]: Began running node test.miniriskagent_bankdb_dbt_proj.not_null_customer_latest_cust_id
+[0m21:16:07.623148 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot, now test.miniriskagent_bankdb_dbt_proj.not_null_customer_latest_cust_id)
+[0m21:16:07.623269 [debug] [Thread-1 (]: Began compiling node test.miniriskagent_bankdb_dbt_proj.not_null_customer_latest_cust_id
+[0m21:16:07.623872 [debug] [Thread-1 (]: Writing injected SQL for node "test.miniriskagent_bankdb_dbt_proj.not_null_customer_latest_cust_id"
+[0m21:16:07.624216 [debug] [Thread-1 (]: Began executing node test.miniriskagent_bankdb_dbt_proj.not_null_customer_latest_cust_id
+[0m21:16:07.624435 [debug] [Thread-1 (]: Finished running node test.miniriskagent_bankdb_dbt_proj.not_null_customer_latest_cust_id
+[0m21:16:07.624564 [debug] [Thread-1 (]: Began running node snapshot.miniriskagent_bankdb_dbt_proj.transaction_snapshot
+[0m21:16:07.624690 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.miniriskagent_bankdb_dbt_proj.not_null_customer_latest_cust_id, now snapshot.miniriskagent_bankdb_dbt_proj.transaction_snapshot)
+[0m21:16:07.624797 [debug] [Thread-1 (]: Began compiling node snapshot.miniriskagent_bankdb_dbt_proj.transaction_snapshot
+[0m21:16:07.625561 [debug] [Thread-1 (]: Writing injected SQL for node "snapshot.miniriskagent_bankdb_dbt_proj.transaction_snapshot"
+[0m21:16:07.625734 [debug] [Thread-1 (]: Began executing node snapshot.miniriskagent_bankdb_dbt_proj.transaction_snapshot
+[0m21:16:07.625933 [debug] [Thread-1 (]: Finished running node snapshot.miniriskagent_bankdb_dbt_proj.transaction_snapshot
+[0m21:16:07.626052 [debug] [Thread-1 (]: Began running node test.miniriskagent_bankdb_dbt_proj.not_null_transaction_latest_transaction_id
+[0m21:16:07.626178 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly snapshot.miniriskagent_bankdb_dbt_proj.transaction_snapshot, now test.miniriskagent_bankdb_dbt_proj.not_null_transaction_latest_transaction_id)
+[0m21:16:07.626296 [debug] [Thread-1 (]: Began compiling node test.miniriskagent_bankdb_dbt_proj.not_null_transaction_latest_transaction_id
+[0m21:16:07.626788 [debug] [Thread-1 (]: Writing injected SQL for node "test.miniriskagent_bankdb_dbt_proj.not_null_transaction_latest_transaction_id"
+[0m21:16:07.626969 [debug] [Thread-1 (]: Began executing node test.miniriskagent_bankdb_dbt_proj.not_null_transaction_latest_transaction_id
+[0m21:16:07.627167 [debug] [Thread-1 (]: Finished running node test.miniriskagent_bankdb_dbt_proj.not_null_transaction_latest_transaction_id
+[0m21:16:07.627285 [debug] [Thread-1 (]: Began running node model.miniriskagent_bankdb_dbt_proj.account_dim
+[0m21:16:07.627474 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.miniriskagent_bankdb_dbt_proj.not_null_transaction_latest_transaction_id, now model.miniriskagent_bankdb_dbt_proj.account_dim)
+[0m21:16:07.627583 [debug] [Thread-1 (]: Began compiling node model.miniriskagent_bankdb_dbt_proj.account_dim
+[0m21:16:07.628092 [debug] [Thread-1 (]: Writing injected SQL for node "model.miniriskagent_bankdb_dbt_proj.account_dim"
+[0m21:16:07.628259 [debug] [Thread-1 (]: Began executing node model.miniriskagent_bankdb_dbt_proj.account_dim
+[0m21:16:07.628455 [debug] [Thread-1 (]: Finished running node model.miniriskagent_bankdb_dbt_proj.account_dim
+[0m21:16:07.628569 [debug] [Thread-1 (]: Began running node model.miniriskagent_bankdb_dbt_proj.customer_dim
+[0m21:16:07.628689 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.miniriskagent_bankdb_dbt_proj.account_dim, now model.miniriskagent_bankdb_dbt_proj.customer_dim)
+[0m21:16:07.628796 [debug] [Thread-1 (]: Began compiling node model.miniriskagent_bankdb_dbt_proj.customer_dim
+[0m21:16:07.629278 [debug] [Thread-1 (]: Writing injected SQL for node "model.miniriskagent_bankdb_dbt_proj.customer_dim"
+[0m21:16:07.629606 [debug] [Thread-1 (]: Began executing node model.miniriskagent_bankdb_dbt_proj.customer_dim
+[0m21:16:07.629818 [debug] [Thread-1 (]: Finished running node model.miniriskagent_bankdb_dbt_proj.customer_dim
+[0m21:16:07.629942 [debug] [Thread-1 (]: Began running node model.miniriskagent_bankdb_dbt_proj.transaction_fact
+[0m21:16:07.630068 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.miniriskagent_bankdb_dbt_proj.customer_dim, now model.miniriskagent_bankdb_dbt_proj.transaction_fact)
+[0m21:16:07.630174 [debug] [Thread-1 (]: Began compiling node model.miniriskagent_bankdb_dbt_proj.transaction_fact
+[0m21:16:07.631165 [debug] [Thread-1 (]: Writing injected SQL for node "model.miniriskagent_bankdb_dbt_proj.transaction_fact"
+[0m21:16:07.631470 [debug] [Thread-1 (]: Began executing node model.miniriskagent_bankdb_dbt_proj.transaction_fact
+[0m21:16:07.631681 [debug] [Thread-1 (]: Finished running node model.miniriskagent_bankdb_dbt_proj.transaction_fact
+[0m21:16:07.631993 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:16:07.632093 [debug] [MainThread]: Connection 'model.miniriskagent_bankdb_dbt_proj.transaction_fact' was properly closed.
+[0m21:16:07.632789 [debug] [MainThread]: Command end result
+[0m21:16:07.687738 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/manifest.json
+[0m21:16:07.689522 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/semantic_manifest.json
+[0m21:16:07.699972 [debug] [MainThread]: Wrote artifact OsiDocument to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/osi_document.json
+[0m21:16:07.703009 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/run_results.json
+[0m21:16:07.704671 [debug] [MainThread]: Acquiring new duckdb connection 'generate_catalog'
+[0m21:16:07.704780 [info ] [MainThread]: Building catalog
+[0m21:16:07.708477 [debug] [ThreadPool]: Acquiring new duckdb connection 'miniriskagent_results_1.information_schema'
+[0m21:16:07.713017 [debug] [ThreadPool]: Using duckdb connection "miniriskagent_results_1.information_schema"
+[0m21:16:07.713245 [debug] [ThreadPool]: On miniriskagent_results_1.information_schema: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "miniriskagent_results_1.information_schema"} */
+
+    
+    with tables as (
+      select *
+    from (
+        select
+            t.database_name as table_database,
+            t.schema_name as table_schema,
+            t.table_name as table_name,
+            'BASE TABLE' as table_type,
+            t.comment as table_comment
+        from duckdb_tables() t
+        where upper(t.database_name) = upper('miniriskagent_results_1')
+
+        union all
+
+        select
+            v.database_name as table_database,
+            v.schema_name as table_schema,
+            v.view_name as table_name,
+            'VIEW' as table_type,
+            v.comment as table_comment
+        from duckdb_views() v
+        where upper(v.database_name) = upper('miniriskagent_results_1')
+    ) catalog_tables
+      
+        where (
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('customer_stage')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('account_snapshot')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('account_stage')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('customer_snapshot')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('account_dim')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('transaction_snapshot')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('transaction_stage')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('account_latest')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('transaction_fact')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('metricflow_time_spine')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('customer_latest')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('transaction_latest')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('customer_dim')
+                ))
+    
+    ),
+    columns as (
+      select *
+    from (
+        select
+            c.database_name as table_database,
+            c.schema_name as table_schema,
+            c.table_name as table_name,
+            c.column_name as column_name,
+            c.column_index as column_index,
+            c.data_type as column_type,
+            c.comment as column_comment
+        from duckdb_columns() c
+        where upper(c.database_name) = upper('miniriskagent_results_1')
+    ) catalog_columns
+      
+        where (
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('customer_stage')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('account_snapshot')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('account_stage')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('customer_snapshot')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('account_dim')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('transaction_snapshot')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('transaction_stage')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('account_latest')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('transaction_fact')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('metricflow_time_spine')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('customer_latest')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('transaction_latest')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('customer_dim')
+                ))
+    
+    )
+    select
+        tables.table_database,
+        tables.table_schema,
+        tables.table_name,
+        tables.table_type,
+        tables.table_comment,
+        columns.column_name,
+        columns.column_index,
+        columns.column_type,
+        columns.column_comment,
+        null as table_owner
+    from tables
+    join columns using (table_database, table_schema, table_name)
+    order by table_schema, table_name, column_index
+  
+  
+[0m21:16:07.713456 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:16:07.722131 [debug] [ThreadPool]: SQL status: OK in 0.009 seconds
+[0m21:16:07.724135 [debug] [ThreadPool]: On miniriskagent_results_1.information_schema: Close
+[0m21:16:07.729773 [debug] [MainThread]: Wrote artifact CatalogArtifact to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/catalog.json
+[0m21:16:07.746081 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/manifest.json
+[0m21:16:07.747523 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/semantic_manifest.json
+[0m21:16:07.749592 [debug] [MainThread]: Wrote artifact OsiDocument to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/osi_document.json
+[0m21:16:07.749703 [info ] [MainThread]: Catalog written to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/catalog.json
+[0m21:16:07.751697 [debug] [MainThread]: Connection 'generate_catalog' was properly closed.
+[0m21:16:07.751813 [debug] [MainThread]: Connection 'miniriskagent_results_1.information_schema' was properly closed.
+[0m21:16:07.751930 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b62a660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b4a1e80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e23be90>]}
+[0m21:16:07.752060 [debug] [MainThread]: Flushing usage events
+[0m21:16:08.217288 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:26:12.989256 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a932f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112d2a930>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112d2a6c0>]}
+
+
+============================== 14:26:12.991443 | eeb2437b-16e1-4a1d-a227-b04bf804ab37 ==============================
+[0m14:26:12.991443 [info ] [MainThread]: Running with dbt=1.12.3
+[0m14:26:12.991718 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'maximum_seed_size_mib': '1', 'cache_selected_only': 'False', 'profiles_dir': '/Users/swarnalidatta/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/logs', 'debug': 'False', 'fail_fast': 'False', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt run --project-dir /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt --profiles-dir /Users/swarnalidatta/.dbt --select path:models/latest_state_per_entity', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:26:13.107453 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'eeb2437b-16e1-4a1d-a227-b04bf804ab37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113976a50>]}
+[0m14:26:13.137957 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'eeb2437b-16e1-4a1d-a227-b04bf804ab37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072a2870>]}
+[0m14:26:13.139259 [info ] [MainThread]: Registered adapter: duckdb=1.11.0
+[0m14:26:13.190735 [debug] [MainThread]: checksum: 7e052e4f5b4a9cf76d1b72e0f027c5b37042989bafc8e516b93cc1031831ee04, vars: {}, profile: miniriskagent_bankdb_dbt_profile, target: dev, version: 1.12.3
+[0m14:26:13.272380 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 4 files changed.
+[0m14:26:13.272781 [debug] [MainThread]: Partial parsing: updated file: miniriskagent_bankdb_dbt_proj://models/target/target_schema_config.yml
+[0m14:26:13.273009 [debug] [MainThread]: Partial parsing: updated file: miniriskagent_bankdb_dbt_proj://models/semantic_models.yml
+[0m14:26:13.273139 [debug] [MainThread]: Partial parsing: updated file: miniriskagent_bankdb_dbt_proj://models/target/customer_dim.sql
+[0m14:26:13.273277 [debug] [MainThread]: Partial parsing: updated file: miniriskagent_bankdb_dbt_proj://snapshots/customer_snapshot.sql
+[0m14:26:13.651026 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'eeb2437b-16e1-4a1d-a227-b04bf804ab37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11451a600>]}
+[0m14:26:13.713019 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/manifest.json
+[0m14:26:13.715986 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/semantic_manifest.json
+[0m14:26:13.726943 [debug] [MainThread]: Wrote artifact OsiDocument to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/osi_document.json
+[0m14:26:13.732870 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'eeb2437b-16e1-4a1d-a227-b04bf804ab37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114566ab0>]}
+[0m14:26:13.733120 [info ] [MainThread]: Found 7 models, 3 snapshots, 3 data tests, 3 sources, 500 macros, 3 semantic models
+[0m14:26:13.733272 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'eeb2437b-16e1-4a1d-a227-b04bf804ab37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1145b4d40>]}
+[0m14:26:13.734312 [info ] [MainThread]: 
+[0m14:26:13.734451 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m14:26:13.734561 [info ] [MainThread]: 
+[0m14:26:13.734767 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m14:26:13.736658 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_miniriskagent_results_1'
+[0m14:26:13.762113 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1"
+[0m14:26:13.762316 [debug] [ThreadPool]: On list_miniriskagent_results_1: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "list_miniriskagent_results_1"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"miniriskagent_results_1"'
+    
+  
+  
+[0m14:26:13.762433 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:26:13.772831 [debug] [ThreadPool]: SQL status: OK in 0.010 seconds
+[0m14:26:13.773480 [debug] [ThreadPool]: On list_miniriskagent_results_1: Close
+[0m14:26:13.773805 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_miniriskagent_results_1, now create_miniriskagent_results_1_main)
+[0m14:26:13.773989 [debug] [ThreadPool]: Creating schema "database: "miniriskagent_results_1"
+schema: "main"
+"
+[0m14:26:13.777135 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m14:26:13.777263 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "create_miniriskagent_results_1_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='miniriskagent_results_1'
+        and type != 'duckdb'
+    
+  
+[0m14:26:13.777368 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m14:26:13.778129 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m14:26:13.778764 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m14:26:13.778870 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: BEGIN
+[0m14:26:13.779024 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m14:26:13.779129 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m14:26:13.779236 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "create_miniriskagent_results_1_main"} */
+
+    
+    
+        create schema if not exists "miniriskagent_results_1"."main"
+    
+[0m14:26:13.779425 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m14:26:13.779727 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: COMMIT
+[0m14:26:13.779836 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m14:26:13.779932 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: COMMIT
+[0m14:26:13.780077 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m14:26:13.780186 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: Close
+[0m14:26:13.780879 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_miniriskagent_results_1_main, now list_miniriskagent_results_1_main)
+[0m14:26:13.783207 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1_main"
+[0m14:26:13.783378 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: BEGIN
+[0m14:26:13.783487 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m14:26:13.783735 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m14:26:13.783842 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1_main"
+[0m14:26:13.783958 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "list_miniriskagent_results_1_main"} */
+select
+      'miniriskagent_results_1' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'miniriskagent_results_1'
+  
+[0m14:26:13.786284 [debug] [ThreadPool]: SQL status: OK in 0.002 seconds
+[0m14:26:13.787148 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: ROLLBACK
+[0m14:26:13.787369 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: Close
+[0m14:26:13.788209 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'eeb2437b-16e1-4a1d-a227-b04bf804ab37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115e18b90>]}
+[0m14:26:13.788403 [debug] [MainThread]: Using duckdb connection "master"
+[0m14:26:13.788515 [debug] [MainThread]: On master: BEGIN
+[0m14:26:13.788617 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:26:13.788808 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m14:26:13.788916 [debug] [MainThread]: On master: COMMIT
+[0m14:26:13.789022 [debug] [MainThread]: Using duckdb connection "master"
+[0m14:26:13.789124 [debug] [MainThread]: On master: COMMIT
+[0m14:26:13.789274 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m14:26:13.789379 [debug] [MainThread]: On master: Close
+[0m14:26:13.790743 [debug] [Thread-1 (]: Began running node model.miniriskagent_bankdb_dbt_proj.account_latest
+[0m14:26:13.790966 [info ] [Thread-1 (]: 1 of 3 START sql table model main.account_latest ............................... [RUN]
+[0m14:26:13.791223 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_miniriskagent_results_1_main, now model.miniriskagent_bankdb_dbt_proj.account_latest)
+[0m14:26:13.791380 [debug] [Thread-1 (]: Began compiling node model.miniriskagent_bankdb_dbt_proj.account_latest
+[0m14:26:13.794074 [debug] [Thread-1 (]: Writing injected SQL for node "model.miniriskagent_bankdb_dbt_proj.account_latest"
+[0m14:26:13.794373 [debug] [Thread-1 (]: Began executing node model.miniriskagent_bankdb_dbt_proj.account_latest
+[0m14:26:13.817836 [debug] [Thread-1 (]: Writing runtime sql for node "model.miniriskagent_bankdb_dbt_proj.account_latest"
+[0m14:26:13.818779 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.account_latest"
+[0m14:26:13.818937 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.account_latest: BEGIN
+[0m14:26:13.819069 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:26:13.819410 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m14:26:13.819547 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.account_latest"
+[0m14:26:13.819686 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.account_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.account_latest"} */
+
+    
+
+    create  table
+      "miniriskagent_results_1"."main"."account_latest__dbt_tmp"
+  
+    
+    as (
+      
+select *
+from "miniriskagent_results_1"."main"."account_stage"
+qualify row_number() over (
+    partition by account_id
+    order by record_arrival_date desc
+) = 1
+    );
+    
+  
+[0m14:26:13.824173 [debug] [Thread-1 (]: SQL status: OK in 0.004 seconds
+[0m14:26:13.826186 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.account_latest"
+[0m14:26:13.826334 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.account_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.account_latest"} */
+
+    SELECT index_name
+    FROM duckdb_indexes()
+    WHERE database_name = 'miniriskagent_results_1'
+      AND schema_name = 'main'
+      AND table_name = 'account_latest'
+  
+[0m14:26:13.826693 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m14:26:13.828757 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.account_latest"
+[0m14:26:13.828891 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.account_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.account_latest"} */
+alter table "miniriskagent_results_1"."main"."account_latest" rename to "account_latest__dbt_backup"
+[0m14:26:13.829337 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m14:26:13.830198 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.account_latest"
+[0m14:26:13.830340 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.account_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.account_latest"} */
+alter table "miniriskagent_results_1"."main"."account_latest__dbt_tmp" rename to "account_latest"
+[0m14:26:13.830677 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m14:26:13.838219 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.account_latest: COMMIT
+[0m14:26:13.838440 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.account_latest"
+[0m14:26:13.838575 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.account_latest: COMMIT
+[0m14:26:13.839282 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m14:26:13.841133 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.account_latest"
+[0m14:26:13.841265 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.account_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.account_latest"} */
+
+      drop table if exists "miniriskagent_results_1"."main"."account_latest__dbt_backup" cascade
+    
+[0m14:26:13.841572 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m14:26:13.842508 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.account_latest: Close
+[0m14:26:13.843328 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'eeb2437b-16e1-4a1d-a227-b04bf804ab37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1142c09e0>]}
+[0m14:26:13.843603 [info ] [Thread-1 (]: 1 of 3 OK created sql table model main.account_latest .......................... [[32mOK[0m in 0.05s]
+[0m14:26:13.843848 [debug] [Thread-1 (]: Finished running node model.miniriskagent_bankdb_dbt_proj.account_latest
+[0m14:26:13.844019 [debug] [Thread-1 (]: Began running node model.miniriskagent_bankdb_dbt_proj.customer_latest
+[0m14:26:13.844223 [info ] [Thread-1 (]: 2 of 3 START sql table model main.customer_latest .............................. [RUN]
+[0m14:26:13.844405 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.miniriskagent_bankdb_dbt_proj.account_latest, now model.miniriskagent_bankdb_dbt_proj.customer_latest)
+[0m14:26:13.844542 [debug] [Thread-1 (]: Began compiling node model.miniriskagent_bankdb_dbt_proj.customer_latest
+[0m14:26:13.845291 [debug] [Thread-1 (]: Writing injected SQL for node "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m14:26:13.845538 [debug] [Thread-1 (]: Began executing node model.miniriskagent_bankdb_dbt_proj.customer_latest
+[0m14:26:13.846730 [debug] [Thread-1 (]: Writing runtime sql for node "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m14:26:13.846955 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m14:26:13.847077 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: BEGIN
+[0m14:26:13.847191 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:26:13.847416 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m14:26:13.847542 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m14:26:13.847678 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.customer_latest"} */
+
+    
+
+    create  table
+      "miniriskagent_results_1"."main"."customer_latest__dbt_tmp"
+  
+    
+    as (
+      
+
+select *
+from "miniriskagent_results_1"."main"."customer_stage"
+qualify row_number() over (
+    partition by cust_id
+    order by record_arrival_date desc
+) = 1
+    );
+    
+  
+[0m14:26:13.850731 [debug] [Thread-1 (]: SQL status: OK in 0.003 seconds
+[0m14:26:13.851331 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m14:26:13.851486 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.customer_latest"} */
+
+    SELECT index_name
+    FROM duckdb_indexes()
+    WHERE database_name = 'miniriskagent_results_1'
+      AND schema_name = 'main'
+      AND table_name = 'customer_latest'
+  
+[0m14:26:13.851890 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m14:26:13.852822 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m14:26:13.852951 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.customer_latest"} */
+alter table "miniriskagent_results_1"."main"."customer_latest" rename to "customer_latest__dbt_backup"
+[0m14:26:13.853191 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m14:26:13.853980 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m14:26:13.854108 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.customer_latest"} */
+alter table "miniriskagent_results_1"."main"."customer_latest__dbt_tmp" rename to "customer_latest"
+[0m14:26:13.854320 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m14:26:13.855009 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: COMMIT
+[0m14:26:13.855128 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m14:26:13.855238 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: COMMIT
+[0m14:26:13.855717 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m14:26:13.856253 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m14:26:13.856378 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.customer_latest"} */
+
+      drop table if exists "miniriskagent_results_1"."main"."customer_latest__dbt_backup" cascade
+    
+[0m14:26:13.856676 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m14:26:13.857225 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: Close
+[0m14:26:13.857460 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'eeb2437b-16e1-4a1d-a227-b04bf804ab37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1145669c0>]}
+[0m14:26:13.857700 [info ] [Thread-1 (]: 2 of 3 OK created sql table model main.customer_latest ......................... [[32mOK[0m in 0.01s]
+[0m14:26:13.857925 [debug] [Thread-1 (]: Finished running node model.miniriskagent_bankdb_dbt_proj.customer_latest
+[0m14:26:13.858083 [debug] [Thread-1 (]: Began running node model.miniriskagent_bankdb_dbt_proj.transaction_latest
+[0m14:26:13.858281 [info ] [Thread-1 (]: 3 of 3 START sql table model main.transaction_latest ........................... [RUN]
+[0m14:26:13.858448 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.miniriskagent_bankdb_dbt_proj.customer_latest, now model.miniriskagent_bankdb_dbt_proj.transaction_latest)
+[0m14:26:13.858585 [debug] [Thread-1 (]: Began compiling node model.miniriskagent_bankdb_dbt_proj.transaction_latest
+[0m14:26:13.859397 [debug] [Thread-1 (]: Writing injected SQL for node "model.miniriskagent_bankdb_dbt_proj.transaction_latest"
+[0m14:26:13.859674 [debug] [Thread-1 (]: Began executing node model.miniriskagent_bankdb_dbt_proj.transaction_latest
+[0m14:26:13.860839 [debug] [Thread-1 (]: Writing runtime sql for node "model.miniriskagent_bankdb_dbt_proj.transaction_latest"
+[0m14:26:13.861066 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.transaction_latest"
+[0m14:26:13.861188 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.transaction_latest: BEGIN
+[0m14:26:13.861302 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:26:13.861530 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m14:26:13.861657 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.transaction_latest"
+[0m14:26:13.861793 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.transaction_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.transaction_latest"} */
+
+    
+
+    create  table
+      "miniriskagent_results_1"."main"."transaction_latest__dbt_tmp"
+  
+    
+    as (
+      
+select *
+from "miniriskagent_results_1"."main"."transaction_stage"
+qualify row_number() over (
+    partition by transaction_id
+    order by record_arrival_date desc
+) = 1
+    );
+    
+  
+[0m14:26:13.863413 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m14:26:13.864062 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.transaction_latest"
+[0m14:26:13.864530 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.transaction_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.transaction_latest"} */
+
+    SELECT index_name
+    FROM duckdb_indexes()
+    WHERE database_name = 'miniriskagent_results_1'
+      AND schema_name = 'main'
+      AND table_name = 'transaction_latest'
+  
+[0m14:26:13.865053 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m14:26:13.866188 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.transaction_latest"
+[0m14:26:13.866328 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.transaction_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.transaction_latest"} */
+alter table "miniriskagent_results_1"."main"."transaction_latest" rename to "transaction_latest__dbt_backup"
+[0m14:26:13.866596 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m14:26:13.867400 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.transaction_latest"
+[0m14:26:13.867536 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.transaction_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.transaction_latest"} */
+alter table "miniriskagent_results_1"."main"."transaction_latest__dbt_tmp" rename to "transaction_latest"
+[0m14:26:13.867769 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m14:26:13.868468 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.transaction_latest: COMMIT
+[0m14:26:13.868591 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.transaction_latest"
+[0m14:26:13.868708 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.transaction_latest: COMMIT
+[0m14:26:13.869118 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m14:26:13.870415 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.transaction_latest"
+[0m14:26:13.870574 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.transaction_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.transaction_latest"} */
+
+      drop table if exists "miniriskagent_results_1"."main"."transaction_latest__dbt_backup" cascade
+    
+[0m14:26:13.870934 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m14:26:13.871437 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.transaction_latest: Close
+[0m14:26:13.871682 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'eeb2437b-16e1-4a1d-a227-b04bf804ab37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115e56a80>]}
+[0m14:26:13.871939 [info ] [Thread-1 (]: 3 of 3 OK created sql table model main.transaction_latest ...................... [[32mOK[0m in 0.01s]
+[0m14:26:13.872162 [debug] [Thread-1 (]: Finished running node model.miniriskagent_bankdb_dbt_proj.transaction_latest
+[0m14:26:13.872805 [debug] [MainThread]: Using duckdb connection "master"
+[0m14:26:13.872924 [debug] [MainThread]: On master: BEGIN
+[0m14:26:13.873027 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m14:26:13.873236 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m14:26:13.873338 [debug] [MainThread]: On master: COMMIT
+[0m14:26:13.873448 [debug] [MainThread]: Using duckdb connection "master"
+[0m14:26:13.873545 [debug] [MainThread]: On master: COMMIT
+[0m14:26:13.873721 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m14:26:13.873845 [debug] [MainThread]: On master: Close
+[0m14:26:13.873998 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:26:13.874101 [debug] [MainThread]: Connection 'model.miniriskagent_bankdb_dbt_proj.transaction_latest' was properly closed.
+[0m14:26:13.874237 [info ] [MainThread]: 
+[0m14:26:13.874355 [info ] [MainThread]: Finished running 3 table models in 0 hours 0 minutes and 0.14 seconds (0.14s).
+[0m14:26:13.874705 [debug] [MainThread]: Command end result
+[0m14:26:13.892349 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/manifest.json
+[0m14:26:13.893939 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/semantic_manifest.json
+[0m14:26:13.896090 [debug] [MainThread]: Wrote artifact OsiDocument to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/osi_document.json
+[0m14:26:13.899294 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/run_results.json
+[0m14:26:13.899451 [info ] [MainThread]: 
+[0m14:26:13.899605 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:26:13.899727 [info ] [MainThread]: 
+[0m14:26:13.899853 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 NO-OP=0 REUSED=0 TOTAL=3
+[0m14:26:13.902142 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11451bd40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105687a40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11459d760>]}
+[0m14:26:13.902296 [debug] [MainThread]: Flushing usage events
+[0m14:26:14.318644 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:27:06.025991 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c027e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10dc2a840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10dc2a5d0>]}
+
+
+============================== 14:27:06.027670 | 288ac976-1de8-4b75-8f38-0ff672727351 ==============================
+[0m14:27:06.027670 [info ] [MainThread]: Running with dbt=1.12.3
+[0m14:27:06.027904 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'hints_enabled': 'True', 'maximum_seed_size_mib': '1', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/logs', 'version_check': 'True', 'profiles_dir': '/Users/swarnalidatta/.dbt', 'partial_parse': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt snapshot --project-dir /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt --profiles-dir /Users/swarnalidatta/.dbt --select customer_snapshot', 'send_anonymous_usage_stats': 'True'}
+[0m14:27:06.134978 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '288ac976-1de8-4b75-8f38-0ff672727351', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10df88410>]}
+[0m14:27:06.166647 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '288ac976-1de8-4b75-8f38-0ff672727351', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1088b3020>]}
+[0m14:27:06.167777 [info ] [MainThread]: Registered adapter: duckdb=1.11.0
+[0m14:27:06.216287 [debug] [MainThread]: checksum: 7e052e4f5b4a9cf76d1b72e0f027c5b37042989bafc8e516b93cc1031831ee04, vars: {}, profile: miniriskagent_bankdb_dbt_profile, target: dev, version: 1.12.3
+[0m14:27:06.290969 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:27:06.291169 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m14:27:06.291277 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:27:06.295560 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '288ac976-1de8-4b75-8f38-0ff672727351', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10849a030>]}
+[0m14:27:06.406047 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/manifest.json
+[0m14:27:06.407767 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/semantic_manifest.json
+[0m14:27:06.414747 [debug] [MainThread]: Wrote artifact OsiDocument to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/osi_document.json
+[0m14:27:06.419459 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '288ac976-1de8-4b75-8f38-0ff672727351', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e3324b0>]}
+[0m14:27:06.419661 [info ] [MainThread]: Found 7 models, 3 snapshots, 3 data tests, 3 sources, 500 macros, 3 semantic models
+[0m14:27:06.419792 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '288ac976-1de8-4b75-8f38-0ff672727351', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e632360>]}
+[0m14:27:06.420420 [info ] [MainThread]: 
+[0m14:27:06.420541 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m14:27:06.420640 [info ] [MainThread]: 
+[0m14:27:06.420837 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m14:27:06.421172 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_miniriskagent_results_1'
+[0m14:27:06.441664 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1"
+[0m14:27:06.441854 [debug] [ThreadPool]: On list_miniriskagent_results_1: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "list_miniriskagent_results_1"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"miniriskagent_results_1"'
+    
+  
+  
+[0m14:27:06.441966 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:27:06.448970 [debug] [ThreadPool]: SQL status: OK in 0.007 seconds
+[0m14:27:06.449534 [debug] [ThreadPool]: On list_miniriskagent_results_1: Close
+[0m14:27:06.449849 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_miniriskagent_results_1, now create_miniriskagent_results_1_main)
+[0m14:27:06.450047 [debug] [ThreadPool]: Creating schema "database: "miniriskagent_results_1"
+schema: "main"
+"
+[0m14:27:06.453123 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m14:27:06.453252 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "create_miniriskagent_results_1_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='miniriskagent_results_1'
+        and type != 'duckdb'
+    
+  
+[0m14:27:06.453359 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m14:27:06.453708 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m14:27:06.454187 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m14:27:06.454290 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: BEGIN
+[0m14:27:06.454449 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m14:27:06.454549 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m14:27:06.454650 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "create_miniriskagent_results_1_main"} */
+
+    
+    
+        create schema if not exists "miniriskagent_results_1"."main"
+    
+[0m14:27:06.454821 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m14:27:06.455103 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: COMMIT
+[0m14:27:06.455208 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m14:27:06.455303 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: COMMIT
+[0m14:27:06.455447 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m14:27:06.455550 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: Close
+[0m14:27:06.457730 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_miniriskagent_results_1_main, now list_miniriskagent_results_1_main)
+[0m14:27:06.459501 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1_main"
+[0m14:27:06.459618 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: BEGIN
+[0m14:27:06.459713 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m14:27:06.459896 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m14:27:06.459994 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1_main"
+[0m14:27:06.460097 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "list_miniriskagent_results_1_main"} */
+select
+      'miniriskagent_results_1' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'miniriskagent_results_1'
+  
+[0m14:27:06.461500 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m14:27:06.462103 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: ROLLBACK
+[0m14:27:06.462272 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: Close
+[0m14:27:06.462994 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '288ac976-1de8-4b75-8f38-0ff672727351', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1088e5be0>]}
+[0m14:27:06.463299 [debug] [MainThread]: Using duckdb connection "master"
+[0m14:27:06.463428 [debug] [MainThread]: On master: BEGIN
+[0m14:27:06.463551 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:27:06.463797 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m14:27:06.463920 [debug] [MainThread]: On master: COMMIT
+[0m14:27:06.464018 [debug] [MainThread]: Using duckdb connection "master"
+[0m14:27:06.464121 [debug] [MainThread]: On master: COMMIT
+[0m14:27:06.464269 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m14:27:06.464374 [debug] [MainThread]: On master: Close
+[0m14:27:06.465191 [debug] [Thread-1 (]: Began running node snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot
+[0m14:27:06.465398 [info ] [Thread-1 (]: 1 of 1 START snapshot main.customer_snapshot ................................... [RUN]
+[0m14:27:06.465559 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_miniriskagent_results_1_main, now snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot)
+[0m14:27:06.465680 [debug] [Thread-1 (]: Began compiling node snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot
+[0m14:27:06.469020 [debug] [Thread-1 (]: Writing injected SQL for node "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"
+[0m14:27:06.469322 [debug] [Thread-1 (]: Began executing node snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot
+[0m14:27:06.490537 [debug] [Thread-1 (]: Using duckdb connection "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"
+[0m14:27:06.490753 [debug] [Thread-1 (]: On snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"} */
+select * from (
+        select customer_name, country_of_residence, country_of_birth, date_of_birth from (
+                
+
+
+select * from "miniriskagent_results_1"."main"."customer_latest"
+
+            ) subq
+    ) as __dbt_sbq
+    where false
+    limit 0
+
+    
+[0m14:27:06.490891 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:27:06.495176 [debug] [Thread-1 (]: DuckDB adapter: duckdb error: Binder Error: Referenced column "customer_name" not found in FROM clause!
+Candidate bindings: "cust_id", "country_of_residence", "record_arrival_date", "country_of_birth"
+
+LINE 3:         select customer_name, country_of_residence, country_of_birth, date...
+                       ^
+[0m14:27:06.495348 [debug] [Thread-1 (]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"} */
+select * from (
+        select customer_name, country_of_residence, country_of_birth, date_of_birth from (
+                
+
+
+select * from "miniriskagent_results_1"."main"."customer_latest"
+
+            ) subq
+    ) as __dbt_sbq
+    where false
+    limit 0
+
+    
+[0m14:27:06.495485 [debug] [Thread-1 (]: DuckDB adapter: Rolling back transaction.
+[0m14:27:06.495672 [debug] [Thread-1 (]: On snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot: Close
+[0m14:27:06.500521 [debug] [Thread-1 (]: Runtime Error in snapshot customer_snapshot (snapshots/customer_snapshot.sql)
+  Binder Error: Referenced column "customer_name" not found in FROM clause!
+  Candidate bindings: "cust_id", "country_of_residence", "record_arrival_date", "country_of_birth"
+  
+  LINE 3:         select customer_name, country_of_residence, country_of_birth, date...
+                         ^
+[0m14:27:06.501256 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '288ac976-1de8-4b75-8f38-0ff672727351', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f47ff20>]}
+[0m14:27:06.501605 [error] [Thread-1 (]: 1 of 1 ERROR snapshotting main.customer_snapshot ............................... [[31mERROR[0m in 0.04s]
+[0m14:27:06.501854 [debug] [Thread-1 (]: Finished running node snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot
+[0m14:27:06.502081 [debug] [Thread-4 (]: Marking all children of 'snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot' to be skipped because of status 'error'.  Reason: Runtime Error in snapshot customer_snapshot (snapshots/customer_snapshot.sql)
+  Binder Error: Referenced column "customer_name" not found in FROM clause!
+  Candidate bindings: "cust_id", "country_of_residence", "record_arrival_date", "country_of_birth"
+  
+  LINE 3:         select customer_name, country_of_residence, country_of_birth, date...
+                         ^.
+[0m14:27:06.502805 [debug] [MainThread]: Using duckdb connection "master"
+[0m14:27:06.502934 [debug] [MainThread]: On master: BEGIN
+[0m14:27:06.503041 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m14:27:06.503282 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m14:27:06.503387 [debug] [MainThread]: On master: COMMIT
+[0m14:27:06.503490 [debug] [MainThread]: Using duckdb connection "master"
+[0m14:27:06.503588 [debug] [MainThread]: On master: COMMIT
+[0m14:27:06.503738 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m14:27:06.503839 [debug] [MainThread]: On master: Close
+[0m14:27:06.503983 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:27:06.504095 [debug] [MainThread]: Connection 'snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot' was properly closed.
+[0m14:27:06.504196 [info ] [MainThread]: 
+[0m14:27:06.504303 [info ] [MainThread]: Finished running 1 snapshot in 0 hours 0 minutes and 0.08 seconds (0.08s).
+[0m14:27:06.504550 [debug] [MainThread]: Command end result
+[0m14:27:06.521198 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/manifest.json
+[0m14:27:06.522939 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/semantic_manifest.json
+[0m14:27:06.525126 [debug] [MainThread]: Wrote artifact OsiDocument to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/osi_document.json
+[0m14:27:06.527688 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/run_results.json
+[0m14:27:06.527804 [info ] [MainThread]: 
+[0m14:27:06.527937 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m14:27:06.528050 [info ] [MainThread]: 
+[0m14:27:06.528199 [error] [MainThread]: [[31mERROR[0m]: in snapshot customer_snapshot (snapshots/customer_snapshot.sql)
+[0m14:27:06.528344 [error] [MainThread]:   Runtime Error in snapshot customer_snapshot (snapshots/customer_snapshot.sql)
+  Binder Error: Referenced column "customer_name" not found in FROM clause!
+  Candidate bindings: "cust_id", "country_of_residence", "record_arrival_date", "country_of_birth"
+  
+  LINE 3:         select customer_name, country_of_residence, country_of_birth, date...
+                         ^
+[0m14:27:06.528450 [info ] [MainThread]: 
+[0m14:27:06.528578 [info ] [MainThread]:   compiled code at target/compiled/miniriskagent_bankdb_dbt_proj/snapshots/customer_snapshot.sql/customer_snapshot.sql
+[0m14:27:06.528681 [info ] [MainThread]: 
+[0m14:27:06.528792 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 NO-OP=0 REUSED=0 TOTAL=1
+[0m14:27:06.530487 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10db344a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e37d5b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e332090>]}
+[0m14:27:06.530638 [debug] [MainThread]: Flushing usage events
+[0m14:27:06.959239 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:27:32.705233 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104537260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1079326c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1079324b0>]}
+
+
+============================== 14:27:32.707036 | b2763fbe-c7ed-4729-a27b-3f901ba47a8c ==============================
+[0m14:27:32.707036 [info ] [MainThread]: Running with dbt=1.12.3
+[0m14:27:32.707267 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'hints_enabled': 'True', 'maximum_seed_size_mib': '1', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'True', 'fail_fast': 'False', 'log_path': '/Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/logs', 'profiles_dir': '/Users/swarnalidatta/.dbt', 'version_check': 'True', 'partial_parse': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt snapshot --project-dir /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt --profiles-dir /Users/swarnalidatta/.dbt --select customer_snapshot --debug', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:27:32.813516 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b2763fbe-c7ed-4729-a27b-3f901ba47a8c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1079002c0>]}
+[0m14:27:32.844555 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b2763fbe-c7ed-4729-a27b-3f901ba47a8c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10431cda0>]}
+[0m14:27:32.845682 [info ] [MainThread]: Registered adapter: duckdb=1.11.0
+[0m14:27:32.892757 [debug] [MainThread]: checksum: 7e052e4f5b4a9cf76d1b72e0f027c5b37042989bafc8e516b93cc1031831ee04, vars: {}, profile: miniriskagent_bankdb_dbt_profile, target: dev, version: 1.12.3
+[0m14:27:32.966865 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:27:32.967097 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m14:27:32.967221 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:27:32.971624 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b2763fbe-c7ed-4729-a27b-3f901ba47a8c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c65820>]}
+[0m14:27:33.082215 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/manifest.json
+[0m14:27:33.083983 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/semantic_manifest.json
+[0m14:27:33.090501 [debug] [MainThread]: Wrote artifact OsiDocument to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/osi_document.json
+[0m14:27:33.094328 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b2763fbe-c7ed-4729-a27b-3f901ba47a8c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b22de0>]}
+[0m14:27:33.094517 [info ] [MainThread]: Found 7 models, 3 snapshots, 3 data tests, 3 sources, 500 macros, 3 semantic models
+[0m14:27:33.094635 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b2763fbe-c7ed-4729-a27b-3f901ba47a8c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x122624e90>]}
+[0m14:27:33.095255 [info ] [MainThread]: 
+[0m14:27:33.095375 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m14:27:33.095471 [info ] [MainThread]: 
+[0m14:27:33.095663 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m14:27:33.096010 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_miniriskagent_results_1'
+[0m14:27:33.114626 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1"
+[0m14:27:33.114815 [debug] [ThreadPool]: On list_miniriskagent_results_1: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "list_miniriskagent_results_1"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"miniriskagent_results_1"'
+    
+  
+  
+[0m14:27:33.114937 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:27:33.121597 [debug] [ThreadPool]: SQL status: OK in 0.007 seconds
+[0m14:27:33.122102 [debug] [ThreadPool]: On list_miniriskagent_results_1: Close
+[0m14:27:33.122391 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_miniriskagent_results_1, now create_miniriskagent_results_1_main)
+[0m14:27:33.122569 [debug] [ThreadPool]: Creating schema "database: "miniriskagent_results_1"
+schema: "main"
+"
+[0m14:27:33.125614 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m14:27:33.125745 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "create_miniriskagent_results_1_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='miniriskagent_results_1'
+        and type != 'duckdb'
+    
+  
+[0m14:27:33.125856 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m14:27:33.126188 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m14:27:33.126640 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m14:27:33.126751 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: BEGIN
+[0m14:27:33.126915 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m14:27:33.127017 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m14:27:33.127122 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "create_miniriskagent_results_1_main"} */
+
+    
+    
+        create schema if not exists "miniriskagent_results_1"."main"
+    
+[0m14:27:33.127296 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m14:27:33.127582 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: COMMIT
+[0m14:27:33.127694 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m14:27:33.127795 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: COMMIT
+[0m14:27:33.127952 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m14:27:33.128061 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: Close
+[0m14:27:33.130089 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_miniriskagent_results_1_main, now list_miniriskagent_results_1_main)
+[0m14:27:33.132255 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1_main"
+[0m14:27:33.132445 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: BEGIN
+[0m14:27:33.132558 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m14:27:33.132823 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m14:27:33.132930 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1_main"
+[0m14:27:33.133056 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "list_miniriskagent_results_1_main"} */
+select
+      'miniriskagent_results_1' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'miniriskagent_results_1'
+  
+[0m14:27:33.134574 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m14:27:33.135277 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: ROLLBACK
+[0m14:27:33.135471 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: Close
+[0m14:27:33.136234 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b2763fbe-c7ed-4729-a27b-3f901ba47a8c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102f8c560>]}
+[0m14:27:33.136410 [debug] [MainThread]: Using duckdb connection "master"
+[0m14:27:33.136516 [debug] [MainThread]: On master: BEGIN
+[0m14:27:33.136613 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:27:33.136792 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m14:27:33.136897 [debug] [MainThread]: On master: COMMIT
+[0m14:27:33.136997 [debug] [MainThread]: Using duckdb connection "master"
+[0m14:27:33.137098 [debug] [MainThread]: On master: COMMIT
+[0m14:27:33.137256 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m14:27:33.137360 [debug] [MainThread]: On master: Close
+[0m14:27:33.138091 [debug] [Thread-1 (]: Began running node snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot
+[0m14:27:33.138297 [info ] [Thread-1 (]: 1 of 1 START snapshot main.customer_snapshot ................................... [RUN]
+[0m14:27:33.138463 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_miniriskagent_results_1_main, now snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot)
+[0m14:27:33.138597 [debug] [Thread-1 (]: Began compiling node snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot
+[0m14:27:33.141929 [debug] [Thread-1 (]: Writing injected SQL for node "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"
+[0m14:27:33.142261 [debug] [Thread-1 (]: Began executing node snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot
+[0m14:27:33.163354 [debug] [Thread-1 (]: Using duckdb connection "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"
+[0m14:27:33.163568 [debug] [Thread-1 (]: On snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"} */
+select * from (
+        select customer_name, country_of_residence, country_of_birth, date_of_birth from (
+                
+
+
+select * from "miniriskagent_results_1"."main"."customer_latest"
+
+            ) subq
+    ) as __dbt_sbq
+    where false
+    limit 0
+
+    
+[0m14:27:33.163722 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:27:33.164468 [debug] [Thread-1 (]: DuckDB adapter: duckdb error: Binder Error: Referenced column "customer_name" not found in FROM clause!
+Candidate bindings: "cust_id", "country_of_residence", "record_arrival_date", "country_of_birth"
+
+LINE 3:         select customer_name, country_of_residence, country_of_birth, date...
+                       ^
+[0m14:27:33.164655 [debug] [Thread-1 (]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"} */
+select * from (
+        select customer_name, country_of_residence, country_of_birth, date_of_birth from (
+                
+
+
+select * from "miniriskagent_results_1"."main"."customer_latest"
+
+            ) subq
+    ) as __dbt_sbq
+    where false
+    limit 0
+
+    
+[0m14:27:33.164799 [debug] [Thread-1 (]: DuckDB adapter: Rolling back transaction.
+[0m14:27:33.165007 [debug] [Thread-1 (]: On snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot: Close
+[0m14:27:33.167427 [debug] [Thread-1 (]: Runtime Error in snapshot customer_snapshot (snapshots/customer_snapshot.sql)
+  Binder Error: Referenced column "customer_name" not found in FROM clause!
+  Candidate bindings: "cust_id", "country_of_residence", "record_arrival_date", "country_of_birth"
+  
+  LINE 3:         select customer_name, country_of_residence, country_of_birth, date...
+                         ^
+[0m14:27:33.168132 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b2763fbe-c7ed-4729-a27b-3f901ba47a8c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1231114c0>]}
+[0m14:27:33.168478 [error] [Thread-1 (]: 1 of 1 ERROR snapshotting main.customer_snapshot ............................... [[31mERROR[0m in 0.03s]
+[0m14:27:33.168709 [debug] [Thread-1 (]: Finished running node snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot
+[0m14:27:33.168908 [debug] [Thread-4 (]: Marking all children of 'snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot' to be skipped because of status 'error'.  Reason: Runtime Error in snapshot customer_snapshot (snapshots/customer_snapshot.sql)
+  Binder Error: Referenced column "customer_name" not found in FROM clause!
+  Candidate bindings: "cust_id", "country_of_residence", "record_arrival_date", "country_of_birth"
+  
+  LINE 3:         select customer_name, country_of_residence, country_of_birth, date...
+                         ^.
+[0m14:27:33.169584 [debug] [MainThread]: Using duckdb connection "master"
+[0m14:27:33.169715 [debug] [MainThread]: On master: BEGIN
+[0m14:27:33.169828 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m14:27:33.170117 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m14:27:33.170246 [debug] [MainThread]: On master: COMMIT
+[0m14:27:33.170364 [debug] [MainThread]: Using duckdb connection "master"
+[0m14:27:33.170474 [debug] [MainThread]: On master: COMMIT
+[0m14:27:33.170650 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m14:27:33.170767 [debug] [MainThread]: On master: Close
+[0m14:27:33.170925 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:27:33.171035 [debug] [MainThread]: Connection 'snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot' was properly closed.
+[0m14:27:33.171171 [info ] [MainThread]: 
+[0m14:27:33.171285 [info ] [MainThread]: Finished running 1 snapshot in 0 hours 0 minutes and 0.08 seconds (0.08s).
+[0m14:27:33.171537 [debug] [MainThread]: Command end result
+[0m14:27:33.188835 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/manifest.json
+[0m14:27:33.190679 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/semantic_manifest.json
+[0m14:27:33.192907 [debug] [MainThread]: Wrote artifact OsiDocument to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/osi_document.json
+[0m14:27:33.195578 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/run_results.json
+[0m14:27:33.195724 [info ] [MainThread]: 
+[0m14:27:33.195874 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m14:27:33.195996 [info ] [MainThread]: 
+[0m14:27:33.196144 [error] [MainThread]: [[31mERROR[0m]: in snapshot customer_snapshot (snapshots/customer_snapshot.sql)
+[0m14:27:33.196290 [error] [MainThread]:   Runtime Error in snapshot customer_snapshot (snapshots/customer_snapshot.sql)
+  Binder Error: Referenced column "customer_name" not found in FROM clause!
+  Candidate bindings: "cust_id", "country_of_residence", "record_arrival_date", "country_of_birth"
+  
+  LINE 3:         select customer_name, country_of_residence, country_of_birth, date...
+                         ^
+[0m14:27:33.196401 [info ] [MainThread]: 
+[0m14:27:33.196533 [info ] [MainThread]:   compiled code at target/compiled/miniriskagent_bankdb_dbt_proj/snapshots/customer_snapshot.sql/customer_snapshot.sql
+[0m14:27:33.196642 [info ] [MainThread]: 
+[0m14:27:33.196763 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 NO-OP=0 REUSED=0 TOTAL=1
+[0m14:27:33.198840 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107932ae0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1225e5a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107c35d00>]}
+[0m14:27:33.199087 [debug] [MainThread]: Flushing usage events
+[0m14:27:33.634968 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:05:22.525858 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a379af0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a5ea930>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a5ea690>]}
+
+
+============================== 15:05:22.527592 | e584a488-2ce4-4664-a538-c033ef03b38f ==============================
+[0m15:05:22.527592 [info ] [MainThread]: Running with dbt=1.12.3
+[0m15:05:22.527835 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'maximum_seed_size_mib': '1', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/swarnalidatta/.dbt', 'log_path': 'dbt/logs', 'version_check': 'True', 'hints_enabled': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt run --select customer_latest --project-dir dbt --profiles-dir /Users/swarnalidatta/.dbt', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:05:22.635354 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e584a488-2ce4-4664-a538-c033ef03b38f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a66fd10>]}
+[0m15:05:22.665935 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e584a488-2ce4-4664-a538-c033ef03b38f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107631580>]}
+[0m15:05:22.667007 [info ] [MainThread]: Registered adapter: duckdb=1.11.0
+[0m15:05:22.713608 [debug] [MainThread]: checksum: 7e052e4f5b4a9cf76d1b72e0f027c5b37042989bafc8e516b93cc1031831ee04, vars: {}, profile: miniriskagent_bankdb_dbt_profile, target: dev, version: 1.12.3
+[0m15:05:22.790085 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m15:05:22.790292 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m15:05:22.790399 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m15:05:22.794837 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e584a488-2ce4-4664-a538-c033ef03b38f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11ace47a0>]}
+[0m15:05:22.906048 [debug] [MainThread]: Wrote artifact WritableManifest to dbt/target/manifest.json
+[0m15:05:22.907803 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt/target/semantic_manifest.json
+[0m15:05:22.914606 [debug] [MainThread]: Wrote artifact OsiDocument to dbt/target/osi_document.json
+[0m15:05:22.918512 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e584a488-2ce4-4664-a538-c033ef03b38f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11ab34c50>]}
+[0m15:05:22.918700 [info ] [MainThread]: Found 7 models, 3 snapshots, 3 data tests, 3 sources, 500 macros, 3 semantic models
+[0m15:05:22.918825 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e584a488-2ce4-4664-a538-c033ef03b38f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c71cd0>]}
+[0m15:05:22.919567 [info ] [MainThread]: 
+[0m15:05:22.919797 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m15:05:22.919999 [info ] [MainThread]: 
+[0m15:05:22.920278 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m15:05:22.920658 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_miniriskagent_results_1'
+[0m15:05:22.941212 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1"
+[0m15:05:22.941399 [debug] [ThreadPool]: On list_miniriskagent_results_1: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "list_miniriskagent_results_1"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"miniriskagent_results_1"'
+    
+  
+  
+[0m15:05:22.941513 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:05:22.948100 [debug] [ThreadPool]: SQL status: OK in 0.007 seconds
+[0m15:05:22.948613 [debug] [ThreadPool]: On list_miniriskagent_results_1: Close
+[0m15:05:22.948904 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_miniriskagent_results_1, now create_miniriskagent_results_1_main)
+[0m15:05:22.949078 [debug] [ThreadPool]: Creating schema "database: "miniriskagent_results_1"
+schema: "main"
+"
+[0m15:05:22.952029 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m15:05:22.952147 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "create_miniriskagent_results_1_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='miniriskagent_results_1'
+        and type != 'duckdb'
+    
+  
+[0m15:05:22.952246 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:05:22.952569 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:05:22.953242 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m15:05:22.953380 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: BEGIN
+[0m15:05:22.953600 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:05:22.953699 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m15:05:22.953801 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "create_miniriskagent_results_1_main"} */
+
+    
+    
+        create schema if not exists "miniriskagent_results_1"."main"
+    
+[0m15:05:22.953988 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:05:22.954310 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: COMMIT
+[0m15:05:22.954422 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m15:05:22.954519 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: COMMIT
+[0m15:05:22.954669 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:05:22.954776 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: Close
+[0m15:05:22.956936 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_miniriskagent_results_1_main, now list_miniriskagent_results_1_main)
+[0m15:05:22.958767 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1_main"
+[0m15:05:22.958889 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: BEGIN
+[0m15:05:22.958984 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:05:22.959175 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:05:22.959271 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1_main"
+[0m15:05:22.959377 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "list_miniriskagent_results_1_main"} */
+select
+      'miniriskagent_results_1' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'miniriskagent_results_1'
+  
+[0m15:05:22.960917 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m15:05:22.961527 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: ROLLBACK
+[0m15:05:22.961703 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: Close
+[0m15:05:22.962423 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e584a488-2ce4-4664-a538-c033ef03b38f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1076c4ce0>]}
+[0m15:05:22.962591 [debug] [MainThread]: Using duckdb connection "master"
+[0m15:05:22.962689 [debug] [MainThread]: On master: BEGIN
+[0m15:05:22.962779 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:05:22.962952 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m15:05:22.963057 [debug] [MainThread]: On master: COMMIT
+[0m15:05:22.963148 [debug] [MainThread]: Using duckdb connection "master"
+[0m15:05:22.963238 [debug] [MainThread]: On master: COMMIT
+[0m15:05:22.963378 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m15:05:22.963478 [debug] [MainThread]: On master: Close
+[0m15:05:22.964210 [debug] [Thread-1 (]: Began running node model.miniriskagent_bankdb_dbt_proj.customer_latest
+[0m15:05:22.964388 [info ] [Thread-1 (]: 1 of 1 START sql table model main.customer_latest .............................. [RUN]
+[0m15:05:22.964543 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_miniriskagent_results_1_main, now model.miniriskagent_bankdb_dbt_proj.customer_latest)
+[0m15:05:22.964666 [debug] [Thread-1 (]: Began compiling node model.miniriskagent_bankdb_dbt_proj.customer_latest
+[0m15:05:22.967773 [debug] [Thread-1 (]: Writing injected SQL for node "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m15:05:22.968079 [debug] [Thread-1 (]: Began executing node model.miniriskagent_bankdb_dbt_proj.customer_latest
+[0m15:05:22.988120 [debug] [Thread-1 (]: Writing runtime sql for node "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m15:05:22.988500 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m15:05:22.988628 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: BEGIN
+[0m15:05:22.988745 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m15:05:22.989015 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:22.989141 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m15:05:22.989275 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.customer_latest"} */
+
+    
+
+    create  table
+      "miniriskagent_results_1"."main"."customer_latest__dbt_tmp"
+  
+    
+    as (
+      
+
+select *
+from "miniriskagent_results_1"."main"."customer_stage"
+qualify row_number() over (
+    partition by cust_id
+    order by record_arrival_date desc
+) = 1
+    );
+    
+  
+[0m15:05:22.990354 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m15:05:22.992194 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m15:05:22.992337 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.customer_latest"} */
+
+    SELECT index_name
+    FROM duckdb_indexes()
+    WHERE database_name = 'miniriskagent_results_1'
+      AND schema_name = 'main'
+      AND table_name = 'customer_latest'
+  
+[0m15:05:22.992674 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:22.994700 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m15:05:22.994899 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.customer_latest"} */
+alter table "miniriskagent_results_1"."main"."customer_latest" rename to "customer_latest__dbt_backup"
+[0m15:05:22.995141 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:22.995881 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m15:05:22.996006 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.customer_latest"} */
+alter table "miniriskagent_results_1"."main"."customer_latest__dbt_tmp" rename to "customer_latest"
+[0m15:05:22.996229 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:23.003484 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: COMMIT
+[0m15:05:23.003706 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m15:05:23.003852 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: COMMIT
+[0m15:05:23.004446 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:23.006383 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m15:05:23.006519 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.customer_latest"} */
+
+      drop table if exists "miniriskagent_results_1"."main"."customer_latest__dbt_backup" cascade
+    
+[0m15:05:23.006861 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:23.007792 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: Close
+[0m15:05:23.008452 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e584a488-2ce4-4664-a538-c033ef03b38f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11bbf7650>]}
+[0m15:05:23.008697 [info ] [Thread-1 (]: 1 of 1 OK created sql table model main.customer_latest ......................... [[32mOK[0m in 0.04s]
+[0m15:05:23.008910 [debug] [Thread-1 (]: Finished running node model.miniriskagent_bankdb_dbt_proj.customer_latest
+[0m15:05:23.009370 [debug] [MainThread]: Using duckdb connection "master"
+[0m15:05:23.009494 [debug] [MainThread]: On master: BEGIN
+[0m15:05:23.009589 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m15:05:23.009789 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m15:05:23.009896 [debug] [MainThread]: On master: COMMIT
+[0m15:05:23.010000 [debug] [MainThread]: Using duckdb connection "master"
+[0m15:05:23.010094 [debug] [MainThread]: On master: COMMIT
+[0m15:05:23.010235 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m15:05:23.010341 [debug] [MainThread]: On master: Close
+[0m15:05:23.010485 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:05:23.010578 [debug] [MainThread]: Connection 'model.miniriskagent_bankdb_dbt_proj.customer_latest' was properly closed.
+[0m15:05:23.010682 [info ] [MainThread]: 
+[0m15:05:23.010790 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.09 seconds (0.09s).
+[0m15:05:23.011042 [debug] [MainThread]: Command end result
+[0m15:05:23.027556 [debug] [MainThread]: Wrote artifact WritableManifest to dbt/target/manifest.json
+[0m15:05:23.029090 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt/target/semantic_manifest.json
+[0m15:05:23.031323 [debug] [MainThread]: Wrote artifact OsiDocument to dbt/target/osi_document.json
+[0m15:05:23.033889 [debug] [MainThread]: Wrote artifact RunExecutionResult to dbt/target/run_results.json
+[0m15:05:23.034004 [info ] [MainThread]: 
+[0m15:05:23.034153 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m15:05:23.034266 [info ] [MainThread]: 
+[0m15:05:23.034392 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 REUSED=0 TOTAL=1
+[0m15:05:23.036443 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a531b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11ab21f40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11aba9010>]}
+[0m15:05:23.036669 [debug] [MainThread]: Flushing usage events
+[0m15:05:23.468615 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:05:34.652021 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bd76ff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bdceb40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bdce8d0>]}
+
+
+============================== 15:05:34.654200 | 1c22d49e-2a7d-4e61-bf31-bde41e4c2a72 ==============================
+[0m15:05:34.654200 [info ] [MainThread]: Running with dbt=1.12.3
+[0m15:05:34.654458 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'hints_enabled': 'True', 'maximum_seed_size_mib': '1', 'cache_selected_only': 'False', 'profiles_dir': '/Users/swarnalidatta/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'dbt/logs', 'version_check': 'True', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run --select customer_latest --project-dir dbt --profiles-dir /Users/swarnalidatta/.dbt', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:05:34.762184 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1c22d49e-2a7d-4e61-bf31-bde41e4c2a72', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107350ce0>]}
+[0m15:05:34.793272 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '1c22d49e-2a7d-4e61-bf31-bde41e4c2a72', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106da5a00>]}
+[0m15:05:34.794359 [info ] [MainThread]: Registered adapter: duckdb=1.11.0
+[0m15:05:34.840421 [debug] [MainThread]: checksum: 7e052e4f5b4a9cf76d1b72e0f027c5b37042989bafc8e516b93cc1031831ee04, vars: {}, profile: miniriskagent_bankdb_dbt_profile, target: dev, version: 1.12.3
+[0m15:05:34.916593 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m15:05:34.916801 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m15:05:34.916912 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m15:05:34.921586 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1c22d49e-2a7d-4e61-bf31-bde41e4c2a72', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c152c00>]}
+[0m15:05:35.033672 [debug] [MainThread]: Wrote artifact WritableManifest to dbt/target/manifest.json
+[0m15:05:35.035304 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt/target/semantic_manifest.json
+[0m15:05:35.042670 [debug] [MainThread]: Wrote artifact OsiDocument to dbt/target/osi_document.json
+[0m15:05:35.046649 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1c22d49e-2a7d-4e61-bf31-bde41e4c2a72', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c0d4ef0>]}
+[0m15:05:35.046835 [info ] [MainThread]: Found 7 models, 3 snapshots, 3 data tests, 3 sources, 500 macros, 3 semantic models
+[0m15:05:35.046958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '1c22d49e-2a7d-4e61-bf31-bde41e4c2a72', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c4a1400>]}
+[0m15:05:35.047574 [info ] [MainThread]: 
+[0m15:05:35.047693 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m15:05:35.047796 [info ] [MainThread]: 
+[0m15:05:35.048007 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m15:05:35.048359 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_miniriskagent_results_1'
+[0m15:05:35.069076 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1"
+[0m15:05:35.069422 [debug] [ThreadPool]: On list_miniriskagent_results_1: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "list_miniriskagent_results_1"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"miniriskagent_results_1"'
+    
+  
+  
+[0m15:05:35.069590 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:05:35.076161 [debug] [ThreadPool]: SQL status: OK in 0.007 seconds
+[0m15:05:35.076678 [debug] [ThreadPool]: On list_miniriskagent_results_1: Close
+[0m15:05:35.076971 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_miniriskagent_results_1, now create_miniriskagent_results_1_main)
+[0m15:05:35.077145 [debug] [ThreadPool]: Creating schema "database: "miniriskagent_results_1"
+schema: "main"
+"
+[0m15:05:35.080192 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m15:05:35.080318 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "create_miniriskagent_results_1_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='miniriskagent_results_1'
+        and type != 'duckdb'
+    
+  
+[0m15:05:35.080420 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:05:35.080745 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:05:35.081194 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m15:05:35.081296 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: BEGIN
+[0m15:05:35.081450 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:05:35.081544 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m15:05:35.081642 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "create_miniriskagent_results_1_main"} */
+
+    
+    
+        create schema if not exists "miniriskagent_results_1"."main"
+    
+[0m15:05:35.081814 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:05:35.082091 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: COMMIT
+[0m15:05:35.082200 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m15:05:35.082298 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: COMMIT
+[0m15:05:35.082473 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:05:35.082590 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: Close
+[0m15:05:35.084726 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_miniriskagent_results_1_main, now list_miniriskagent_results_1_main)
+[0m15:05:35.086765 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1_main"
+[0m15:05:35.086927 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: BEGIN
+[0m15:05:35.087032 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:05:35.087322 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:05:35.087420 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1_main"
+[0m15:05:35.087524 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "list_miniriskagent_results_1_main"} */
+select
+      'miniriskagent_results_1' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'miniriskagent_results_1'
+  
+[0m15:05:35.089067 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m15:05:35.089742 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: ROLLBACK
+[0m15:05:35.089924 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: Close
+[0m15:05:35.090685 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '1c22d49e-2a7d-4e61-bf31-bde41e4c2a72', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c797950>]}
+[0m15:05:35.090846 [debug] [MainThread]: Using duckdb connection "master"
+[0m15:05:35.090948 [debug] [MainThread]: On master: BEGIN
+[0m15:05:35.091039 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:05:35.091230 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m15:05:35.091329 [debug] [MainThread]: On master: COMMIT
+[0m15:05:35.091421 [debug] [MainThread]: Using duckdb connection "master"
+[0m15:05:35.091513 [debug] [MainThread]: On master: COMMIT
+[0m15:05:35.091652 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m15:05:35.091751 [debug] [MainThread]: On master: Close
+[0m15:05:35.092481 [debug] [Thread-1 (]: Began running node model.miniriskagent_bankdb_dbt_proj.customer_latest
+[0m15:05:35.092677 [info ] [Thread-1 (]: 1 of 1 START sql table model main.customer_latest .............................. [RUN]
+[0m15:05:35.092846 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_miniriskagent_results_1_main, now model.miniriskagent_bankdb_dbt_proj.customer_latest)
+[0m15:05:35.092973 [debug] [Thread-1 (]: Began compiling node model.miniriskagent_bankdb_dbt_proj.customer_latest
+[0m15:05:35.096259 [debug] [Thread-1 (]: Writing injected SQL for node "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m15:05:35.096568 [debug] [Thread-1 (]: Began executing node model.miniriskagent_bankdb_dbt_proj.customer_latest
+[0m15:05:35.117323 [debug] [Thread-1 (]: Writing runtime sql for node "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m15:05:35.117662 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m15:05:35.117794 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: BEGIN
+[0m15:05:35.117913 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m15:05:35.118192 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:35.118319 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m15:05:35.118451 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.customer_latest"} */
+
+    
+
+    create  table
+      "miniriskagent_results_1"."main"."customer_latest__dbt_tmp"
+  
+    
+    as (
+      
+
+select *
+from "miniriskagent_results_1"."main"."customer_stage"
+qualify row_number() over (
+    partition by cust_id
+    order by record_arrival_date desc
+) = 1
+    );
+    
+  
+[0m15:05:35.119865 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m15:05:35.121898 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m15:05:35.122041 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.customer_latest"} */
+
+    SELECT index_name
+    FROM duckdb_indexes()
+    WHERE database_name = 'miniriskagent_results_1'
+      AND schema_name = 'main'
+      AND table_name = 'customer_latest'
+  
+[0m15:05:35.122402 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:35.124436 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m15:05:35.124640 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.customer_latest"} */
+alter table "miniriskagent_results_1"."main"."customer_latest" rename to "customer_latest__dbt_backup"
+[0m15:05:35.124884 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:35.125640 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m15:05:35.125782 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.customer_latest"} */
+alter table "miniriskagent_results_1"."main"."customer_latest__dbt_tmp" rename to "customer_latest"
+[0m15:05:35.125989 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:35.132370 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: COMMIT
+[0m15:05:35.132509 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m15:05:35.132628 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: COMMIT
+[0m15:05:35.133103 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:35.134881 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m15:05:35.135025 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.customer_latest"} */
+
+      drop table if exists "miniriskagent_results_1"."main"."customer_latest__dbt_backup" cascade
+    
+[0m15:05:35.135382 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:35.136641 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_latest: Close
+[0m15:05:35.137401 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '1c22d49e-2a7d-4e61-bf31-bde41e4c2a72', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c0d48c0>]}
+[0m15:05:35.137662 [info ] [Thread-1 (]: 1 of 1 OK created sql table model main.customer_latest ......................... [[32mOK[0m in 0.04s]
+[0m15:05:35.137903 [debug] [Thread-1 (]: Finished running node model.miniriskagent_bankdb_dbt_proj.customer_latest
+[0m15:05:35.138419 [debug] [MainThread]: Using duckdb connection "master"
+[0m15:05:35.138551 [debug] [MainThread]: On master: BEGIN
+[0m15:05:35.138650 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m15:05:35.138882 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m15:05:35.138993 [debug] [MainThread]: On master: COMMIT
+[0m15:05:35.139100 [debug] [MainThread]: Using duckdb connection "master"
+[0m15:05:35.139192 [debug] [MainThread]: On master: COMMIT
+[0m15:05:35.139334 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m15:05:35.139438 [debug] [MainThread]: On master: Close
+[0m15:05:35.139583 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:05:35.139675 [debug] [MainThread]: Connection 'model.miniriskagent_bankdb_dbt_proj.customer_latest' was properly closed.
+[0m15:05:35.139777 [info ] [MainThread]: 
+[0m15:05:35.139886 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.09 seconds (0.09s).
+[0m15:05:35.140130 [debug] [MainThread]: Command end result
+[0m15:05:35.157473 [debug] [MainThread]: Wrote artifact WritableManifest to dbt/target/manifest.json
+[0m15:05:35.159060 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt/target/semantic_manifest.json
+[0m15:05:35.161305 [debug] [MainThread]: Wrote artifact OsiDocument to dbt/target/osi_document.json
+[0m15:05:35.163976 [debug] [MainThread]: Wrote artifact RunExecutionResult to dbt/target/run_results.json
+[0m15:05:35.164096 [info ] [MainThread]: 
+[0m15:05:35.164239 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m15:05:35.164351 [info ] [MainThread]: 
+[0m15:05:35.164477 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 REUSED=0 TOTAL=1
+[0m15:05:35.166213 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bdcef90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c58ef00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c5cbaa0>]}
+[0m15:05:35.166355 [debug] [MainThread]: Flushing usage events
+[0m15:05:35.593098 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:05:48.909923 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bd52ff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1085f8f80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bdaa900>]}
+
+
+============================== 15:05:48.911713 | 8781dee1-0b71-4684-87a9-ab08c48752b8 ==============================
+[0m15:05:48.911713 [info ] [MainThread]: Running with dbt=1.12.3
+[0m15:05:48.911964 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'hints_enabled': 'True', 'maximum_seed_size_mib': '1', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'dbt/logs', 'profiles_dir': '/Users/swarnalidatta/.dbt', 'version_check': 'True', 'partial_parse': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'invocation_command': 'dbt snapshot --select customer_snapshot --project-dir dbt --profiles-dir /Users/swarnalidatta/.dbt', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:05:49.018908 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '8781dee1-0b71-4684-87a9-ab08c48752b8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10907e900>]}
+[0m15:05:49.049981 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '8781dee1-0b71-4684-87a9-ab08c48752b8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1085293a0>]}
+[0m15:05:49.051016 [info ] [MainThread]: Registered adapter: duckdb=1.11.0
+[0m15:05:49.097734 [debug] [MainThread]: checksum: 7e052e4f5b4a9cf76d1b72e0f027c5b37042989bafc8e516b93cc1031831ee04, vars: {}, profile: miniriskagent_bankdb_dbt_profile, target: dev, version: 1.12.3
+[0m15:05:49.173012 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m15:05:49.173229 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m15:05:49.173340 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m15:05:49.177805 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8781dee1-0b71-4684-87a9-ab08c48752b8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10685bf50>]}
+[0m15:05:49.289848 [debug] [MainThread]: Wrote artifact WritableManifest to dbt/target/manifest.json
+[0m15:05:49.291586 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt/target/semantic_manifest.json
+[0m15:05:49.298133 [debug] [MainThread]: Wrote artifact OsiDocument to dbt/target/osi_document.json
+[0m15:05:49.301983 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8781dee1-0b71-4684-87a9-ab08c48752b8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cb2e8d0>]}
+[0m15:05:49.302266 [info ] [MainThread]: Found 7 models, 3 snapshots, 3 data tests, 3 sources, 500 macros, 3 semantic models
+[0m15:05:49.302511 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8781dee1-0b71-4684-87a9-ab08c48752b8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cff9d00>]}
+[0m15:05:49.303326 [info ] [MainThread]: 
+[0m15:05:49.303466 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m15:05:49.303569 [info ] [MainThread]: 
+[0m15:05:49.303771 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m15:05:49.304121 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_miniriskagent_results_1'
+[0m15:05:49.322343 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1"
+[0m15:05:49.322516 [debug] [ThreadPool]: On list_miniriskagent_results_1: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "list_miniriskagent_results_1"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"miniriskagent_results_1"'
+    
+  
+  
+[0m15:05:49.322629 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:05:49.329134 [debug] [ThreadPool]: SQL status: OK in 0.006 seconds
+[0m15:05:49.329658 [debug] [ThreadPool]: On list_miniriskagent_results_1: Close
+[0m15:05:49.329957 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_miniriskagent_results_1, now create_miniriskagent_results_1_main)
+[0m15:05:49.330132 [debug] [ThreadPool]: Creating schema "database: "miniriskagent_results_1"
+schema: "main"
+"
+[0m15:05:49.333153 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m15:05:49.333272 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "create_miniriskagent_results_1_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='miniriskagent_results_1'
+        and type != 'duckdb'
+    
+  
+[0m15:05:49.333375 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:05:49.333702 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:05:49.334155 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m15:05:49.334262 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: BEGIN
+[0m15:05:49.334420 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:05:49.334516 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m15:05:49.334614 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "create_miniriskagent_results_1_main"} */
+
+    
+    
+        create schema if not exists "miniriskagent_results_1"."main"
+    
+[0m15:05:49.334784 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:05:49.335067 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: COMMIT
+[0m15:05:49.335174 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m15:05:49.335270 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: COMMIT
+[0m15:05:49.335504 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:05:49.335715 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: Close
+[0m15:05:49.338024 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_miniriskagent_results_1_main, now list_miniriskagent_results_1_main)
+[0m15:05:49.339862 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1_main"
+[0m15:05:49.339992 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: BEGIN
+[0m15:05:49.340090 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:05:49.340362 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:05:49.340459 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1_main"
+[0m15:05:49.340562 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "list_miniriskagent_results_1_main"} */
+select
+      'miniriskagent_results_1' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'miniriskagent_results_1'
+  
+[0m15:05:49.342079 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m15:05:49.342722 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: ROLLBACK
+[0m15:05:49.342899 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: Close
+[0m15:05:49.343605 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8781dee1-0b71-4684-87a9-ab08c48752b8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cb20f80>]}
+[0m15:05:49.343762 [debug] [MainThread]: Using duckdb connection "master"
+[0m15:05:49.343860 [debug] [MainThread]: On master: BEGIN
+[0m15:05:49.343950 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:05:49.344138 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m15:05:49.344243 [debug] [MainThread]: On master: COMMIT
+[0m15:05:49.344339 [debug] [MainThread]: Using duckdb connection "master"
+[0m15:05:49.344437 [debug] [MainThread]: On master: COMMIT
+[0m15:05:49.344591 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m15:05:49.344696 [debug] [MainThread]: On master: Close
+[0m15:05:49.345445 [debug] [Thread-1 (]: Began running node snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot
+[0m15:05:49.345625 [info ] [Thread-1 (]: 1 of 1 START snapshot main.customer_snapshot ................................... [RUN]
+[0m15:05:49.345784 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_miniriskagent_results_1_main, now snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot)
+[0m15:05:49.345906 [debug] [Thread-1 (]: Began compiling node snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot
+[0m15:05:49.349179 [debug] [Thread-1 (]: Writing injected SQL for node "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"
+[0m15:05:49.349478 [debug] [Thread-1 (]: Began executing node snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot
+[0m15:05:49.371678 [debug] [Thread-1 (]: Using duckdb connection "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"
+[0m15:05:49.371886 [debug] [Thread-1 (]: On snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"} */
+select * from (
+        select customer_name, country_of_residence, country_of_birth, date_of_birth from (
+                
+
+
+select * from "miniriskagent_results_1"."main"."customer_latest"
+
+            ) subq
+    ) as __dbt_sbq
+    where false
+    limit 0
+
+    
+[0m15:05:49.372019 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m15:05:49.372921 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m15:05:49.375107 [debug] [Thread-1 (]: Using duckdb connection "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"
+[0m15:05:49.375240 [debug] [Thread-1 (]: On snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot: BEGIN
+[0m15:05:49.375438 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:49.375562 [debug] [Thread-1 (]: Using duckdb connection "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"
+[0m15:05:49.375695 [debug] [Thread-1 (]: On snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"} */
+
+      select
+          column_name,
+          column_type as data_type,
+          cast(null as bigint) as character_maximum_length,
+          cast(null as bigint) as numeric_precision,
+          cast(null as bigint) as numeric_scale
+      from (describe "miniriskagent_results_1"."main"."customer_snapshot")
+  
+[0m15:05:49.376078 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:49.379242 [debug] [Thread-1 (]: Using duckdb connection "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"
+[0m15:05:49.379390 [debug] [Thread-1 (]: On snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"} */
+
+      select
+          column_name,
+          column_type as data_type,
+          cast(null as bigint) as character_maximum_length,
+          cast(null as bigint) as numeric_precision,
+          cast(null as bigint) as numeric_scale
+      from (describe "miniriskagent_results_1"."main"."customer_snapshot")
+  
+[0m15:05:49.379732 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:49.401151 [debug] [Thread-1 (]: Using duckdb connection "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"
+[0m15:05:49.401376 [debug] [Thread-1 (]: On snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"} */
+
+        
+    
+
+    create temporary table
+      "customer_snapshot__dbt_tmp20260925150549397049"
+  
+    
+    as (
+      
+    
+    with snapshot_query as (
+
+        
+
+
+select * from "miniriskagent_results_1"."main"."customer_latest"
+
+
+    ),
+
+    snapshotted_data as (
+
+        select *, 
+    
+        cust_id as dbt_unique_key
+    
+
+        from "miniriskagent_results_1"."main"."customer_snapshot"
+        where
+            
+                dbt_valid_to is null
+            
+
+    ),
+
+    insertions_source_data as (
+
+        select *, 
+    
+        cust_id as dbt_unique_key
+    
+,
+            now()::timestamp as dbt_updated_at,
+            now()::timestamp as dbt_valid_from,
+            
+  
+  coalesce(nullif(now()::timestamp, now()::timestamp), null)
+  as dbt_valid_to
+,
+            md5(coalesce(cast(cust_id as varchar ), '')
+         || '|' || coalesce(cast(now()::timestamp as varchar ), '')
+        ) as dbt_scd_id
+
+        from snapshot_query
+    ),
+
+    updates_source_data as (
+
+        select *, 
+    
+        cust_id as dbt_unique_key
+    
+,
+            now()::timestamp as dbt_updated_at,
+            now()::timestamp as dbt_valid_from,
+            now()::timestamp as dbt_valid_to
+
+        from snapshot_query
+    ),
+
+    insertions as (
+
+        select
+            'insert' as dbt_change_type,
+            source_data.*
+
+        from insertions_source_data as source_data
+        left outer join snapshotted_data
+            on 
+    
+        snapshotted_data.dbt_unique_key = source_data.dbt_unique_key
+    
+
+            where 
+    
+        snapshotted_data.dbt_unique_key is null
+    
+
+            or (
+    
+        snapshotted_data.dbt_unique_key is not null
+    
+ and (
+               (
+  TRUE
+)
+            )
+
+        )
+
+    ),
+
+    updates as (
+
+        select
+            'update' as dbt_change_type,
+            source_data.*,
+            snapshotted_data.dbt_scd_id
+
+        from updates_source_data as source_data
+        join snapshotted_data
+            on 
+    
+        snapshotted_data.dbt_unique_key = source_data.dbt_unique_key
+    
+
+        where (
+            (
+  TRUE
+)
+        )
+    )
+
+    select * from insertions
+    union all
+    select * from updates
+
+    );
+    
+  
+    
+[0m15:05:49.407046 [debug] [Thread-1 (]: SQL status: OK in 0.005 seconds
+[0m15:05:49.407910 [debug] [Thread-1 (]: Using duckdb connection "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"
+[0m15:05:49.408062 [debug] [Thread-1 (]: On snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"} */
+
+      select
+          column_name,
+          column_type as data_type,
+          cast(null as bigint) as character_maximum_length,
+          cast(null as bigint) as numeric_precision,
+          cast(null as bigint) as numeric_scale
+      from (describe "customer_snapshot__dbt_tmp20260925150549397049")
+  
+[0m15:05:49.408466 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:49.409460 [debug] [Thread-1 (]: Using duckdb connection "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"
+[0m15:05:49.409600 [debug] [Thread-1 (]: On snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"} */
+
+      select
+          column_name,
+          column_type as data_type,
+          cast(null as bigint) as character_maximum_length,
+          cast(null as bigint) as numeric_precision,
+          cast(null as bigint) as numeric_scale
+      from (describe "miniriskagent_results_1"."main"."customer_snapshot")
+  
+[0m15:05:49.409922 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:49.411959 [debug] [Thread-1 (]: Using duckdb connection "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"
+[0m15:05:49.412098 [debug] [Thread-1 (]: On snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"} */
+
+      alter table "miniriskagent_results_1"."main"."customer_snapshot" add column "customer_name" character varying(256);
+    
+[0m15:05:49.412380 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:49.412985 [debug] [Thread-1 (]: Using duckdb connection "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"
+[0m15:05:49.413118 [debug] [Thread-1 (]: On snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"} */
+
+      select
+          column_name,
+          column_type as data_type,
+          cast(null as bigint) as character_maximum_length,
+          cast(null as bigint) as numeric_precision,
+          cast(null as bigint) as numeric_scale
+      from (describe "customer_snapshot__dbt_tmp20260925150549397049")
+  
+[0m15:05:49.413444 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:49.419450 [debug] [Thread-1 (]: Using duckdb connection "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"
+[0m15:05:49.419664 [debug] [Thread-1 (]: On snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"} */
+DESCRIBE (select * from (
+        
+    
+    with snapshot_query as (
+
+        
+
+
+select * from "miniriskagent_results_1"."main"."customer_latest"
+
+
+    ),
+
+    snapshotted_data as (
+
+        select *, 
+    
+        cust_id as dbt_unique_key
+    
+
+        from "miniriskagent_results_1"."main"."customer_snapshot"
+        where
+            
+                dbt_valid_to is null
+            
+
+    ),
+
+    insertions_source_data as (
+
+        select *, 
+    
+        cust_id as dbt_unique_key
+    
+,
+            now()::timestamp as dbt_updated_at,
+            now()::timestamp as dbt_valid_from,
+            
+  
+  coalesce(nullif(now()::timestamp, now()::timestamp), null)
+  as dbt_valid_to
+,
+            md5(coalesce(cast(cust_id as varchar ), '')
+         || '|' || coalesce(cast(now()::timestamp as varchar ), '')
+        ) as dbt_scd_id
+
+        from snapshot_query
+    ),
+
+    updates_source_data as (
+
+        select *, 
+    
+        cust_id as dbt_unique_key
+    
+,
+            now()::timestamp as dbt_updated_at,
+            now()::timestamp as dbt_valid_from,
+            now()::timestamp as dbt_valid_to
+
+        from snapshot_query
+    ),
+
+    insertions as (
+
+        select
+            'insert' as dbt_change_type,
+            source_data.*
+
+        from insertions_source_data as source_data
+        left outer join snapshotted_data
+            on 
+    
+        snapshotted_data.dbt_unique_key = source_data.dbt_unique_key
+    
+
+            where 
+    
+        snapshotted_data.dbt_unique_key is null
+    
+
+            or (
+    
+        snapshotted_data.dbt_unique_key is not null
+    
+ and (
+               (
+  TRUE
+)
+            )
+
+        )
+
+    ),
+
+    updates as (
+
+        select
+            'update' as dbt_change_type,
+            source_data.*,
+            snapshotted_data.dbt_scd_id
+
+        from updates_source_data as source_data
+        join snapshotted_data
+            on 
+    
+        snapshotted_data.dbt_unique_key = source_data.dbt_unique_key
+    
+
+        where (
+            (
+  TRUE
+)
+        )
+    )
+
+    select * from insertions
+    union all
+    select * from updates
+
+    ) as __dbt_sbq
+    where false
+    limit 0
+)
+[0m15:05:49.420644 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m15:05:49.421963 [debug] [Thread-1 (]: Using duckdb connection "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"
+[0m15:05:49.422096 [debug] [Thread-1 (]: On snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"} */
+DESCRIBE (select * from (
+        select now()::timestamp as dbt_snapshot_time
+    ) as __dbt_sbq
+    where false
+    limit 0
+)
+[0m15:05:49.422367 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:49.422574 [debug] [Thread-1 (]: Writing runtime sql for node "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"
+[0m15:05:49.422893 [debug] [Thread-1 (]: Using duckdb connection "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"
+[0m15:05:49.423040 [debug] [Thread-1 (]: On snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"} */
+
+      update "miniriskagent_results_1"."main"."customer_snapshot" as DBT_INTERNAL_TARGET
+    set dbt_valid_to = DBT_INTERNAL_SOURCE.dbt_valid_to
+    from "customer_snapshot__dbt_tmp20260925150549397049" as DBT_INTERNAL_SOURCE
+    where DBT_INTERNAL_SOURCE.dbt_scd_id::text = DBT_INTERNAL_TARGET.dbt_scd_id::text
+      and DBT_INTERNAL_SOURCE.dbt_change_type::text in ('update'::text, 'delete'::text)
+      
+        and DBT_INTERNAL_TARGET.dbt_valid_to is null;
+      
+
+    insert into "miniriskagent_results_1"."main"."customer_snapshot" ("cust_id", "country_of_residence", "country_of_birth", "date_of_birth", "record_arrival_date", "customer_name", "dbt_updated_at", "dbt_valid_from", "dbt_valid_to", "dbt_scd_id")
+    select DBT_INTERNAL_SOURCE."cust_id",DBT_INTERNAL_SOURCE."country_of_residence",DBT_INTERNAL_SOURCE."country_of_birth",DBT_INTERNAL_SOURCE."date_of_birth",DBT_INTERNAL_SOURCE."record_arrival_date",DBT_INTERNAL_SOURCE."customer_name",DBT_INTERNAL_SOURCE."dbt_updated_at",DBT_INTERNAL_SOURCE."dbt_valid_from",DBT_INTERNAL_SOURCE."dbt_valid_to",DBT_INTERNAL_SOURCE."dbt_scd_id"
+    from "customer_snapshot__dbt_tmp20260925150549397049" as DBT_INTERNAL_SOURCE
+    where DBT_INTERNAL_SOURCE.dbt_change_type::text = 'insert'::text;
+
+
+  
+[0m15:05:49.425723 [debug] [Thread-1 (]: SQL status: OK in 0.003 seconds
+[0m15:05:49.430318 [debug] [Thread-1 (]: On snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot: COMMIT
+[0m15:05:49.430468 [debug] [Thread-1 (]: Using duckdb connection "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"
+[0m15:05:49.430591 [debug] [Thread-1 (]: On snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot: COMMIT
+[0m15:05:49.431413 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m15:05:49.433591 [debug] [Thread-1 (]: Using duckdb connection "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"
+[0m15:05:49.433731 [debug] [Thread-1 (]: On snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"} */
+
+      drop table if exists "customer_snapshot__dbt_tmp20260925150549397049" cascade
+    
+[0m15:05:49.433980 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:49.434945 [debug] [Thread-1 (]: On snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot: Close
+[0m15:05:49.435716 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8781dee1-0b71-4684-87a9-ab08c48752b8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d439c10>]}
+[0m15:05:49.436090 [info ] [Thread-1 (]: 1 of 1 OK snapshotted main.customer_snapshot ................................... [[32mOK[0m in 0.09s]
+[0m15:05:49.436334 [debug] [Thread-1 (]: Finished running node snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot
+[0m15:05:49.436834 [debug] [MainThread]: Using duckdb connection "master"
+[0m15:05:49.436951 [debug] [MainThread]: On master: BEGIN
+[0m15:05:49.437051 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m15:05:49.437281 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m15:05:49.437387 [debug] [MainThread]: On master: COMMIT
+[0m15:05:49.437492 [debug] [MainThread]: Using duckdb connection "master"
+[0m15:05:49.437591 [debug] [MainThread]: On master: COMMIT
+[0m15:05:49.437736 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m15:05:49.437840 [debug] [MainThread]: On master: Close
+[0m15:05:49.437986 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:05:49.438087 [debug] [MainThread]: Connection 'snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot' was properly closed.
+[0m15:05:49.438189 [info ] [MainThread]: 
+[0m15:05:49.438293 [info ] [MainThread]: Finished running 1 snapshot in 0 hours 0 minutes and 0.13 seconds (0.13s).
+[0m15:05:49.438535 [debug] [MainThread]: Command end result
+[0m15:05:49.455655 [debug] [MainThread]: Wrote artifact WritableManifest to dbt/target/manifest.json
+[0m15:05:49.457311 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt/target/semantic_manifest.json
+[0m15:05:49.459529 [debug] [MainThread]: Wrote artifact OsiDocument to dbt/target/osi_document.json
+[0m15:05:49.462170 [debug] [MainThread]: Wrote artifact RunExecutionResult to dbt/target/run_results.json
+[0m15:05:49.462294 [info ] [MainThread]: 
+[0m15:05:49.462450 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m15:05:49.462570 [info ] [MainThread]: 
+[0m15:05:49.462695 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 REUSED=0 TOTAL=1
+[0m15:05:49.464411 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ce47a40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cf0d4f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10856f0b0>]}
+[0m15:05:49.464548 [debug] [MainThread]: Flushing usage events
+[0m15:05:49.921708 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:05:56.313678 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11254f9b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1127be780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1127be540>]}
+
+
+============================== 15:05:56.315357 | f899ca73-b281-4d6d-b852-de00ae3997d1 ==============================
+[0m15:05:56.315357 [info ] [MainThread]: Running with dbt=1.12.3
+[0m15:05:56.315596 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'maximum_seed_size_mib': '1', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'dbt/logs', 'profiles_dir': '/Users/swarnalidatta/.dbt', 'version_check': 'True', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run --select customer_dim --project-dir dbt --profiles-dir /Users/swarnalidatta/.dbt', 'send_anonymous_usage_stats': 'True'}
+[0m15:05:56.423190 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f899ca73-b281-4d6d-b852-de00ae3997d1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1049a8ec0>]}
+[0m15:05:56.453464 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f899ca73-b281-4d6d-b852-de00ae3997d1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111093b30>]}
+[0m15:05:56.454498 [info ] [MainThread]: Registered adapter: duckdb=1.11.0
+[0m15:05:56.500305 [debug] [MainThread]: checksum: 7e052e4f5b4a9cf76d1b72e0f027c5b37042989bafc8e516b93cc1031831ee04, vars: {}, profile: miniriskagent_bankdb_dbt_profile, target: dev, version: 1.12.3
+[0m15:05:56.575776 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m15:05:56.575994 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m15:05:56.576116 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m15:05:56.580662 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f899ca73-b281-4d6d-b852-de00ae3997d1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112841820>]}
+[0m15:05:56.692096 [debug] [MainThread]: Wrote artifact WritableManifest to dbt/target/manifest.json
+[0m15:05:56.693837 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt/target/semantic_manifest.json
+[0m15:05:56.700289 [debug] [MainThread]: Wrote artifact OsiDocument to dbt/target/osi_document.json
+[0m15:05:56.704533 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f899ca73-b281-4d6d-b852-de00ae3997d1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112e20860>]}
+[0m15:05:56.704747 [info ] [MainThread]: Found 7 models, 3 snapshots, 3 data tests, 3 sources, 500 macros, 3 semantic models
+[0m15:05:56.704882 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f899ca73-b281-4d6d-b852-de00ae3997d1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112eab1a0>]}
+[0m15:05:56.705546 [info ] [MainThread]: 
+[0m15:05:56.705669 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m15:05:56.705765 [info ] [MainThread]: 
+[0m15:05:56.705957 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m15:05:56.706295 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_miniriskagent_results_1'
+[0m15:05:56.724391 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1"
+[0m15:05:56.724570 [debug] [ThreadPool]: On list_miniriskagent_results_1: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "list_miniriskagent_results_1"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"miniriskagent_results_1"'
+    
+  
+  
+[0m15:05:56.724681 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:05:56.731338 [debug] [ThreadPool]: SQL status: OK in 0.007 seconds
+[0m15:05:56.731843 [debug] [ThreadPool]: On list_miniriskagent_results_1: Close
+[0m15:05:56.732146 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_miniriskagent_results_1, now create_miniriskagent_results_1_main)
+[0m15:05:56.732345 [debug] [ThreadPool]: Creating schema "database: "miniriskagent_results_1"
+schema: "main"
+"
+[0m15:05:56.735295 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m15:05:56.735522 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "create_miniriskagent_results_1_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='miniriskagent_results_1'
+        and type != 'duckdb'
+    
+  
+[0m15:05:56.735670 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:05:56.736143 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:05:56.736672 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m15:05:56.736782 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: BEGIN
+[0m15:05:56.736941 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:05:56.737038 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m15:05:56.737134 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "create_miniriskagent_results_1_main"} */
+
+    
+    
+        create schema if not exists "miniriskagent_results_1"."main"
+    
+[0m15:05:56.737297 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:05:56.737579 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: COMMIT
+[0m15:05:56.737691 [debug] [ThreadPool]: Using duckdb connection "create_miniriskagent_results_1_main"
+[0m15:05:56.737787 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: COMMIT
+[0m15:05:56.737934 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:05:56.738036 [debug] [ThreadPool]: On create_miniriskagent_results_1_main: Close
+[0m15:05:56.740202 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_miniriskagent_results_1_main, now list_miniriskagent_results_1_main)
+[0m15:05:56.742036 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1_main"
+[0m15:05:56.742160 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: BEGIN
+[0m15:05:56.742256 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:05:56.742437 [debug] [ThreadPool]: SQL status: OK in 0.000 seconds
+[0m15:05:56.742538 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1_main"
+[0m15:05:56.742642 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "list_miniriskagent_results_1_main"} */
+select
+      'miniriskagent_results_1' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'miniriskagent_results_1'
+  
+[0m15:05:56.744146 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m15:05:56.744797 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: ROLLBACK
+[0m15:05:56.745010 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: Close
+[0m15:05:56.745746 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f899ca73-b281-4d6d-b852-de00ae3997d1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1049a8a70>]}
+[0m15:05:56.745897 [debug] [MainThread]: Using duckdb connection "master"
+[0m15:05:56.745992 [debug] [MainThread]: On master: BEGIN
+[0m15:05:56.746081 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:05:56.746237 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m15:05:56.746333 [debug] [MainThread]: On master: COMMIT
+[0m15:05:56.746423 [debug] [MainThread]: Using duckdb connection "master"
+[0m15:05:56.746511 [debug] [MainThread]: On master: COMMIT
+[0m15:05:56.746640 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m15:05:56.746735 [debug] [MainThread]: On master: Close
+[0m15:05:56.747424 [debug] [Thread-1 (]: Began running node model.miniriskagent_bankdb_dbt_proj.customer_dim
+[0m15:05:56.747599 [info ] [Thread-1 (]: 1 of 1 START sql view model main.customer_dim .................................. [RUN]
+[0m15:05:56.747749 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_miniriskagent_results_1_main, now model.miniriskagent_bankdb_dbt_proj.customer_dim)
+[0m15:05:56.747869 [debug] [Thread-1 (]: Began compiling node model.miniriskagent_bankdb_dbt_proj.customer_dim
+[0m15:05:56.750927 [debug] [Thread-1 (]: Writing injected SQL for node "model.miniriskagent_bankdb_dbt_proj.customer_dim"
+[0m15:05:56.751206 [debug] [Thread-1 (]: Began executing node model.miniriskagent_bankdb_dbt_proj.customer_dim
+[0m15:05:56.762624 [debug] [Thread-1 (]: Writing runtime sql for node "model.miniriskagent_bankdb_dbt_proj.customer_dim"
+[0m15:05:56.762973 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_dim"
+[0m15:05:56.763100 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_dim: BEGIN
+[0m15:05:56.763213 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m15:05:56.763475 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:56.763602 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_dim"
+[0m15:05:56.763736 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_dim: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.customer_dim"} */
+
+  
+  create view "miniriskagent_results_1"."main"."customer_dim__dbt_tmp" as (
+    select
+    cust_id,
+    customer_name,
+    country_of_residence,
+    country_of_birth,
+    date_of_birth,
+    record_arrival_date
+from "miniriskagent_results_1"."main"."customer_snapshot"
+where dbt_valid_to is null
+  );
+
+[0m15:05:56.764028 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:56.765977 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_dim"
+[0m15:05:56.766107 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_dim: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.customer_dim"} */
+alter view "miniriskagent_results_1"."main"."customer_dim" rename to "customer_dim__dbt_backup"
+[0m15:05:56.766764 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m15:05:56.767547 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_dim"
+[0m15:05:56.767674 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_dim: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.customer_dim"} */
+alter view "miniriskagent_results_1"."main"."customer_dim__dbt_tmp" rename to "customer_dim"
+[0m15:05:56.767890 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:56.774249 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_dim: COMMIT
+[0m15:05:56.774465 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_dim"
+[0m15:05:56.774596 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_dim: COMMIT
+[0m15:05:56.775052 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:56.776934 [debug] [Thread-1 (]: Using duckdb connection "model.miniriskagent_bankdb_dbt_proj.customer_dim"
+[0m15:05:56.777069 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_dim: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "node_id": "model.miniriskagent_bankdb_dbt_proj.customer_dim"} */
+
+      drop view if exists "miniriskagent_results_1"."main"."customer_dim__dbt_backup" cascade
+    
+[0m15:05:56.777373 [debug] [Thread-1 (]: SQL status: OK in 0.000 seconds
+[0m15:05:56.778335 [debug] [Thread-1 (]: On model.miniriskagent_bankdb_dbt_proj.customer_dim: Close
+[0m15:05:56.778995 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f899ca73-b281-4d6d-b852-de00ae3997d1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10666d190>]}
+[0m15:05:56.779236 [info ] [Thread-1 (]: 1 of 1 OK created sql view model main.customer_dim ............................. [[32mOK[0m in 0.03s]
+[0m15:05:56.779459 [debug] [Thread-1 (]: Finished running node model.miniriskagent_bankdb_dbt_proj.customer_dim
+[0m15:05:56.779922 [debug] [MainThread]: Using duckdb connection "master"
+[0m15:05:56.780044 [debug] [MainThread]: On master: BEGIN
+[0m15:05:56.780140 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m15:05:56.780326 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m15:05:56.780434 [debug] [MainThread]: On master: COMMIT
+[0m15:05:56.780540 [debug] [MainThread]: Using duckdb connection "master"
+[0m15:05:56.780631 [debug] [MainThread]: On master: COMMIT
+[0m15:05:56.780769 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m15:05:56.780873 [debug] [MainThread]: On master: Close
+[0m15:05:56.781014 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:05:56.781107 [debug] [MainThread]: Connection 'model.miniriskagent_bankdb_dbt_proj.customer_dim' was properly closed.
+[0m15:05:56.781208 [info ] [MainThread]: 
+[0m15:05:56.781314 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 0.08 seconds (0.08s).
+[0m15:05:56.781543 [debug] [MainThread]: Command end result
+[0m15:05:56.798832 [debug] [MainThread]: Wrote artifact WritableManifest to dbt/target/manifest.json
+[0m15:05:56.800349 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt/target/semantic_manifest.json
+[0m15:05:56.802991 [debug] [MainThread]: Wrote artifact OsiDocument to dbt/target/osi_document.json
+[0m15:05:56.805899 [debug] [MainThread]: Wrote artifact RunExecutionResult to dbt/target/run_results.json
+[0m15:05:56.806027 [info ] [MainThread]: 
+[0m15:05:56.806168 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m15:05:56.806274 [info ] [MainThread]: 
+[0m15:05:56.806395 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 REUSED=0 TOTAL=1
+[0m15:05:56.808103 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1127be870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113b02960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113ae7e90>]}
+[0m15:05:56.808239 [debug] [MainThread]: Flushing usage events
+[0m15:05:57.252257 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:14:14.653992 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106778e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115e7ed20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115e7eab0>]}
+
+
+============================== 15:14:14.656444 | 3eee899f-884e-4ab2-a883-7190ee36bb67 ==============================
+[0m15:14:14.656444 [info ] [MainThread]: Running with dbt=1.12.3
+[0m15:14:14.656709 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'maximum_seed_size_mib': '1', 'cache_selected_only': 'False', 'profiles_dir': '/Users/swarnalidatta/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'dbt/logs', 'fail_fast': 'False', 'version_check': 'True', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'invocation_command': 'dbt docs generate --project-dir dbt --profiles-dir /Users/swarnalidatta/.dbt', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:14:14.813774 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3eee899f-884e-4ab2-a883-7190ee36bb67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114f05760>]}
+[0m15:14:14.844178 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3eee899f-884e-4ab2-a883-7190ee36bb67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c34b00>]}
+[0m15:14:14.845774 [info ] [MainThread]: Registered adapter: duckdb=1.11.0
+[0m15:14:14.894782 [debug] [MainThread]: checksum: 7e052e4f5b4a9cf76d1b72e0f027c5b37042989bafc8e516b93cc1031831ee04, vars: {}, profile: miniriskagent_bankdb_dbt_profile, target: dev, version: 1.12.3
+[0m15:14:14.977025 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m15:14:14.977221 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m15:14:14.977331 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m15:14:14.982005 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3eee899f-884e-4ab2-a883-7190ee36bb67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11720af00>]}
+[0m15:14:15.012355 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3eee899f-884e-4ab2-a883-7190ee36bb67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1163900b0>]}
+[0m15:14:15.012613 [info ] [MainThread]: Found 7 models, 3 snapshots, 3 data tests, 3 sources, 500 macros, 3 semantic models
+[0m15:14:15.012857 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3eee899f-884e-4ab2-a883-7190ee36bb67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113160170>]}
+[0m15:14:15.013896 [info ] [MainThread]: 
+[0m15:14:15.014045 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m15:14:15.014157 [info ] [MainThread]: 
+[0m15:14:15.014380 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m15:14:15.016396 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_miniriskagent_results_1_main'
+[0m15:14:15.070325 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1_main"
+[0m15:14:15.070523 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: BEGIN
+[0m15:14:15.070642 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:14:15.080874 [debug] [ThreadPool]: SQL status: OK in 0.010 seconds
+[0m15:14:15.081094 [debug] [ThreadPool]: Using duckdb connection "list_miniriskagent_results_1_main"
+[0m15:14:15.081224 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "list_miniriskagent_results_1_main"} */
+select
+      'miniriskagent_results_1' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'miniriskagent_results_1'
+  
+[0m15:14:15.085457 [debug] [ThreadPool]: SQL status: OK in 0.004 seconds
+[0m15:14:15.086340 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: ROLLBACK
+[0m15:14:15.086561 [debug] [ThreadPool]: On list_miniriskagent_results_1_main: Close
+[0m15:14:15.087385 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3eee899f-884e-4ab2-a883-7190ee36bb67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11610b830>]}
+[0m15:14:15.088545 [debug] [Thread-1 (]: Began running node model.miniriskagent_bankdb_dbt_proj.account_latest
+[0m15:14:15.088715 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_miniriskagent_results_1_main, now model.miniriskagent_bankdb_dbt_proj.account_latest)
+[0m15:14:15.088848 [debug] [Thread-1 (]: Began compiling node model.miniriskagent_bankdb_dbt_proj.account_latest
+[0m15:14:15.091712 [debug] [Thread-1 (]: Writing injected SQL for node "model.miniriskagent_bankdb_dbt_proj.account_latest"
+[0m15:14:15.091979 [debug] [Thread-1 (]: Began executing node model.miniriskagent_bankdb_dbt_proj.account_latest
+[0m15:14:15.092235 [debug] [Thread-1 (]: Finished running node model.miniriskagent_bankdb_dbt_proj.account_latest
+[0m15:14:15.092376 [debug] [Thread-1 (]: Began running node model.miniriskagent_bankdb_dbt_proj.customer_latest
+[0m15:14:15.092538 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.miniriskagent_bankdb_dbt_proj.account_latest, now model.miniriskagent_bankdb_dbt_proj.customer_latest)
+[0m15:14:15.092683 [debug] [Thread-1 (]: Began compiling node model.miniriskagent_bankdb_dbt_proj.customer_latest
+[0m15:14:15.093437 [debug] [Thread-1 (]: Writing injected SQL for node "model.miniriskagent_bankdb_dbt_proj.customer_latest"
+[0m15:14:15.093647 [debug] [Thread-1 (]: Began executing node model.miniriskagent_bankdb_dbt_proj.customer_latest
+[0m15:14:15.093873 [debug] [Thread-1 (]: Finished running node model.miniriskagent_bankdb_dbt_proj.customer_latest
+[0m15:14:15.094008 [debug] [Thread-1 (]: Began running node model.miniriskagent_bankdb_dbt_proj.metricflow_time_spine
+[0m15:14:15.094154 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.miniriskagent_bankdb_dbt_proj.customer_latest, now model.miniriskagent_bankdb_dbt_proj.metricflow_time_spine)
+[0m15:14:15.094287 [debug] [Thread-1 (]: Began compiling node model.miniriskagent_bankdb_dbt_proj.metricflow_time_spine
+[0m15:14:15.094589 [debug] [Thread-1 (]: Writing injected SQL for node "model.miniriskagent_bankdb_dbt_proj.metricflow_time_spine"
+[0m15:14:15.094793 [debug] [Thread-1 (]: Began executing node model.miniriskagent_bankdb_dbt_proj.metricflow_time_spine
+[0m15:14:15.095030 [debug] [Thread-1 (]: Finished running node model.miniriskagent_bankdb_dbt_proj.metricflow_time_spine
+[0m15:14:15.095174 [debug] [Thread-1 (]: Began running node model.miniriskagent_bankdb_dbt_proj.transaction_latest
+[0m15:14:15.095310 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.miniriskagent_bankdb_dbt_proj.metricflow_time_spine, now model.miniriskagent_bankdb_dbt_proj.transaction_latest)
+[0m15:14:15.095430 [debug] [Thread-1 (]: Began compiling node model.miniriskagent_bankdb_dbt_proj.transaction_latest
+[0m15:14:15.096093 [debug] [Thread-1 (]: Writing injected SQL for node "model.miniriskagent_bankdb_dbt_proj.transaction_latest"
+[0m15:14:15.096607 [debug] [Thread-1 (]: Began executing node model.miniriskagent_bankdb_dbt_proj.transaction_latest
+[0m15:14:15.096929 [debug] [Thread-1 (]: Finished running node model.miniriskagent_bankdb_dbt_proj.transaction_latest
+[0m15:14:15.097094 [debug] [Thread-1 (]: Began running node snapshot.miniriskagent_bankdb_dbt_proj.account_snapshot
+[0m15:14:15.097281 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.miniriskagent_bankdb_dbt_proj.transaction_latest, now snapshot.miniriskagent_bankdb_dbt_proj.account_snapshot)
+[0m15:14:15.097447 [debug] [Thread-1 (]: Began compiling node snapshot.miniriskagent_bankdb_dbt_proj.account_snapshot
+[0m15:14:15.098562 [debug] [Thread-1 (]: Writing injected SQL for node "snapshot.miniriskagent_bankdb_dbt_proj.account_snapshot"
+[0m15:14:15.098830 [debug] [Thread-1 (]: Began executing node snapshot.miniriskagent_bankdb_dbt_proj.account_snapshot
+[0m15:14:15.099087 [debug] [Thread-1 (]: Finished running node snapshot.miniriskagent_bankdb_dbt_proj.account_snapshot
+[0m15:14:15.099227 [debug] [Thread-1 (]: Began running node test.miniriskagent_bankdb_dbt_proj.not_null_account_latest_account_id
+[0m15:14:15.099394 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly snapshot.miniriskagent_bankdb_dbt_proj.account_snapshot, now test.miniriskagent_bankdb_dbt_proj.not_null_account_latest_account_id)
+[0m15:14:15.099532 [debug] [Thread-1 (]: Began compiling node test.miniriskagent_bankdb_dbt_proj.not_null_account_latest_account_id
+[0m15:14:15.100127 [debug] [Thread-1 (]: Writing injected SQL for node "test.miniriskagent_bankdb_dbt_proj.not_null_account_latest_account_id"
+[0m15:14:15.100335 [debug] [Thread-1 (]: Began executing node test.miniriskagent_bankdb_dbt_proj.not_null_account_latest_account_id
+[0m15:14:15.100559 [debug] [Thread-1 (]: Finished running node test.miniriskagent_bankdb_dbt_proj.not_null_account_latest_account_id
+[0m15:14:15.100697 [debug] [Thread-1 (]: Began running node snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot
+[0m15:14:15.100837 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.miniriskagent_bankdb_dbt_proj.not_null_account_latest_account_id, now snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot)
+[0m15:14:15.100959 [debug] [Thread-1 (]: Began compiling node snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot
+[0m15:14:15.101731 [debug] [Thread-1 (]: Writing injected SQL for node "snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot"
+[0m15:14:15.101935 [debug] [Thread-1 (]: Began executing node snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot
+[0m15:14:15.102157 [debug] [Thread-1 (]: Finished running node snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot
+[0m15:14:15.102292 [debug] [Thread-1 (]: Began running node test.miniriskagent_bankdb_dbt_proj.not_null_customer_latest_cust_id
+[0m15:14:15.102453 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly snapshot.miniriskagent_bankdb_dbt_proj.customer_snapshot, now test.miniriskagent_bankdb_dbt_proj.not_null_customer_latest_cust_id)
+[0m15:14:15.102589 [debug] [Thread-1 (]: Began compiling node test.miniriskagent_bankdb_dbt_proj.not_null_customer_latest_cust_id
+[0m15:14:15.103214 [debug] [Thread-1 (]: Writing injected SQL for node "test.miniriskagent_bankdb_dbt_proj.not_null_customer_latest_cust_id"
+[0m15:14:15.103437 [debug] [Thread-1 (]: Began executing node test.miniriskagent_bankdb_dbt_proj.not_null_customer_latest_cust_id
+[0m15:14:15.103673 [debug] [Thread-1 (]: Finished running node test.miniriskagent_bankdb_dbt_proj.not_null_customer_latest_cust_id
+[0m15:14:15.103817 [debug] [Thread-1 (]: Began running node snapshot.miniriskagent_bankdb_dbt_proj.transaction_snapshot
+[0m15:14:15.103965 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.miniriskagent_bankdb_dbt_proj.not_null_customer_latest_cust_id, now snapshot.miniriskagent_bankdb_dbt_proj.transaction_snapshot)
+[0m15:14:15.104093 [debug] [Thread-1 (]: Began compiling node snapshot.miniriskagent_bankdb_dbt_proj.transaction_snapshot
+[0m15:14:15.104889 [debug] [Thread-1 (]: Writing injected SQL for node "snapshot.miniriskagent_bankdb_dbt_proj.transaction_snapshot"
+[0m15:14:15.105105 [debug] [Thread-1 (]: Began executing node snapshot.miniriskagent_bankdb_dbt_proj.transaction_snapshot
+[0m15:14:15.105330 [debug] [Thread-1 (]: Finished running node snapshot.miniriskagent_bankdb_dbt_proj.transaction_snapshot
+[0m15:14:15.105469 [debug] [Thread-1 (]: Began running node test.miniriskagent_bankdb_dbt_proj.not_null_transaction_latest_transaction_id
+[0m15:14:15.105624 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly snapshot.miniriskagent_bankdb_dbt_proj.transaction_snapshot, now test.miniriskagent_bankdb_dbt_proj.not_null_transaction_latest_transaction_id)
+[0m15:14:15.105770 [debug] [Thread-1 (]: Began compiling node test.miniriskagent_bankdb_dbt_proj.not_null_transaction_latest_transaction_id
+[0m15:14:15.106309 [debug] [Thread-1 (]: Writing injected SQL for node "test.miniriskagent_bankdb_dbt_proj.not_null_transaction_latest_transaction_id"
+[0m15:14:15.106492 [debug] [Thread-1 (]: Began executing node test.miniriskagent_bankdb_dbt_proj.not_null_transaction_latest_transaction_id
+[0m15:14:15.106710 [debug] [Thread-1 (]: Finished running node test.miniriskagent_bankdb_dbt_proj.not_null_transaction_latest_transaction_id
+[0m15:14:15.106839 [debug] [Thread-1 (]: Began running node model.miniriskagent_bankdb_dbt_proj.account_dim
+[0m15:14:15.107055 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.miniriskagent_bankdb_dbt_proj.not_null_transaction_latest_transaction_id, now model.miniriskagent_bankdb_dbt_proj.account_dim)
+[0m15:14:15.107178 [debug] [Thread-1 (]: Began compiling node model.miniriskagent_bankdb_dbt_proj.account_dim
+[0m15:14:15.107692 [debug] [Thread-1 (]: Writing injected SQL for node "model.miniriskagent_bankdb_dbt_proj.account_dim"
+[0m15:14:15.107877 [debug] [Thread-1 (]: Began executing node model.miniriskagent_bankdb_dbt_proj.account_dim
+[0m15:14:15.108089 [debug] [Thread-1 (]: Finished running node model.miniriskagent_bankdb_dbt_proj.account_dim
+[0m15:14:15.108219 [debug] [Thread-1 (]: Began running node model.miniriskagent_bankdb_dbt_proj.customer_dim
+[0m15:14:15.108354 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.miniriskagent_bankdb_dbt_proj.account_dim, now model.miniriskagent_bankdb_dbt_proj.customer_dim)
+[0m15:14:15.108474 [debug] [Thread-1 (]: Began compiling node model.miniriskagent_bankdb_dbt_proj.customer_dim
+[0m15:14:15.108969 [debug] [Thread-1 (]: Writing injected SQL for node "model.miniriskagent_bankdb_dbt_proj.customer_dim"
+[0m15:14:15.109147 [debug] [Thread-1 (]: Began executing node model.miniriskagent_bankdb_dbt_proj.customer_dim
+[0m15:14:15.109357 [debug] [Thread-1 (]: Finished running node model.miniriskagent_bankdb_dbt_proj.customer_dim
+[0m15:14:15.109485 [debug] [Thread-1 (]: Began running node model.miniriskagent_bankdb_dbt_proj.transaction_fact
+[0m15:14:15.109619 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.miniriskagent_bankdb_dbt_proj.customer_dim, now model.miniriskagent_bankdb_dbt_proj.transaction_fact)
+[0m15:14:15.109738 [debug] [Thread-1 (]: Began compiling node model.miniriskagent_bankdb_dbt_proj.transaction_fact
+[0m15:14:15.110871 [debug] [Thread-1 (]: Writing injected SQL for node "model.miniriskagent_bankdb_dbt_proj.transaction_fact"
+[0m15:14:15.111065 [debug] [Thread-1 (]: Began executing node model.miniriskagent_bankdb_dbt_proj.transaction_fact
+[0m15:14:15.111286 [debug] [Thread-1 (]: Finished running node model.miniriskagent_bankdb_dbt_proj.transaction_fact
+[0m15:14:15.111634 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:14:15.111750 [debug] [MainThread]: Connection 'model.miniriskagent_bankdb_dbt_proj.transaction_fact' was properly closed.
+[0m15:14:15.112448 [debug] [MainThread]: Command end result
+[0m15:14:15.168609 [debug] [MainThread]: Wrote artifact WritableManifest to dbt/target/manifest.json
+[0m15:14:15.170524 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt/target/semantic_manifest.json
+[0m15:14:15.182162 [debug] [MainThread]: Wrote artifact OsiDocument to dbt/target/osi_document.json
+[0m15:14:15.185727 [debug] [MainThread]: Wrote artifact RunExecutionResult to dbt/target/run_results.json
+[0m15:14:15.187552 [debug] [MainThread]: Acquiring new duckdb connection 'generate_catalog'
+[0m15:14:15.187702 [info ] [MainThread]: Building catalog
+[0m15:14:15.191635 [debug] [ThreadPool]: Acquiring new duckdb connection 'miniriskagent_results_1.information_schema'
+[0m15:14:15.196846 [debug] [ThreadPool]: Using duckdb connection "miniriskagent_results_1.information_schema"
+[0m15:14:15.197180 [debug] [ThreadPool]: On miniriskagent_results_1.information_schema: /* {"app": "dbt", "dbt_version": "1.12.3", "profile_name": "miniriskagent_bankdb_dbt_profile", "target_name": "dev", "connection_name": "miniriskagent_results_1.information_schema"} */
+
+    
+    with tables as (
+      select *
+    from (
+        select
+            t.database_name as table_database,
+            t.schema_name as table_schema,
+            t.table_name as table_name,
+            'BASE TABLE' as table_type,
+            t.comment as table_comment
+        from duckdb_tables() t
+        where upper(t.database_name) = upper('miniriskagent_results_1')
+
+        union all
+
+        select
+            v.database_name as table_database,
+            v.schema_name as table_schema,
+            v.view_name as table_name,
+            'VIEW' as table_type,
+            v.comment as table_comment
+        from duckdb_views() v
+        where upper(v.database_name) = upper('miniriskagent_results_1')
+    ) catalog_tables
+      
+        where (
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('account_snapshot')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('account_stage')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('customer_latest')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('customer_snapshot')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('customer_dim')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('metricflow_time_spine')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('transaction_latest')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('transaction_stage')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('customer_stage')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('transaction_fact')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('account_dim')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('account_latest')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('transaction_snapshot')
+                ))
+    
+    ),
+    columns as (
+      select *
+    from (
+        select
+            c.database_name as table_database,
+            c.schema_name as table_schema,
+            c.table_name as table_name,
+            c.column_name as column_name,
+            c.column_index as column_index,
+            c.data_type as column_type,
+            c.comment as column_comment
+        from duckdb_columns() c
+        where upper(c.database_name) = upper('miniriskagent_results_1')
+    ) catalog_columns
+      
+        where (
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('account_snapshot')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('account_stage')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('customer_latest')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('customer_snapshot')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('customer_dim')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('metricflow_time_spine')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('transaction_latest')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('transaction_stage')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('customer_stage')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('transaction_fact')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('account_dim')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('account_latest')
+                ) or 
+
+                (
+                    upper(table_schema) = upper('main')
+                    and upper(table_name) = upper('transaction_snapshot')
+                ))
+    
+    )
+    select
+        tables.table_database,
+        tables.table_schema,
+        tables.table_name,
+        tables.table_type,
+        tables.table_comment,
+        columns.column_name,
+        columns.column_index,
+        columns.column_type,
+        columns.column_comment,
+        null as table_owner
+    from tables
+    join columns using (table_database, table_schema, table_name)
+    order by table_schema, table_name, column_index
+  
+  
+[0m15:14:15.197428 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:14:15.207848 [debug] [ThreadPool]: SQL status: OK in 0.010 seconds
+[0m15:14:15.210045 [debug] [ThreadPool]: On miniriskagent_results_1.information_schema: Close
+[0m15:14:15.216685 [debug] [MainThread]: Wrote artifact CatalogArtifact to dbt/target/catalog.json
+[0m15:14:15.233169 [debug] [MainThread]: Wrote artifact WritableManifest to dbt/target/manifest.json
+[0m15:14:15.234741 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt/target/semantic_manifest.json
+[0m15:14:15.236978 [debug] [MainThread]: Wrote artifact OsiDocument to dbt/target/osi_document.json
+[0m15:14:15.237123 [info ] [MainThread]: Catalog written to /Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt/target/catalog.json
+[0m15:14:15.239080 [debug] [MainThread]: Connection 'generate_catalog' was properly closed.
+[0m15:14:15.239189 [debug] [MainThread]: Connection 'miniriskagent_results_1.information_schema' was properly closed.
+[0m15:14:15.239315 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115efe150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1174ede50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1173c4440>]}
+[0m15:14:15.239454 [debug] [MainThread]: Flushing usage events
+[0m15:14:15.675168 [debug] [MainThread]: An error was encountered while trying to flush usage events

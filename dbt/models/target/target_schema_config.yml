@@ -1,62 +1,95 @@
 version: 1
+
 models:
   - name: customer_dim
-    description: "Customer dimension model"
+    description: "Current customer dimension model"
     columns:
       - name: cust_id
         description: "Unique customer identifier"
+        meta:
+          pii_classification: direct
+      - name: customer_name
+        description: "Customer's full name"
+        meta:
+          pii_classification: direct
       - name: country_of_residence
         description: "Customer's country of residence"
+        meta:
+          pii_classification: quasi
       - name: country_of_birth
         description: "Customer's country of birth"
+        meta:
+          pii_classification: quasi
       - name: date_of_birth
         description: "Customer's date of birth"
+        meta:
+          pii_classification: direct
       - name: record_arrival_date
         description: "Date the record arrived"
-      - name: valid_from
-        description: "Start date of the record's validity"
-      - name: valid_to
-        description: "End date of the record's validity"
-      - name: active_flag
-        description: "Flag indicating if the record is currently active"
+        meta:
+          pii_classification: none
+
   - name: account_dim
-    description: "Account dimension model"
+    description: "Current account dimension model"
     columns:
       - name: account_id
         description: "Unique account identifier"
-      - name: cust_id
+        meta:
+          pii_classification: direct
+      - name: account_number
+        description: "Unique account number"
+        meta:
+          pii_classification: direct
+      - name: customer_id
         description: "Unique customer identifier"
-      - name: account_type
-        description: "Type of account"
+        meta:
+          pii_classification: direct
+      - name: customer_type
+        description: "Type of customer associated with the account"
+        meta:
+          pii_classification: quasi
+      - name: account_status
+        description: "Current account status"
+        meta:
+          pii_classification: none
       - name: record_arrival_date
         description: "Date the record arrived"
-      - name: valid_from
-        description: "Start date of the record's validity"
-      - name: valid_to
-        description: "End date of the record's validity"
-      - name: active_flag
-        description: "Flag indicating if the record is currently active"
+        meta:
+          pii_classification: none
+
   - name: transaction_fact
-    description: "Transaction fact model"
+    description: "Current transaction fact model"
     columns:
       - name: transaction_id
         description: "Unique transaction identifier"
+        meta:
+          pii_classification: direct
       - name: amount
         description: "Transaction amount"
+        meta:
+          pii_classification: none
       - name: type
         description: "Transaction type"
+        meta:
+          pii_classification: none
       - name: originating_country
         description: "Country where the transaction originated"
+        meta:
+          pii_classification: quasi
       - name: destination_country
         description: "Destination country"
+        meta:
+          pii_classification: quasi
       - name: account_id
-        description: "Account associated with the transaction"    
-      - name: record_arrival_date 
-        description: "Date the record arrived"  
-      - name: valid_from
-        description: "Start date of the record's validity"
-      - name: valid_to
-        description: "End date of the record's validity"    
-      - name: active_flag
-        description: "Flag indicating if the record is currently active"
+        description: "Account associated with the transaction"
+        meta:
+          pii_classification: direct
+      - name: transaction_date
+        description: "Date on which the transaction occurred"
+        meta:
+          pii_classification: none
+      - name: record_arrival_date
+        description: "Date the record arrived"
+        meta:
+          pii_classification: none
       

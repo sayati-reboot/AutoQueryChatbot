@@ -1,18 +1,33 @@
 {
     "path_count": 151,
-    "parsed_path_count": 0,
-    "static_analysis_path_count": 0,
-    "static_analysis_parsed_path_count": 0,
+    "parsed_path_count": 4,
+    "static_analysis_path_count": 3,
+    "static_analysis_parsed_path_count": 3,
     "is_partial_parse_enabled": true,
     "is_static_analysis_enabled": true,
-    "read_files_elapsed": 0.010093875003803987,
-    "load_all_elapsed": 0.08550562500022352,
+    "read_files_elapsed": 0.01739508299942827,
+    "load_macros_elapsed": 0.0002478749956935644,
+    "parse_project_elapsed": 0.22707420799997635,
+    "patch_sources_elapsed": 1.2624994269572198e-05,
+    "process_manifest_elapsed": 0.0006219170027179644,
+    "load_all_elapsed": 0.3559047089947853,
     "projects": [
         {
             "project_name": "miniriskagent_bankdb_dbt_proj",
-            "elapsed": 0,
-            "parsers": [],
-            "parsed_path_count": 0
+            "elapsed": 0.22699904099863488,
+            "parsers": [
+                {
+                    "parser": "model",
+                    "elapsed": 0.1369334160044673,
+                    "parsed_path_count": 3
+                },
+                {
+                    "parser": "test",
+                    "elapsed": 0.09005820799939102,
+                    "parsed_path_count": 1
+                }
+            ],
+            "parsed_path_count": 4
         },
         {
             "project_name": "dbt_duckdb",
