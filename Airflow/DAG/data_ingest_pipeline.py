@@ -58,7 +58,7 @@ with DAG(
 
     DBT_PROJECT_DIR = "/Users/swarnalidatta/Desktop/AutoQueryChatbot/dbt"
     DBT_PROFILES_DIR = "/Users/swarnalidatta/.dbt"
-    DBT_BIN = "/Users/swarnalidatta/Desktop/AutoQueryChatbot/.airflow-venv/bin/dbt"
+    DBT_BIN = "/Users/swarnalidatta/Desktop/AutoQueryChatbot/.dbt-venv/bin/dbt"
 
     dbt_latest = BashOperator(
         task_id="run_dbt_latest_state_models",

@@ -7,6 +7,7 @@ from airflow.operators.python import PythonOperator
 sys.path.insert(0, "/Users/swarnalidatta/Desktop/AutoQueryChatbot")
 
 from policy_chunker import index_policy_directory
+from policy_rule_ingestion import ingest_policy_rules
 
 
 with DAG(
@@ -26,3 +27,10 @@ with DAG(
         task_id="index_policy_documents",
         python_callable=index_policy_directory,
     )
+
+    extract_policy_rules_to_duckdb = PythonOperator(
+        task_id="extract_policy_rules_to_duckdb",
+        python_callable=ingest_policy_rules,
+    )
+
+    index_policy_documents >> extract_policy_rules_to_duckdb
