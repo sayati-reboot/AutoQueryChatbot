@@ -8,7 +8,9 @@ while True:
         break
     response = process_manager(q)
     if response["type"] == "text":
+        print(f"Intent: {response['intent']}")
         print(response["answer"])
-        print(f"\nSQL used:\n{response['query']}")
+        if response["query"]:
+            print(f"\nSQL used:\n{response['query']}")
     elif response["type"] == "file":
         print(f"Report created: {response['report']}")
