@@ -60,4 +60,3 @@ Evaluate the Risk Score of Customer X
 📂 Raw Files → ✅ Data Quality → 🔗 Lineage & Governance → 📖 Semantic Layer → 🧠 RAG → 🤖 Agentic AI 
 
 
-Feel free to forward – if anyone wants to join and share their knowledge !!
