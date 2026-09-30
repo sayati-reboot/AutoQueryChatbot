@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: customer_risk_score
+    description: Customer-scoped risk score and policy-rule breakdown for the requested risk intent.
+    columns:
+      - name: customer_risk_score_id
+        tests:
+          - not_null
+          - unique
+      - name: customer_id
+        tests:
+          - not_null
+      - name: risk_intent
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['geography', 'transaction', 'all']
+      - name: rule_category
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['geography', 'transaction']
+      - name: rule_id
+        tests:
+          - not_null
+      - name: applied_score
+        description: Policy score for a hit, zero for a known non-hit, null if unsupported.

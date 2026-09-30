@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: customer_rule_features
+    description: Latest policy-rule feature values for each current customer.
+    columns:
+      - name: customer_rule_feature_id
+        description: Stable key for one customer and latest rule version.
+        tests:
+          - not_null
+          - unique
+      - name: customer_id
+        description: Customer identifier from customer_dim.
+        tests:
+          - not_null
+      - name: rule_id
+        description: Rule identifier from the latest extracted policy version.
+        tests:
+          - not_null
+      - name: feature_name
+        description: Dynamic feature label formed from the rule ID.
+        tests:
+          - not_null
+      - name: calculation_status
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['calculated', 'metric_only', 'unsupported']

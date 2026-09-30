@@ -21,3 +21,10 @@ sources:
     tables:
       - name: transaction_stage
         description: "Transaction stage table"
+
+  - name: policy_rule_store
+    description: "Versioned scoring rules extracted from policy documents"
+    schema: main
+    tables:
+      - name: rule_extraction_details
+        description: "Scoring rules with policy version and extraction timestamp"
